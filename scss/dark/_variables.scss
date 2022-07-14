@@ -7,26 +7,21 @@ $breakpoint-xl:1760px;
 $breakpoint-lx:2200px;
 
 /*colours*/
-$black_dusty: #1c1c1c;
-$black_jet: #363537;
-$grey_concrete: #808080;
-$grey_light_1: #F3F3F3;
-$grey_light_2: #E7E7E7;
-$grey_med: #bebebe;
-$grey_slate: #444;
-$grey_stone: #A3A49E;
-$white: #FFF;
-$white_off: #F7F8F6;
-$cyan_light: #C6EFEF;
-$cyan: #b2d7d7;
-$voilet_blue: #bb86fc;
-$voilet_dark: #6F73D2;
-$pink_candy: #FBCAEF;
+$black_dusty: #fff;
+$black_jet: #f7f8f6;
+$grey_concrete: #E7E7E7;
+$grey_light_1: #444;
+$grey_light_2: #808080;
+$grey_med: #A3A49E;
+$grey_slate: #F3F3F3;
+$grey_stone: #bebebe;
+$white: #1c1c1c;
+$white_off: #363537;
+$voilet_blue: #81cdf0;
+$voilet_dark: #4bb8e9;
 $pink_dark: #f68ddc;
-$terra_cotta: #ED6A5A;
-$yellow_nicc: #fccd6b;
-$red: #f68ddc;
-
+$orange: #ED6A5A;
+$orange_light: #FBB040;
 
 /*borders*/
 $border-light: 1px $grey_light_2 solid;
@@ -58,3 +53,7 @@ $spacing_eight: 64px;
 $spacing_nine: 96px;
 $spacing_ten: 128px;
 //defined further in spacing.scss
+
+$filter: none;
+$logo_filter: contrast(0)brightness(10) !important;
+$icon_filter: contrast(0)brightness(10);

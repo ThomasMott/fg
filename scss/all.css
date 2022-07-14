@@ -10,7 +10,6 @@
 @import './filter';
 @import './_forms.scss';
 @import './grid';
-@import './home';
 @import './inner';
 @import './nav';
 @import './port';

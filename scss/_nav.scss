@@ -22,18 +22,18 @@
 		}
 
 		li a:hover {
-			color: $pink_dark;
+			color: $orange;
 			text-decoration: none;
 		}
 
 		#current {
-			color: $pink_dark;
+			color: $orange;
 			text-decoration: none;
 			cursor: inherit;
 		}
 
 		.logo {
-			filter: contrast(1)brightness(0);
+			filter: $logo_filter;
 			display: none;
 
 			img {
@@ -50,7 +50,7 @@
 		}
 
 		.icon {
-			filter: contrast(1)brightness(0);
+			filter: $logo_filter;
 			display: block;
 
 			img {
@@ -81,7 +81,7 @@
 		}
 
 		.soc-svg {
-			filter: contrast(0) brightness(0.48);
+			filter: $icon_filter;
 			cursor: pointer;
 			width: 20px;
 			margin: 6px;

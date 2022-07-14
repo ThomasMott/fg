@@ -17,15 +17,11 @@ $grey_slate: #444;
 $grey_stone: #A3A49E;
 $white: #FFF;
 $white_off: #F7F8F6;
-$cyan_light: #C6EFEF;
-$voilet_blue: #6F73D2;
-$voilet_dark: #4549c4;
-$pink_candy: #FBCAEF;
+$voilet_blue: #4bb8e9;
+$voilet_dark: #3581a3;
 $pink_dark: #f68ddc;
-$terra_cotta: #ED6A5A;
-$yellow_nicc: #fccd6b;
-$red: #f68ddc;
-
+$orange: #F3713F;
+$orange_light: #FBB040;
 
 /*borders*/
 $border-light: 1px $grey_light_2 solid;
@@ -57,3 +53,7 @@ $spacing_eight: 64px;
 $spacing_nine: 96px;
 $spacing_ten: 128px;
 //defined further in spacing.scss
+
+$filter: contrast(0)brightness(10);
+$logo_filter: contrast(0)brightness(0);
+$icon_filter: contrast(0)brightness(0);

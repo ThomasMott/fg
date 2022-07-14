@@ -8,7 +8,7 @@
 
 	img {
 
-		filter: contrast(0)brightness(10);
+		filter: $filter;
 	}
 
 	&:hover {

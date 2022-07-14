@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
-}
 
-a, p {
-	font-family: 'Cabin', sans-serif;
+	span {
+		font-family: 'Montserrat', sans-serif;
+		color: $orange;
+	}
 }
 
 h1 {
@@ -45,6 +45,15 @@ p {
 	color: $grey_slate;
 	margin: 8px 0;
 	letter-spacing: 0.2px;
+
+	&.top {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+
+		em {
+			font-family: 'Montserrat', sans-serif;
+		}
+	}
 }
 
 a {
@@ -57,8 +66,4 @@ a {
 		text-decoration: underline;
 		color: $voilet_dark;
 	}
-}
-
-span {
-	color: orange;
 }
