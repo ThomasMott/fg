@@ -1,0 +1,22 @@
+.fox {
+	position: absolute;
+	top: 60px;
+	right: calc(32% - 100px);
+	z-index: -1;
+	transform: rotate(180deg);
+
+	img {
+		height: 120px;
+	}
+}
+
+.gibbon {
+	position: absolute;
+	top: 64px;
+	right: 32%;
+	z-index: -1;
+
+	img {
+		height: 120px;
+	}
+}
