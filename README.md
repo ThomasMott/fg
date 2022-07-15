@@ -1,14 +1,10 @@
-# Portfolio website repository
-
-This my online portfolio repositor, hosted at [https://thomasmott.github.io/portfolio/](https://thomasmott.github.io/portfolio/)
-
-[https://github.com/ThomasMott/portfolio.git](https://github.com/ThomasMott/portfolio.git)
+# Website repository
 
 ## Installation
 
 clone repo:
 ```
-git clone https://github.com/ThomasMott/portfolio.git
+git clone https://github.com/ThomasMott/fg.git
 ```
 cd into root folder and install dependencies:
 ```
