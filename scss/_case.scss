@@ -13,6 +13,67 @@
 
 section {
 
+	.soc-float {
+		position: fixed;
+		top: 120px;
+		display: flex;
+		background-color: $grey_light_1;
+		border-radius: 8px;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+		transition: all .4s ease;
+		padding: 8px;
+		z-index: 1;
+		right: 8px;
+
+		p {
+			margin: 0;
+			color: $grey_concrete;
+			font-size: 14px;
+		}
+
+		a {
+			margin: 0 0 0 4px;
+			padding: 0;
+			text-decoration: none;
+			line-height: 0px;
+
+			span {
+				font-size: 12px;
+				box-sizing: border-box;
+				filter: contrast(0);
+				display: block;
+
+				&:hover {
+					filter: none;
+				}
+			}
+		}
+
+		&:hover {
+			box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+			p {
+				color: $grey_slate;
+			}
+		}
+
+		@media (min-width: 768px) {
+			right: 24px;
+		}
+
+		@media (min-width: 1380px) {
+			margin-left: calc(((100% - 1092px)/2) - 80px);
+			flex-direction: column;
+			float: left;
+			position: sticky;
+			padding: 16px;
+
+			a {
+				margin: 8px auto 0 auto;
+			}
+		}
+	}
+
 	.case {
 		margin: auto;
 		max-width: 1000px;
@@ -42,7 +103,7 @@ section {
 			}
 		}
 
-		h2 {
+		h2, h3, h4, h5, h6 {
 			padding: 0 16px;
 		}
 
@@ -59,7 +120,7 @@ section {
 				padding: 0 32px;
 			}
 
-			h2 {
+			h2, h3, h4, h5, h6 {
 				padding: 0 32px;
 			}
 		}
