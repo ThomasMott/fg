@@ -7,8 +7,8 @@ body {
 			display: block;
 
 			&.bg {
-				background-color: #ffdff82b;
-			}
+				// background-color: #F3713F2B;
+			}s
 
 			.title {
 				color: $black_jet;
@@ -20,10 +20,10 @@ body {
 			}
 
 			.sec-title {
-				color: $black_jet;
+				color: $orange;
 				font-weight: 600;
-				font-size: 32px;
-				line-height: 56px;
+				font-size: 40px;
+				line-height: 64px;
 			}
 
 			.sec-txt {
