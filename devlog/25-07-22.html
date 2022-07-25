@@ -146,6 +146,14 @@
 		</div>
 	</section> -->
 	<div><a class="a-button theme" id="a-button-theme"><img src="../static/images/brightness.svg"></a></div>
+	<div id="reading-progress"><div id="reading-progress-fill"></div></div>
 	<script src="../js/darkmode.js"></script>
+	<script>
+		const readingProgress = document.querySelector('#reading-progress-fill');
+		document.addEventListener('scroll', function(e) {
+			let w = (document.body.scrollTop || document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 100;
+			readingProgress.style.setProperty('width', w + '%');
+		});
+	</script>
 </body>
 </html>
