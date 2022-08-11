@@ -11,6 +11,20 @@ cd into root folder and install dependencies:
 npm install
 ```
 
+## Eleventy
+
+This site is powered by the [Eleventy static site generator](https://www.11ty.dev/)
+
+Installed by
+```
+npx @11ty/eleventy
+```
+To run, cd into root folder and run:
+```
+npx @11ty/eleventy --serve
+```
+This will automatically watch, copy and compile css, js and markdown folders in root into _site when files are changed
+
 ## Gulp Css
 
 To gulp the scss into a clean css file follow the steps below:
