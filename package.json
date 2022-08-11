@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "scss": "gulp sass",
-    "scss-local": "node-sass --watch scss -o css"
-  },
+    "scss-local": "node-sass --watch scss -o css",
+	"build": "env NODE_ENV=production npx eleventy --pathprefix 'eleventy-gh-demo'"
+},
   "author": "tom",
   "license": "ISC",
   "devDependencies": {
