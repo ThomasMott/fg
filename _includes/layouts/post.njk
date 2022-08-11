@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+---
+
+<section>
+	<div class="grid">
+		<p class="bc"><a href="/">Devlog</a> › {{ name }}</p>
+		<h1 class="title">{{ title }}</h1>
+		<p class="top">TLDR: <em>{{ tldr }}</em></p>
+		<p class="top"><em>{{ time }}</em></p>
+		<ul class="ul-s">
+			{% for tag in tags %}
+				{% if tag !== 'post' %}
+					<li>{{ tag }}</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+<section>
+	<div class="soc-float">
+		<p>Share</p>
+		<a href="https://twitter.com/share?url=https://foxgibbon.com/post/{{ name }}"><img src="/static/images/twitter.svg"></a>
+	</div>
+	<div class="grid">
+		<article class="case">
+			{{ content | safe }}
+		</article>
+	</div>
+</section>
