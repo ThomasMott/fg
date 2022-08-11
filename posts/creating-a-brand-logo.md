@@ -87,7 +87,7 @@ A method I sometimes use for sketching rapidly and coming up with ideas is [Craz
 
 ### 3.Refine
 
-Once you have a solid concept its time to get that bad boy into Illustrator!
+Once you have a solid concept its time to get that bad boy into Adobe Illustrator!
 
 Once I have a design I like I usually photograph or scan the sketch and use the pen tool to make the graphic. *(A good tip for logo design is to always work in black and white so you aren't distracted or influenced by colour, flipping the image can also help identify where needs to be balanced.)*.
 
