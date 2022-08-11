@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "scss": "gulp sass",
-    "scss-local": "node-sass --watch scss -o css",
+    "scss-local": "node-sass --watch scss -o css"
 },
   "author": "tom",
   "license": "ISC",
