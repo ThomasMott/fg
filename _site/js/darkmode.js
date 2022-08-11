@@ -24,12 +24,12 @@ function setThemeOnLoad() {
 
 //light theme
 function themeLight() {
-	document.querySelector('link[href="/css/dark.css"]').href = "/css/all.css";
+	document.querySelector('link[href="../css/dark.css"]').href = "../css/all.css";
 	localStorage.setItem('theme','light');
 };
 
 //light theme
 function themeDark() {
-	document.querySelector('link[href="/css/all.css"]').href = "/css/dark.css";
+	document.querySelector('link[href="../css/all.css"]').href = "../css/dark.css";
 	localStorage.setItem('theme','dark');
 };
