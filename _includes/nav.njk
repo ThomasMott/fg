@@ -3,8 +3,16 @@
 	<div class="nav">
 		<nav>
 			<ul class="nav-links">
-				<li><a href="/">Devlog</a></li>
-				<li><a href="/about/">About</a></li>
+				<li><a
+				{% if page.url == "/" %}
+					aria-current="page"
+				{% endif %}
+				href="/">Devlog</a></li>
+				<li><a
+				{% if page.url == "/about/" %}
+					aria-current="page"
+				{% endif %}
+				href="/about/">About</a></li>
 			</ul>
 		</nav>
 		<a href="/">

@@ -66,7 +66,7 @@ Have a look around at some of the brand leaders, legacy brands or challengers in
 
 #### Where can I get my creative juices flowing?
 
-If you want to see how creative professionals create innovative logos, check out [Dribbble](https://dribbble.com/), [Awwwards](https://www.awwwards.com/) and [Behance]](https://www.behance.net/). If you find those intimidating or pretentious then[Instagram](https://www.instagram.com) works too. You'd be surprised where else you draw inspiration from.
+If you want to see how creative professionals create innovative logos, check out [Dribbble](https://dribbble.com/), [Awwwards](https://www.awwwards.com/) and [Behance](https://www.behance.net/). If you find those intimidating or pretentious then [Instagram](https://www.instagram.com) works too. You'd be surprised where else you draw inspiration from.
 
 Some places to look for images are [Pinterest](https://www.pinterest.com/) and [Unsplash](https://unsplash.com/).
 
