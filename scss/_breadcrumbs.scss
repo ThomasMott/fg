@@ -1,5 +1,9 @@
 .bc {
 	a {
 		display: inline-block;
+
+		&::before {
+			content: none;
+		}
 	}
 }
