@@ -11,6 +11,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget('static');
 	eleventyConfig.addWatchTarget('js');
 
+	eleventyConfig.addFilter("postDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+	});
+
 	return {
 		dir: {
 		  output: "docs"
