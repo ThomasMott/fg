@@ -15,6 +15,16 @@ module.exports = function (eleventyConfig) {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
 	});
 
+	eleventyConfig.addCollection("tagsList", function(collectionApi) {
+        const tagsList = new Set();
+        collectionApi.getAll().map( item => {
+            if (item.data.tags) { // handle pages that don't have tags
+                item.data.tags.map( tag => tagsList.add(tag))
+            }
+        });
+        return tagsList;
+    });
+
 	return {
 		dir: {
 		  output: "docs"

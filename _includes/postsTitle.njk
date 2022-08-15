@@ -1,0 +1,21 @@
+<section id="main">
+	<div class="grid">
+		<h1 class="title">{{ title }}</h1>
+		<div class="categories">
+		<a href="/"
+		{% if page.url == "/" %}
+			aria-current="page"
+		{% endif %}
+		>all</a>
+		{% for tag in collections.tagsList %}
+			{% if tag !== 'post' %}
+				<a href="/tags/{{tag}}/"
+				{% if tag in page.url %}
+					aria-current="page"
+				{% endif %}
+				>{{tag}}</a>
+			{% endif %}
+		{% endfor %}
+		</div>
+	</div>
+</section>
