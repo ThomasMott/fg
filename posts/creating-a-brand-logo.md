@@ -3,7 +3,7 @@ title: Creating A Brand Logo
 name: creating-a-brand-logo
 tldr: Using Adobe Illustrator and also my hands to create a brand logo.
 time: 10 min
-image: https://images.unsplash.com/photo-1506792006437-256b665541e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80
+image: /static/images/blog/creating-a-brand-logo/creative.jpg
 tags: ['post', 'design']
 date: 2022-07-25
 layout: layouts/post.njk
@@ -28,7 +28,7 @@ The perfect logo is not everyones first port of call. That being said, here are 
 Attention spans are short these days *(especially consumers)*.
 
 <figure>
-	<img class="case-img " src="https://images.unsplash.com/photo-1506792006437-256b665541e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="FoxGibbon logo">
+	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/creative.jpg" alt="Bright artwork">
 	<figcaption>A unique image helps to stand out</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ Time to put pen to paper and sketch out some designs. Choose the medium you are 
 A method I sometimes use for sketching rapidly and coming up with ideas is [Crazy 8's](https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s).
 
 <figure>
-	<img class="case-img " src="/static/images/blog/13-08-22/ideation.jpg" alt="sketching some ideas for the FoxGibbon logo">
+	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/ideation.jpg" alt="sketching some ideas for the FoxGibbon logo">
 	<figcaption>Some early logo sketches</figcaption>
 </figure>
 
@@ -98,6 +98,6 @@ Once I have a design I like I usually photograph or scan the sketch and use the 
 Give one glance, to make sure it's really happening. This is your moment. Soak it in, you've earned one glance. F*** it! Fully behold your creation. You've earned this. Months of planning. It's all happening. Feel the warmth. Tweet the picture, you've earned one tweet. Tweet a picture of you next to the logo. Defiant and proud. This is your moment.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/13-08-22/logo-bw.png" alt="FoxGibbon logo" style="height: auto;">
+	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/logo-bw.png" alt="FoxGibbon logo" style="height: auto;">
 	<figcaption>A final look at the FoxGibbon logo</figcaption>
 </figure>

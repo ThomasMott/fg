@@ -3,7 +3,7 @@ title: Learning new skills for free
 name: learning-new-skills-for-free
 tldr: You don't need to pay a fortune to lern a new skill. There are many platforms and subscription plans (Skillshare, Youtube, Sololearn) that allow you to learn the skills you want for nothing. As longs as you don't mind a few Ads that is!
 time: 4 min
-image: https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80
+image: /static/images/blog/learning-new-skills-for-free/learn.jpg
 tags: ['post', 'unity', 'design', 'development', 'other']
 date: 2022-08-14
 layout: layouts/post.njk
@@ -16,8 +16,8 @@ layout: layouts/post.njk
 For me, I wanted to get some experience with Unity 2D and C#. After a few weeks of experimenting here are my top picks:
 
 <figure>
-	<img class="case-img " src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80" alt="code">
-	<figcaption>A lot of coding is needed for game dev</figcaption>
+	<img class="case-img " src="/static/images/blog/learning-new-skills-for-free/learn.jpg" alt="books">
+	<figcaption>Hit the books nerd</figcaption>
 </figure>
 
 ### Sololearn *(C#)*
