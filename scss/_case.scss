@@ -90,7 +90,7 @@ section {
 			}
 		}
 
-		p, a {
+		p, a, ul {
 			font-size: 17px;
 			margin: 16px 0;
 			line-height: 28px;
@@ -101,6 +101,10 @@ section {
 				margin: 0;
 				padding: 0;
 			}
+		}
+
+		ul {
+			list-style: disc !important;
 		}
 
 		h2, h3, h4, h5, h6 {
