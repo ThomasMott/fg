@@ -8,6 +8,7 @@
 @import './_dark-mode.scss';
 @import './_fg.scss';
 @import './filter';
+@import './_footer.scss';
 @import './_forms.scss';
 @import './grid';
 @import './inner';

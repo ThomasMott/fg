@@ -1,0 +1,29 @@
+<footer>
+	<div class="footers-top">
+		<div class="footers-inner">
+			<div class="social">
+				<a href="/"><img src="/static/images/nav/icon.svg"></a>
+			</div>
+			<div class="links">
+				<ul>
+					<li class="a-h">Pages</li>
+					<li><a href="/">Devlog</a></li>
+					<li><a href="/about/">About</a></li>
+				</ul>
+			</div>
+			<div class="links">
+			<ul>
+				<li class="a-h">Categories</li>
+				{% for tag in collections.tagsList %}
+				{% if tag !== 'post' %}
+				<li><a href="/tags/{{tag}}/">{{tag}}</a></li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+			</div>
+			<div class="social">
+				<a href="https://twitter.com/FoxGibbon"><img src="/static/images/twitter.svg"></a>
+			</div>
+		</div>
+	</div>
+</footer>
