@@ -58,7 +58,7 @@
 			margin: 0;
 
 			.a-h {
-				font-size: 15px;
+				font-size: 16px;
 				font-weight: 600;
 				margin-bottom: 4px;
 				color: $grey_stone;
@@ -71,6 +71,7 @@
 				a {
 					color: $grey_med;
 					text-transform: capitalize;
+					padding: 0;
 
 					&:hover {
 						color: $voilet_blue;
