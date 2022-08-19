@@ -6,7 +6,7 @@
   "scripts": {
     "scss": "gulp sass",
     "scss-local": "node-sass --watch scss -o css"
-},
+  },
   "author": "tom",
   "license": "ISC",
   "devDependencies": {
