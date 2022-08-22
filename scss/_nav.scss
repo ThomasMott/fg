@@ -6,7 +6,7 @@
 	border-bottom: 2px solid $black_jet;
 	position: sticky;
 	top: 0;
-	z-index: 1;
+	z-index: 10;
 
 	.nav {
 		display: flex;
@@ -19,6 +19,8 @@
 
 		li a {
 			padding: 0;
+			color: $black_jet;
+			font-weight: bold;
 
 			&::before {
 				content: '';
@@ -26,7 +28,7 @@
 				width: 100%;
 				height: 4px;
 				border-radius: 4px;
-				background-color: $voilet_dark;
+				background-color: $black_jet;
 				bottom: -2px;
 				height: 1.6px;
 				left: 0;
@@ -43,12 +45,14 @@
 					transform: scaleX(1);
 				}
 			}
-		}
 
-		#current {
-			color: $orange;
-			text-decoration: none;
-			cursor: inherit;
+			// &[aria-current="page"] {
+
+			// 	&::before {
+			// 		transform-origin: left;
+			// 		transform: scaleX(1);
+			// 	}
+			// }
 		}
 
 		.logo {

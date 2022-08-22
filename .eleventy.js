@@ -1,4 +1,5 @@
 const { DateTime } = require('luxon');
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
 	// Copy the `css` directory to the output
@@ -10,6 +11,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget('css');
 	eleventyConfig.addWatchTarget('static');
 	eleventyConfig.addWatchTarget('js');
+
+	// rss
+	eleventyConfig.addPlugin(pluginRss);
 
 	eleventyConfig.addFilter("postDate", (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);

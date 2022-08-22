@@ -28,6 +28,8 @@ If you like the sound of this then why not bookmark this website of follow my [T
 
 if you read this far then thankyou. I am still building the site so more content will be here soon.
 
+> "It is never too late to be what you might have been." <br><span>~ George Elliot</span>
+
 Appreciate your patience :)
 
 <figure>
