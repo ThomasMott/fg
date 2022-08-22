@@ -1,6 +1,6 @@
 ---
-title: Creating A Brand Logo
-name: creating-a-brand-logo
+title: Creating an Indie Brand Logo
+name: creating-an-indie-brand-logo
 tldr: Using Adobe Illustrator and also my hands to create a brand logo.
 time: 10 min
 image: /static/images/blog/creating-a-brand-logo/creative.jpg

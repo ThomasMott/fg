@@ -2,9 +2,9 @@
 title: Learning new skills for free
 name: learning-new-skills-for-free
 tldr: You don't need to pay a fortune to lern a new skill. There are many platforms and subscription plans (Skillshare, Youtube, Sololearn) that allow you to learn the skills you want for nothing. As longs as you don't mind a few Ads that is!
-time: 4 min
+time: 10 min
 image: /static/images/blog/learning-new-skills-for-free/learn.jpg
-tags: ['post', 'unity', 'design', 'development', 'other']
+tags: ['post', 'other']
 date: 2022-08-14
 layout: layouts/post.njk
 ---
@@ -14,11 +14,6 @@ layout: layouts/post.njk
 ### The best thing to do before signing up to anything is deciding what you want to learn. Many platforms, no matter what they claim all have specialisms or courses that really stand out in different fields.
 
 For me, I wanted to get some experience with Unity 2D and C#. After a few weeks of experimenting here are my top picks:
-
-<figure>
-	<img class="case-img " src="/static/images/blog/learning-new-skills-for-free/learn.jpg" alt="books">
-	<figcaption>Hit the books nerd</figcaption>
-</figure>
 
 ### Sololearn *(C#)*
 
@@ -71,7 +66,7 @@ With **500 Hours of Video Uploaded to YouTube Every Minute**, if you do a little
 
 <br>
 
-<h3>Skillshare <em>(Unity)</em></h3>
+### Skillshare *(Unity)*
 
 [Skillshare is an online learning community with loads of classes](#). There are courses for illustration, design, photography, video, freelancing, and more. So, on Skillshare.
 
@@ -94,3 +89,35 @@ is a paid platform... and you would be right. However, if you are looking to lea
 - Not free forever
 - Quality of courses vary
 - No certification
+
+<br>
+
+### Library
+
+The final option in the list is a lot more low-teh, but no less effective! Signing up to your local library is a really good way to get access to a ton of free resources and provides a great place to study alone or with others.
+
+<br>
+
+#### Positives
+
+- Large selection of resources
+- Free
+- Great place to study
+- Meet and support community
+
+<br>
+
+#### Negatives
+
+- Make sure to return nooks on time
+- Quality of material varies
+- No certification
+
+<figure>
+	<img class="case-img " src="/static/images/blog/learning-new-skills-for-free/learn.jpg" alt="books">
+	<figcaption>Hit the books</figcaption>
+</figure>
+
+### Conclusion
+
+No matter where you choose to learn, there are plenty of options that won't break the bank. Get out there and kick ass. **I BELIEVE IN YOU!**

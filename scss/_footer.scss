@@ -1,7 +1,7 @@
 /* footer */
 .footers-top {
-	background-color: $black_dusty;
-	border-top: $black_jet solid 1px;
+	background-color: #1c1c1c;
+	border-top: #363537 solid 1px;
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -49,7 +49,7 @@
 				font-size: 14px;
 				font-weight: 600;
 				margin-bottom: 24px;
-				color: $white_off;
+				color: #f7f8f6;
 			}
 
 			li {
@@ -58,7 +58,7 @@
 
 				a {
 					font-size: 15px;
-					color: $white;
+					color: #fff;
 					text-transform: capitalize;
 					padding: 0;
 
@@ -109,11 +109,11 @@
 }
 
 .footers-bottom {
-	background-color: $black_dusty;
+	background-color: #1c1c1c;
 	align-items: center;
 
 	.footers-inner {
-		border-top: $black_jet solid 1px;
+		border-top: #1c1c1c solid 1px;
 		padding: 0 20px;
 		display: flex;
 		justify-content: center;

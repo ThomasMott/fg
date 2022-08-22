@@ -7,6 +7,7 @@
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	height: 64px;
 
 	.nav {
 		display: flex;
@@ -20,7 +21,6 @@
 		li a {
 			padding: 0;
 			color: $black_jet;
-			font-weight: bold;
 
 			&::before {
 				content: '';
@@ -159,5 +159,5 @@
 
 #reading-progress-fill {
 	position: fixed;
-	top: 66px;
+	top: 64px;
 }
