@@ -7,12 +7,17 @@
 				{% if page.url == "/" %}
 					aria-current="page"
 				{% endif %}
-				href="/">Devlog</a></li>
+				href="/">Latest</a></li>
 				<li><a
 				{% if page.url == "/about/" %}
 					aria-current="page"
 				{% endif %}
 				href="/about/">About</a></li>
+				<li><a
+				{% if page.url == "/release/" %}
+					aria-current="page"
+				{% endif %}
+				href="/release/">Release notes</a></li>
 			</ul>
 		</nav>
 		<a href="/">
