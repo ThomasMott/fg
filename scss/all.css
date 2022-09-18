@@ -13,6 +13,7 @@
 @import './grid';
 @import './inner';
 @import './nav';
+@import './_pagination.scss';
 @import './port';
 @import './_reading.scss';
 @import './style';
