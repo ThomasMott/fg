@@ -1,6 +1,10 @@
 const { DateTime } = require('luxon');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+const getSimilarCategories = function(categoriesA, categoriesB) {
+	return categoriesA.filter(Set.prototype.has, new Set(categoriesB)).length;
+}
+
 module.exports = function (eleventyConfig) {
 	// Copy the `css` directory to the output
 	eleventyConfig.addPassthroughCopy('css');
@@ -17,6 +21,17 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("postDate", (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+	});
+
+	eleventyConfig.addFilter("related", (collection, url, number) => {
+		let relatedFilter = [];
+		collection.forEach(element => {
+			if(url !== element.url) {
+				relatedFilter.push(element);
+			}
+		});
+		relatedFilter.splice(number);
+		return relatedFilter;
 	});
 
 	eleventyConfig.addCollection("tagsList", function(collectionApi) {

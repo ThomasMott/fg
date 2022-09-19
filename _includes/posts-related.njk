@@ -1,0 +1,32 @@
+<section>
+	<div class="grid">
+		<div class="row blog-card">
+		<h2>More {{ tags[1] }}</h2>
+		{% for post in posts %}
+			<div class="col-12-xs col-6-sm col-4-md col-4">
+				<article class="cards">
+					<a href="/posts/{{ post.data.name }}">
+						<ul class="cat">
+							{% for tag in post.data.tags %}
+								{% if tag !== 'post' %}
+									<li>{{ tag }}</li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+						<div class="card-img">
+							<img src="{{ post.data.image }}">
+						</div>
+						<div class="card-txt">
+							<div class="main-txt">
+								<p class="s">{{ post.data.date | postDate }} · {{ post.data.time }}</p>
+								<h3>{{ post.data.title }}</h3>
+								<p class="d">{{ post.data.tldr }}</p>
+							</div>
+						</div>
+					</a>
+				</article>
+			</div>
+		{% endfor %}
+   		</div>
+  	</div>
+</section>
