@@ -7,8 +7,12 @@ body {
 			display: block;
 
 			&.bg {
-				// background-color: #F3713F2B;
-			}s
+				background-color: $white_off;
+
+				.grid {
+					margin-bottom: 0;
+				}
+			}
 
 			.title {
 				color: $black_jet;

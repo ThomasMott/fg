@@ -29,5 +29,5 @@ js: read
 	</div>
 </section>
 <div id="reading-progress"><div id="reading-progress-fill"></div></div>
-{% set posts = collections[tags[1]] | related(page.url, 3) %}
+{% set posts = collections[tags[1]] | related(page.url) %}
 {% include "posts-related.njk" %}

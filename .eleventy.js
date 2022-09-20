@@ -23,14 +23,20 @@ module.exports = function (eleventyConfig) {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
 	});
 
-	eleventyConfig.addFilter("related", (collection, url, number) => {
+	eleventyConfig.addFilter("related", (collection, url) => {
 		let relatedFilter = [];
-		collection.forEach(element => {
-			if(url !== element.url) {
-				relatedFilter.push(element);
+		let number = 0;
+		for (let i = 0; i < collection.length; i++) {
+			if (url == collection[i].url) {
+				number = i;
 			}
-		});
-		relatedFilter.splice(number);
+		}
+		if (number > 0) {
+			relatedFilter.push(collection[number - 1]);
+		}
+		if (collection.length > number) {
+			relatedFilter.push(collection[number + 1]);
+		}
 		return relatedFilter;
 	});
 
