@@ -34,7 +34,7 @@ module.exports = function (eleventyConfig) {
 		if (number > 0) {
 			relatedFilter.push(collection[number - 1]);
 		}
-		if (collection.length > number) {
+		if (collection.length == (number - 1)) {
 			relatedFilter.push(collection[number + 1]);
 		}
 		return relatedFilter;
