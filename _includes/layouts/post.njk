@@ -47,6 +47,15 @@ js: read
 		<div class="grid">
 			<article class="case">
 				{{ content | safe }}
+				{% if refs %}
+				<br>
+				<h4>References</h4>
+				<ul>
+				{% for link in refs %}
+				<li>{{ link }}</li>
+				{% endfor %}
+				</ul>
+				{% endif %}
 			</article>
 		</div>
 	</div>
