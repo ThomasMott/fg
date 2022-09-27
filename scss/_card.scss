@@ -30,12 +30,11 @@
 				border: 1px solid rgba(255, 255, 255, 0.08);
 				font-weight: bold;
 				z-index: 1;
+				text-transform: capitalize
 			}
 		}
 
 		.cards {
-			border: 1px solid $grey_light_2;
-			border-radius: 8px;
 			margin: 8px;
 			box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 			transition: all .4s ease;
@@ -50,13 +49,12 @@
 					width: 100%;
 					object-fit: cover;
 					height: 160px;
-					border-radius: 8px 8px 0 0;
 				}
 			}
 
 			.card-txt {
 				background-color: $white;
-				border-radius: 8px;
+				border-bottom: 4px solid $black_dusty;
 
 				.main-txt {
 					overflow: hidden;
@@ -85,16 +83,6 @@
 					overflow: hidden;
 					text-transform: uppercase;
 					height: unset;
-				}
-
-				@media (min-width: 480px) {
-					max-height: 142px;
-					height: 142px;
-				}
-
-				@media (min-width: 992px) {
-					max-height: 207px;
-					height: 207px;
 				}
 			}
 
@@ -128,6 +116,10 @@
 				font-size: 24px;
 				line-height: 32px;
 				font-weight: 600;
+
+				span {
+					background-color: unset;
+				}
 			}
 
 			p {
@@ -154,6 +146,12 @@
 			&:hover {
 				box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 				transform: translate3D(0,-1px,0) scale(1.02);
+
+				h3 {
+					span {
+						background-color: $yellow;
+					}
+				}
 			}
 		}
 	}

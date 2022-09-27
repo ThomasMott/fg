@@ -6,7 +6,7 @@ js: read
 <section>
 	<div class="grid">
 		<p class="bc"><a href="/">Devlog</a> › {{ name }}</p>
-		<h1 class="title">{{ title }}</h1>
+		<h1 class="title"><span>{{ title }}</span></h1>
 		<ul class="ul-s">
 			<li>{{ time }}</li>
 			{% for tag in tags %}
@@ -61,5 +61,5 @@ js: read
 	</div>
 </section>
 <div id="reading-progress"><div id="reading-progress-fill"></div></div>
-{% set posts = collections[tags[1]] | related(page.url) %}
+{% set posts = collections[tags[1]] | related(page.url, 6667) %}
 {% include "posts-related.njk" %}

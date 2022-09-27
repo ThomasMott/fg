@@ -27,7 +27,6 @@ body {
 
 			@media (min-width: 768px) {
 				right: 24px;
-				padding: 0 24px;
 			}
 
 			@media (min-width: 1380px) {
@@ -51,7 +50,7 @@ body {
 				flex-direction: column;
 				position: sticky;
 				padding: 16px;
-				max-width: calc((100vw - 1092px)/2);
+				max-width: calc((1280px - 800px)/2);
 
 				a {
 					margin: 8px auto 0 auto;
