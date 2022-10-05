@@ -1,7 +1,7 @@
 ---
 title: First Post
 name: first-post
-tldr: I'm starting a game studio and I don't care who knows it.
+tldr: Fox Gibbon is place for tech, design and hobby enthusiasts. A place to find up to date tutorials, news and discussions for professionals. We are going to place a strong emphasis on good practice, accessibility. This is also a place to celebrate brands that are independent, challenging the big brands with amazing new innovations.
 time: 4 min
 image: /static/images/blog/first-post/one.jpg
 tags: ['post', 'other']
@@ -13,18 +13,20 @@ layout: layouts/post.njk
 
 <br>
 
-### The world is my oyster and life is too short not to have fun.
+### Welcome to Fox Gibbon.
 
-After a couple years of umming and ahhing I have decided to start making a game studio. I created this website as a way for people to follow along with if they are interested in how I get this thing off the ground *(or at least attempt to)*.
+Fox Gibbon is place for tech, design and hobby enthusiasts. A place to find up to date tutorials, news and discussions for professionals. We are going to place a strong emphasis on good practice, accessibility.
+
+This is also a place to celebrate brands that are independent, challenging the big brands with amazing new innovations.
 
 <figure>
 	<img class="case-img" src="/static/images/blog/first-post/one.jpg" alt="confetti">
-	<figcaption>Happy birthday to the blog!</figcaption>
+	<figcaption>Happy birthday to Fox Gibbon!</figcaption>
 </figure>
 
 ## Sounds Cool?
 
-If you like the sound of this then why not bookmark this website of follow my [Twitter](https://twitter.com/FoxGibbon") to keep up with all the action. I have no idea how often I will be posting as I am working full time but I will do my best.
+If you like the sound of this then why not bookmark this website of follow us on [Twitter](https://twitter.com/FoxGibbon") to keep up with all the action. Aiming to create new posts every week.
 
 if you read this far then thankyou. I am still building the site so more content will be here soon.
 

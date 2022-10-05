@@ -17,9 +17,9 @@ For me, I wanted to get some experience with Unity 2D and C#. After a few weeks 
 
 ### Sololearn *(C#)*
 
-[Sololearn has the world's largest collection of FREE programming courses](#) to learn how to code. Learn Python, C++, JavaScript, Java, jQuery, machine learning, data science, and more. You receive a certificate for each course that you complete.
+[Sololearn has the world's largest collection of FREE programming courses](https://www.sololearn.com). Options including: Python, C++, JavaScript, Java, jQuery, machine learning, data science. As a bonus you receive a certificate for each course you complete.
 
-While a bit frustrating to progress in a language you already know, [SoloLearn can be an awesome learning tool for the fundamentals](#).
+While a bit frustrating to progress in a language you already know, [SoloLearn can be an awesome learning tool for the fundamentals](https://www.sololearn.com).
 
 <br>
 
@@ -68,10 +68,12 @@ With **500 Hours of Video Uploaded to YouTube Every Minute**, if you do a little
 
 ### Skillshare *(Unity)*
 
-[Skillshare is an online learning community with loads of classes](#). There are courses for illustration, design, photography, video, freelancing, and more. So, on Skillshare.
+[Skillshare is an online learning community with loads of classes](https://www.skillshare.com). There are courses for illustration, design, photography, video, freelancing, and more.
 
 I know you are probably thinking that Skillshare
-is a paid platform... and you would be right. However, if you are looking to learn some very specific content in a specific time frame then you can up to 2 months for free.
+is a paid platform... and you would be right.
+
+However, if you are looking to learn some very specific content in a short time frame you can get up to 2 months for free by [extending Skillshare free trial (No creditcard needed)](https://www.youtube.com/watch?v=Y3Zd00Wz8Bc).
 
 <br>
 
@@ -94,7 +96,7 @@ is a paid platform... and you would be right. However, if you are looking to lea
 
 ### Library
 
-The final option in the list is a lot more low-teh, but no less effective! Signing up to your local library is a really good way to get access to a ton of free resources and provides a great place to study alone or with others.
+The final option in the list is a lot more low-tec, but no less effective! Signing up to your local library is a really good way to get access to a ton of free resources and provides a great place to study alone or with others.
 
 <br>
 
