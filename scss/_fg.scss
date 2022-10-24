@@ -1,8 +1,5 @@
 .fox {
-	position: absolute;
-	top: 56px;
 	right: calc(20% - 80px);
-	z-index: -1;
 	transform: rotate(180deg);
 
 	img {
@@ -11,10 +8,7 @@
 }
 
 .gibbon {
-	position: absolute;
-	top: 56px;
 	right: 20%;
-	z-index: -1;
 
 	img {
 		height: 120px;
@@ -26,13 +20,17 @@
 }
 
 .fox, .gibbon {
-	filter: brightness(0);
+	filter: $icon_filter;
 	z-index: 2;
 	display: none;
+	top: 16px;
+	position: absolute;
+	transition: top 1.6s;
 
-	&:hover {
+	&:hover, &:focus-within {
 		filter: none;
 		cursor: pointer;
+		top: 56px;
 	}
 
 	@media (min-width: $breakpoint-xs) {
