@@ -115,11 +115,6 @@ The final option in the list is a lot more low-tec, but no less effective! Signi
 - Quality of material varies
 - No certification
 
-<figure>
-	<img class="case-img " src="/static/images/blog/learning-new-skills-for-free/learn.jpg" alt="books">
-	<figcaption>Hit the books</figcaption>
-</figure>
-
 ### Conclusion
 
 No matter where you choose to learn, there are plenty of options that won't break the bank. Get out there and kick ass. **I BELIEVE IN YOU!**

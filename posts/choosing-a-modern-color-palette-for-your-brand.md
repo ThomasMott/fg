@@ -4,7 +4,7 @@ name: choosing-a-modern-color-palette-for-your-brand
 tldr: Best tools and theory to create a modern color palette for your brand.
 time: 10 min
 image: /static/images/blog/choosing-a-modern-color-palette-for-your-brand/color.jpg
-tags: ['post', 'design']
+tags: ['post', 'tutorial', 'design']
 date: 2022-08-22
 layout: layouts/post.njk
 ---
@@ -16,11 +16,6 @@ Whether you've decided to start a new side hustle, or are launching a game-chang
 ### It helps people understand who you are and why you’re here – which, in turn, attracts the right customers to your brand.
 
 In this article, I'm going to help steer you to choose the right colors for your brand.
-
-<figure>
-	<img class="case-img " src="/static/images/blog/choosing-a-modern-color-palette-for-your-brand/color.jpg" alt="colorful building">
-	<figcaption>If you are an indie brand be bold and stand out from the boring corporate styles</figcaption>
-</figure>
 
 ## Start with some inspiration
 
