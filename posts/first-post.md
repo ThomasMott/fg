@@ -19,11 +19,6 @@ Fox Gibbon is place for tech, design and hobby enthusiasts. A place to find up t
 
 This is also a place to celebrate brands that are independent, challenging the big brands with amazing new innovations.
 
-<figure>
-	<img class="case-img" src="/static/images/blog/first-post/one.jpg" alt="confetti">
-	<figcaption>Happy birthday to Fox Gibbon!</figcaption>
-</figure>
-
 ## Sounds Cool?
 
 If you like the sound of this then why not bookmark this website of follow us on [Twitter](https://twitter.com/FoxGibbon") to keep up with all the action. Aiming to create new posts every week.

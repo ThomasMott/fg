@@ -4,7 +4,7 @@ name: creating-an-indie-brand-logo
 tldr: Using Adobe Illustrator and also my hands to create a brand logo.
 time: 10 min
 image: /static/images/blog/creating-a-brand-logo/creative.jpg
-tags: ['post', 'design']
+tags: ['post', 'tutorial', 'design']
 date: 2022-07-25
 layout: layouts/post.njk
 ---
@@ -26,11 +26,6 @@ The perfect logo is not everyones first port of call. That being said, here are 
 ### 1. It Grabs ATTENTION
 
 Attention spans are short these days *(especially consumers)*.
-
-<figure>
-	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/creative.jpg" alt="Bright artwork">
-	<figcaption>A unique image helps to stand out</figcaption>
-</figure>
 
 A good logo is the split second opportunity to grab someones attention and communicate your brand. Having a stand out logo among all the others is a solid method of getting someone to give you a chance.
 
