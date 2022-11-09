@@ -4,7 +4,7 @@
 		{% for post in posts %}
 			<div class="col-12-xs col-6-sm col-6-md col-6">
 				<article class="cards">
-					<a href="/posts/{{ post.data.name }}">
+					<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
 						<ul class="cat">
 							{% for tag in post.data.tags %}
 								{% if tag !== 'post' %}

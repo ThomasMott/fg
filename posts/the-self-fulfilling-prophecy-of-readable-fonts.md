@@ -27,7 +27,7 @@ According to these results, the type that fared best were the ones that have sur
 
 In the 1970's more research was done at [The Royal College of Art's Readability and Print Research Unit](https://www.rca.ac.uk/). From this research it was found that type with strong distinctive strokes was easier to read than flattened styles; and a greater between letters allowed faster digestion of information. The research confirmed that the key areas that make a letter distinctive are the **top half and right side**. The eyes use these points to try and quickly ascertain what letter will be there.
 
-Other research has found people prefer bold typefaces, although legibility remains fairly constant. Serif and sans serif faces are also equally legible, so long as they aren't too heavy and thick. There area lot of differences that serif and sans serif can make for branding but that is a discussion for another day. 
+Other research has found people prefer bold typefaces, although legibility remains fairly constant. Serif and sans serif faces are also equally legible, so long as they aren't too heavy and thick. There are a lot of differences that serif and sans serif can make for branding but that is a discussion for another day. 
 
 If you want to find more [Just my Type by Simon Garfield has some good insight into font readability](https://www.goodreads.com/book/show/10909804-just-my-type) is a great place to start.
 
