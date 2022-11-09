@@ -55,20 +55,20 @@ In many cases, companies simply do not see the value of investing into it. As a 
 
 Some of the best ways to get started are:
 
-### Company Values
+#### Company Values
 
 If mission and values of the companies we work for align with any of these ethics, we can challenge the company to truly live up to its promises and support it in carrying out its mission. This is tough if the values do not line up.
 
-### Testing
+#### Testing
 
 Conducting regular user tests with stakeholders, and working collaboratively with different departments helps to identify the edge cases. [Many forms of testing don't require a large group of participants to yield effective results](https://www.uxdesigninstitute.com/blog/usability-test-how-many-users/).
 
-### Frameworks
+#### Frameworks
 
 Some UI frameworks like the aforementioned [Material Design System](https://m2.material.io/design/environment/surfaces.html) can really help to handle accessible and usable components. [Gov.uk has some good component examples too](https://design-system.service.gov.uk/components/).
 
 If you are looking to create your own component library then [Storybook.js](https://storybook.js.org/) is a great tool. It helps build UI components and pages in isolation and has ally plugins to make sure components are accessible.
 
-### Being Brave
+#### Being Brave
 
 The last option is the one im sure everyone likes the least, I know I do. If you truly care about making the internet a better place for everyone then sometimes you just have to put your foot down and call some meetings. It might not get you too far but if you gave it your all then there is nothing more you can do.
