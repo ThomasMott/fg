@@ -1,7 +1,7 @@
 body {
 
 	&.inner {
-		background-color: $white;
+		background-color: $white_off;
 
 		section {
 			display: block;
@@ -14,14 +14,25 @@ body {
 				}
 			}
 
+			.time {
+				text-align: center;
+				font-size: 14px;
+				color: $grey_concrete;
+
+				span {
+					color: $orange;
+					font-weight: bold;
+				}
+			}
+
 			.title {
 				color: $black_jet;
 				font-weight: bold;
-				font-size: 48px;
-				line-height: 64px;
 				padding-bottom: 8px;
 				word-wrap: break-word;
-				max-width: 800px;
+				max-width: 720px;
+				text-align: center;
+				margin: auto;
 			}
 
 			.sec-title {
@@ -101,13 +112,18 @@ body {
 				.ul-s {
 					display: flex;
 					flex-wrap: wrap;
+					justify-content: center;
 
 					li{
-						border: 1px solid $grey_med;
-						border-radius: 8px;
-						margin: 8px 16px 8px 0;
-						padding: 8px 16px;
+						border: none;
+						border-radius: 4px;
+						margin: 0 8px;
+						padding: 6px 8px;
 						list-style: none;
+						color: $black_dusty;
+						background: $yellow;
+						font-size: 14px;
+						text-transform: capitalize;
 					}
 				}
 			}

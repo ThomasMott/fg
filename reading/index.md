@@ -3,13 +3,13 @@ title: Reading List
 layout: layouts/page.njk
 ---
 
-## Reading list for aspiring designers.
+# <span>Reading list</span> for <span>aspiring designers</span>.
 
 <br>
 
-Here is a comprehensive list of books that I have read to create posts for this blog. 
+## Here is a comprehensive list of books that I have read to create posts for this blog. 
 
-I highly recommend them if you are truly interested in peeling back the design curtain a little further.
+### I highly recommend them if you are truly interested in peeling back the design curtain a little further.
 
 <br>
 

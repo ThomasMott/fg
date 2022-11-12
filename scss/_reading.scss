@@ -3,13 +3,20 @@
     width: 100%;
     height: 5px;
     z-index: 9999;
-    top: 0;
+    top: 60px;
     left: 0;
 }
 
 #reading-progress-fill {
     height: 4px;
     width: 0;
+}
+
+.reading-progress-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    height: 4px;
 }
 
 #reading-progress-fill {

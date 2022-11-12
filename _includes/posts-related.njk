@@ -5,22 +5,22 @@
 			<div class="col-12-xs col-6-sm col-6-md col-6">
 				<article class="cards">
 					<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
-						<ul class="cat">
-							{% for tag in post.data.tags %}
-								{% if tag !== 'post' %}
-									<li>{{ tag }}</li>
-								{% endif %}
-							{% endfor %}
-						</ul>
 						<div class="card-img">
 							<img src="{{ post.data.image }}">
 						</div>
 						<div class="card-txt">
 							<div class="main-txt">
-								<p class="s">{{ post.data.date | postDate }} · {{ post.data.time }}</p>
+								<p class="s">{{ post.data.date | postDate }} <span>&middot;</span> {{ post.data.time }}</p>
 								<h3>{{ post.data.title }}</h3>
 								<p class="d">{{ post.data.tldr }}</p>
 							</div>
+							<ul class="cat">
+								{% for tag in post.data.tags %}
+									{% if tag !== 'post' %}
+										<li>{{ tag }}</li>
+									{% endif %}
+								{% endfor %}
+							</ul>
 						</div>
 					</a>
 				</article>

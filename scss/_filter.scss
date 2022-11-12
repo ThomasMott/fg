@@ -1,12 +1,22 @@
 .categories {
+	width: fit-content;
+	margin: auto;
+	text-align: center;
+	
+	span {
+		color: $orange;
+		font-weight: bold;	
+	}
+
 	a {
 		padding: 0;
-		margin-right: 16px;
+		margin-inline: 8px;
 		line-height: 24px;
 		text-transform: capitalize;
 
 		&[aria-current="page"] {
-			color: $grey_concrete;
+			color: $black_dusty;
+			background-color: $yellow;
 			cursor: auto;
 
 			&::before {

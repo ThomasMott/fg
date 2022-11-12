@@ -11,7 +11,7 @@ layout: layouts/post.njk
 
 ## A lot of things nowadays seems to be made without any real care for craft
 
-While it may feel as though the era of true craftmanship is behind us, there are still plenty of ways to learn from the past. Getting into town and finding some local antique / charity chops can provide a wealth of different ideas.
+While it may feel as though the era of true craftmanship is behind us, there are still plenty of ways to learn from the past. Getting into town and finding some local antique / charity shops can provide a wealth of different ideas.
 
 ### Sourcing Inspiration
 
