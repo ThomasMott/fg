@@ -1,5 +1,16 @@
 # Website repository
 
+## Contributing
+Pull requests are welcome. 
+
+If you want to add a post to FoxGibbon then simply add ```{postName}.md``` into the ```/posts``` directory. 
+
+Posts require a title: *string*, name: *string*, tldr: *string*, time: *string*, image: *string*, tags: *array*, date: *YYYY-MM-DD* and layout: *layouts/post.njk*. These are set at the top of the markdown file, see existing posts for more.
+
+If adding media please add into ```/static/images/blog``` and create a new folder with the same name as your .md file.
+
+Once everything is added run Eleventy (more below on that) and your post will be converted to html.
+
 ## Installation
 
 clone repo:
@@ -52,9 +63,3 @@ If using Windows you may need to make sure it can run unrestricted. Open Powersh
 To run the project locally use [liveserver plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 Right click on index.html and click Open with Live Server
-
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
