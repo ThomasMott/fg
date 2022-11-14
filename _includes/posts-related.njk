@@ -1,9 +1,8 @@
 <section class="bg">
 	<div class="grid">
-		<div class="row blog-card">
+		<div class="row blog-card related">
 		{% for post in posts %}
-			<div class="col-12-xs col-6-sm col-6-md col-6">
-				<article class="cards">
+			<article class="cards">
 					<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
 						<div class="card-img">
 							<img src="{{ post.data.image }}">
@@ -11,20 +10,19 @@
 						<div class="card-txt">
 							<div class="main-txt">
 								<p class="s">{{ post.data.date | postDate }} <span>&middot;</span> {{ post.data.time }}</p>
-								<h3>{{ post.data.title }}</h3>
+								<h3><span>{{ post.data.title }}</span></h3>
 								<p class="d">{{ post.data.tldr }}</p>
+								<ul class="cat">
+									{% for tag in post.data.tags %}
+										{% if tag !== 'post' %}
+											<li>{{ tag }}</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
 							</div>
-							<ul class="cat">
-								{% for tag in post.data.tags %}
-									{% if tag !== 'post' %}
-										<li>{{ tag }}</li>
-									{% endif %}
-								{% endfor %}
-							</ul>
 						</div>
 					</a>
 				</article>
-			</div>
 		{% endfor %}
    		</div>
   	</div>

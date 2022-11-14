@@ -33,17 +33,49 @@ Color psychology is the study of how colors affect perceptions and behaviors. It
 
 A lot of research has gone into color theory. You can definitely get lost down the rabbit hole finding the story behind each color. Below is a quick summary to give you an idea. If you want to learn more I would recommend books like [The Colour Code: Why we see red, feel blue and go green](https://www.goodreads.com/book/show/59513231-the-colour-code).
 
-- **Red** : danger, excitement, love, passion and energy.
-- **Pink** : sentimental and romantic.
-- **Orange**, fresh, creative, fun and adventurous.
-- **Yellow** optimistic, playful and happy.
-- **Green** : natural. It is most often used to depict the environment sustainability.
-- **Blue** : trustworthy, reliable and calming.
-- **Purple** : royalty and opulence. It can be connected to spiritualism and mystery.
-- **Brown** : honest, organic and wholesome.
-- **White** : pure. It conveys simplicity and innocence, often with a minimalistic feel.
-- **Black** : sophisticated and elegant.
-- **Multicolor** : united or open to anything. It’s great for capturing the spirit of diversity.
+<h3 style="color:red">Red</h3>
+
+Danger, excitement, love, passion and energy.
+
+<h3 style="color:pink">Pink</h3>
+
+Sentimental and romantic.
+
+<h3 style="color:orange;">Orange</h3>
+
+Fresh, creative, fun and adventurous.
+
+<h3 style="color:yellow;">Yellow</h3>
+
+Optimistic, playful and happy.
+
+<h3 style="color:green;">Green</h3>
+
+Natural. It is most often used to depict the environment sustainability.
+
+<h3 style="color:red;">Red</h3>
+
+Trustworthy, reliable and calming.
+
+<h3 style="color:purple;">Purple</h3>
+
+Royalty and opulence. It can be connected to spiritualism and mystery.
+
+<h3 style="color:brown;">Brown</h3>
+
+Honest, organic and wholesome.
+
+<h3 style="color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">White</h3>
+
+Pure. It conveys simplicity and innocence, often with a minimalistic feel.
+
+<h3 style="color:black">Black</h3>
+
+Sophisticated and elegant.
+
+<h3 style="background: red; background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Muticolored</h3>
+
+United or open to anything. It’s great for capturing the spirit of diversity.
 
 Different hues and shades of colors also contribute to the color story. Brighter shades can be seen as much more youthful, modern and bold.
 

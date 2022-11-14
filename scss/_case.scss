@@ -120,7 +120,7 @@ body {
 			margin: auto;
 			max-width: 720px;
 
-			h2, h3, h4, h5, h6, a, p {
+			h2, h3, h4, h5, h6, a, p, ul {
 				max-width: 640px;
 				margin-left: auto !important;
 				margin-right: auto !important;
@@ -148,6 +148,10 @@ body {
 					display: inline;
 					margin: 0;
 					padding: 0;
+				}
+
+				li {
+					list-style: outside;
 				}
 			}
 
