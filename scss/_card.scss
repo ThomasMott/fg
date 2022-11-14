@@ -9,9 +9,26 @@
 		@media(min-width: $breakpoint-md) {
 			grid-template-columns: repeat(3, 1fr);
 
-			&.related {		
+			&.related {				
 				@media(min-width: $breakpoint-md) {
 					grid-template-columns: repeat(2, 1fr);
+				}
+
+				.cards {
+					.card-txt {
+						border-bottom: none;
+						border-top: 4px solid $orange;
+					}
+
+					&:hover, :focus {
+						.card-txt {
+							height: 240px !important;
+
+							.main-txt {
+								height: 240px !important;
+							}
+						}
+					}
 				}
 			}
 
@@ -45,7 +62,7 @@
 						}
 					}
 
-					&:hover {
+					&:hover, :focus {
 						.card-txt {
 							width: 100%;
 							max-height: 240px;
@@ -152,7 +169,7 @@
 					height: unset;
 
 					span {
-						color: $orange;
+						color: $pink_dark;
 						font-weight: bold;
 					}
 				}
@@ -221,7 +238,7 @@
 				margin: 32px;
 			}
 
-			&:hover {
+			&:hover, :focus {
 				transform: translate3D(-12px,12px,0) scale(1.02);
 				box-shadow: 4px -4px $yellow, 8px -8px $pink_dark, 12px -12px $voilet_blue;
 

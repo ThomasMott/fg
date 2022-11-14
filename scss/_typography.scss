@@ -8,8 +8,6 @@ h1,h2,h3,h4,h5,h6 {
 
 	span {
 		font-family: 'Zilla Slab', serif;
-		// background-color: $black_jet;
-		// color: $white_off;
 		background-color: $yellow;
 		color: $black_dusty
 	}
@@ -62,7 +60,7 @@ a {
 	position: relative;
 	text-decoration: none;
 	font-size: 16px;
-	color: $voilet_blue;
+	color: $black_dusty;
 	padding: 16px 0;
 
 	&:hover {

@@ -7,7 +7,7 @@ $breakpoint-xl:1760px;
 $breakpoint-lx:2200px;
 
 /*colours*/
-$black_dusty: #1c1c1c;
+$black_dusty: #3e3355;
 $black_jet: #363537;
 $grey_concrete: #808080;
 $grey_light_1: #F3F3F3;
@@ -57,5 +57,5 @@ $spacing_ten: 128px;
 //defined further in spacing.scss
 
 $filter: contrast(0)brightness(10);
-$logo_filter: contrast(0)brightness(0);
-$icon_filter: contrast(0)brightness(0);
+$logo_filter: contrast(0) invert(18%) sepia(86%) saturate(775%) hue-rotate(258deg) brightness(25%) contrast(90%);
+$icon_filter: contrast(0) invert(18%) sepia(86%) saturate(775%) hue-rotate(258deg) brightness(25%) contrast(90%);

@@ -2,9 +2,9 @@
 	width: fit-content;
 	margin: auto;
 	text-align: center;
-	
+
 	span {
-		color: $orange;
+		color: $pink_dark;
 		font-weight: bold;	
 	}
 
@@ -12,7 +12,10 @@
 		padding: 0;
 		margin-inline: 8px;
 		line-height: 24px;
+		font-size: 24px;
 		text-transform: capitalize;
+		font-weight: 600;
+		font-family: 'Zilla Slab', serif;
 
 		&[aria-current="page"] {
 			color: $black_dusty;
