@@ -2,6 +2,25 @@
 	.blog-card {
 		display: grid;
 
+		&.related {				
+			.cards {
+				.card-txt {
+					border-bottom: none;
+					border-top: 4px solid $orange;
+				}
+
+				&:hover, :focus {
+					.card-txt {
+						height: 240px !important;
+
+						.main-txt {
+							height: 240px !important;
+						}
+					}
+				}
+			}
+		}
+
 		@media(min-width: $breakpoint-sm) {
 			grid-template-columns: repeat(2, 1fr);
 		}
@@ -12,23 +31,6 @@
 			&.related {				
 				@media(min-width: $breakpoint-md) {
 					grid-template-columns: repeat(2, 1fr);
-				}
-
-				.cards {
-					.card-txt {
-						border-bottom: none;
-						border-top: 4px solid $orange;
-					}
-
-					&:hover, :focus {
-						.card-txt {
-							height: 240px !important;
-
-							.main-txt {
-								height: 240px !important;
-							}
-						}
-					}
 				}
 			}
 
@@ -124,6 +126,10 @@
 			margin: 16px;
 			transition: all .4s ease;
 			overflow: hidden;
+
+			a {
+				text-decoration: none;
+			}
 
 			.card-img {
 				width: 100%;
