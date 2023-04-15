@@ -10,7 +10,8 @@ layout: layouts/post.njk
 ---
 
 With the rise of UX/UI design industry, designers are looking for tools that will help them bring their design ideas to life in the most efficient way possible. Prototyping tools have become an essential part of a designer's toolset, allowing them to create high-fidelity prototypes that give stakeholders an idea of what the final product will look like. In this article, we will explore the top 5 prototyping tools for UX/UI designers.
-Adobe XD
+
+## Adobe XD
 
 [Adobe XD]() is a popular choice among designers because of its seamless integration with other Adobe products. It is a vector-based prototyping tool that is available for both Mac and Windows users. Adobe XD makes it easy for designers to create wireframes, prototypes, and even animations. It also has a rich plugin ecosystem with plugins for icon management, pattern creation, and more.
 
@@ -21,7 +22,6 @@ Adobe XD
 ## Sketch
 
 Another popular prototyping tool is [Sketch](https://www.sketch.com/). It is a vector-based design tool that is only available for Mac users. Sketch is known for its user-friendly interface and its ability to handle complex design projects. It has a rich plugin ecosystem that includes plugins for exporting designs, creating animations, and more. Sketch is also highly customizable, allowing designers to create their own design system from scratch.
-InVision Studio
 
 ## InVison Studio
 
