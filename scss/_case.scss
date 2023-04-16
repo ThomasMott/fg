@@ -1,199 +1,214 @@
 body {
-	.case-img {
-		width: 100%;
-		height: 240px;
-		object-fit: cover;
-		border-radius: 8px;
-		margin: 32px 0 8px 0;
-		border: 1px solid $grey_light_2;
+  .case-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 32px 0 8px 0;
+    border: 1px solid $grey_light_2;
 
-		@media (min-width: $breakpoint-xs) {
-			height: 400px;
-		}
-	}
+    @media (min-width: $breakpoint-xs) {
+      height: 400px;
+    }
+  }
 
-	.tldr {
-		padding-bottom: 16px;
-		padding-top: 4px;
-		max-width: 400px;
-		text-align: center;
-		margin: auto;
-	}
+  .tldr {
+    padding-bottom: 16px;
+    padding-top: 4px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+  }
 
-	section {
-		.float-container {
-			transition: all .4s ease;
-			padding: 16px 0 0 0;
-			z-index: 1;
-			left: 8px;
+  section {
+    .float-container {
+      transition: all 0.4s ease;
+      padding: 16px 0 0 0;
+      z-index: 1;
+      left: 8px;
 
-			@media (min-width: 768px) {
-				right: 24px;
-			}
+      @media (min-width: 768px) {
+        right: 24px;
+      }
 
-			@media (min-width: 1380px) {
+      @media (min-width: 1380px) {
+        &.left {
+          float: left;
+          margin-left: calc(((100% - 1092px) / 2) - 80px);
+        }
 
-				&.left {
-					float: left;
-					margin-left: calc(((100% - 1092px)/2) - 80px);
-				}
+        &.right {
+          float: right;
+          margin-right: calc(((100% - 1092px) / 2) - 80px);
+        }
 
-				&.right {
-					float: right;
-					margin-right: calc(((100% - 1092px)/2) - 80px);
-				}
+        .float {
+          border-top: 4px solid $orange;
+        }
 
-				.float {
-					border-top: 4px solid  $orange;
-				}
+        position: fixed;
+        top: 120px;
+        flex-direction: column;
+        position: sticky;
+        padding: 16px;
+        max-width: calc((1280px - 800px) / 2);
 
-				position: fixed;
-				top: 120px;
-				flex-direction: column;
-				position: sticky;
-				padding: 16px;
-				max-width: calc((1280px - 800px)/2);
+        a {
+          margin: 8px auto 0 auto;
+        }
+      }
+    }
 
-				a {
-					margin: 8px auto 0 auto;
-				}
-			}
-		}
+    .soc-float {
+      position: fixed;
+      bottom: 4px;
+      display: flex;
+      background-color: $white_off;
+      border-radius: 8px;
+      transition: all 0.4s ease;
+      padding: 8px;
+      z-index: 1;
+      right: 4px;
 
-		.soc-float {
-			position: fixed;
-			bottom: 4px;
-			display: flex;
-			background-color: $white_off;
-			border-radius: 8px;
-			transition: all .4s ease;
-			padding: 8px;
-			z-index: 1;
-			right: 4px;
+      p {
+        margin: 0;
+        color: $grey_concrete;
+        font-size: 14px;
+      }
 
-			p {
-				margin: 0;
-				color: $grey_concrete;
-				font-size: 14px;
-			}
+      a {
+        margin: 0 8px;
+        padding: 0;
+        text-decoration: none;
+        line-height: 0px;
 
-			a {
-				margin: 0 8px;
-				padding: 0;
-				text-decoration: none;
-				line-height: 0px;
+        img {
+          font-size: 12px;
+          box-sizing: border-box;
+          display: block;
+          filter: contrast(0) brightness(1.1);
 
-				img {
-					font-size: 12px;
-					box-sizing: border-box;
-					display: block;
-					filter: contrast(0)brightness(1.1);
+          &:hover {
+            filter: none;
+          }
+        }
+      }
 
-					&:hover {
-						filter: none;
-					}
-				}
-			}
+      &:hover {
+        filter: none;
+      }
 
-			&:hover {
-				filter: none;
-			}
+      @media (min-width: 768px) {
+        right: 24px;
+      }
 
-			@media (min-width: 768px) {
-				right: 24px;
-			}
+      @media (min-width: 1380px) {
+        position: unset;
+        flex-direction: column;
+        padding: 16px;
+        margin-bottom: 24px;
+        margin: 8px;
 
-			@media (min-width: 1380px) {
-				position: unset;
-				flex-direction: column;
-				padding: 16px;
-				margin-bottom: 24px;
-				margin: 8px;
+        a {
+          margin: 8px auto 0 auto;
+        }
+      }
+    }
 
-				a {
-					margin: 8px auto 0 auto;
-				}
-			}
-		}
+    .case {
+      margin: auto;
+      max-width: 720px;
 
-		.case {
-			margin: auto;
-			max-width: 720px;
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      a,
+      p,
+      ul {
+        max-width: 640px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
 
-			h2, h3, h4, h5, h6, a, p, ul {
-				max-width: 640px;
-				margin-left: auto !important;
-				margin-right: auto !important;
-			}
+      figure {
+        figcaption {
+          font-style: italic;
+          color: $grey_stone;
+          padding: 0 16px;
+          margin: 8px 0 32px 0;
+          font-size: 15px;
+          line-height: 23px;
+        }
+      }
 
-			figure {
+      p,
+      a,
+      ul {
+        font-size: 18px;
+        margin: 16px 0;
+        line-height: 28px;
+        padding: 0 16px;
 
-				figcaption {
-					font-style: italic;
-					color: $grey_stone;
-					padding: 0 16px;
-					margin: 8px 0 32px 0;
-					font-size: 15px;
-					line-height: 23px;
-				}
-			}
+        a {
+          display: inline;
+          margin: 0;
+          padding: 0;
+        }
 
-			p, a, ul {
-				font-size: 18px;
-				margin: 16px 0;
-				line-height: 28px;
-				padding: 0 16px;
+        li {
+          list-style: outside;
+        }
+      }
 
-				a {
-					display: inline;
-					margin: 0;
-					padding: 0;
-				}
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        padding: 0 16px;
+      }
 
-				li {
-					list-style: outside;
-				}
-			}
+      blockquote {
+        margin: 24px;
+        border-left: 4px solid $orange;
 
-			h2, h3, h4, h5, h6 {
-				padding: 0 16px;
-			}
+        p {
+          color: $orange;
+          font-weight: bold;
+          line-height: 32px;
 
-			blockquote {
-				margin: 24px;
-				border-left: 4px solid $orange;
+          span {
+            color: $grey_concrete;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 14px;
+          }
+        }
+      }
 
-				p {
-					color: $orange;
-					font-weight: bold;
-					line-height: 32px;
+      @media (min-width: $breakpoint-sm) {
+        figure {
+          figcaption {
+            padding: 0 32px;
+          }
+        }
 
-					span {
-						color: $grey_concrete;
-						font-weight: 400;
-						font-style: italic;
-						font-size: 14px;
-					}
-				}
-			}
+        p,
+        a,
+        ul {
+          padding: 0 32px;
+        }
 
-			@media(min-width: $breakpoint-sm) {
-
-				figure {
-
-					figcaption {
-						padding: 0 32px;
-					}
-				}
-
-				p, a, ul {
-					padding: 0 32px;
-				}
-
-				h2, h3, h4, h5, h6 {
-					padding: 0 32px;
-				}
-			}
-		}
-	}
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          padding: 0 32px;
+        }
+      }
+    }
+  }
 }
