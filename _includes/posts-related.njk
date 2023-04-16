@@ -4,6 +4,9 @@
 		{% for post in posts %}
 			<article class="cards">
 					<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
+						<div class="card-img">
+							<img src="{{ post.data.image }}">
+						</div>
 						<div class="card-txt">
 							<div class="main-txt">
 								<p class="s">{{ post.data.date | postDate }} <span>&middot;</span> {{ post.data.time }}</p>
