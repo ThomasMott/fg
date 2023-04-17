@@ -3,7 +3,7 @@ title: Design Trends 2023 - A Look into the Future of Design
 name: design-trends-2023-a-look-into-the-future-of-design
 tldr: Looking for a preview of the hottest design trends for 2023? Look no further! This article explores emerging trends like minimalist aesthetics, bold color palettes, and intricate 3D graphics set to take the design world by storm. Ready to incorporate these trends into your own work? Read on to learn more!
 time: 10 min
-image: /static/images/blog/design-trends-2023-a-look-into-the-future-of-design/creative.jpg
+image: /static/images/blog/design-trends-2023-a-look-into-the-future-of-design/neo.jpg
 tags: ["post", "design"]
 date: 2023-04-17
 layout: layouts/post.njk
