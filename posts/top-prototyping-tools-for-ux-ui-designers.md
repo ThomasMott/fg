@@ -7,6 +7,7 @@ image: /static/images/blog/top-protoyping-tools-for-ux-ui-designers/prototyping.
 tags: ["post", "design", "Ux", "UI"]
 date: 2023-04-15
 layout: layouts/post.njk
+author: Tom Mott
 ---
 
 With the rise of Ux / UI design industry, designers are looking for tools that will help them bring their design ideas to life in the most efficient way possible. Prototyping tools have become an essential part of a designer's toolset, allowing them to create high-fidelity prototypes that give stakeholders an idea of what the final product will look like. This not only saves a lot of time for product develoopment but also a lot of money as well.

@@ -4,9 +4,10 @@ name: creating-an-indie-brand-logo
 tldr: Using Adobe Illustrator and also my hands to create a brand logo.
 time: 10 min
 image: /static/images/blog/creating-a-brand-logo/creative.jpg
-tags: ['post', 'tutorial', 'design']
+tags: ["post", "tutorial", "design"]
 date: 2022-07-25
 layout: layouts/post.njk
+author: Tom Mott
 ---
 
 ## Why Make A Logo?
@@ -25,7 +26,7 @@ The perfect logo is not everyones first port of call. That being said, here are 
 
 ### 1. It Grabs ATTENTION
 
-Attention spans are short these days *(especially consumers)*.
+Attention spans are short these days _(especially consumers)_.
 
 A good logo is the split second opportunity to grab someones attention and communicate your brand. Having a stand out logo among all the others is a solid method of getting someone to give you a chance.
 
@@ -84,13 +85,13 @@ A method I sometimes use for sketching rapidly and coming up with ideas is [Craz
 
 Once you have a solid concept its time to get that bad boy into Adobe Illustrator!
 
-Once I have a design I like I usually photograph or scan the sketch and use the pen tool to make the graphic. *(A good tip for logo design is to always work in black and white so you aren't distracted or influenced by colour, flipping the image can also help identify where needs to be balanced.)*.
+Once I have a design I like I usually photograph or scan the sketch and use the pen tool to make the graphic. _(A good tip for logo design is to always work in black and white so you aren't distracted or influenced by colour, flipping the image can also help identify where needs to be balanced.)_.
 
 <br>
 
 ### 4.Revel
 
-Give one glance, to make sure it's really happening. This is your moment. Soak it in, you've earned one glance. F*** it! Fully behold your creation. You've earned this. Months of planning. It's all happening. Feel the warmth. Tweet the picture, you've earned one tweet. Tweet a picture of you next to the logo. Defiant and proud. This is your moment.
+Give one glance, to make sure it's really happening. This is your moment. Soak it in, you've earned one glance. F\*\*\* it! Fully behold your creation. You've earned this. Months of planning. It's all happening. Feel the warmth. Tweet the picture, you've earned one tweet. Tweet a picture of you next to the logo. Defiant and proud. This is your moment.
 
 <figure>
 	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/logo-bw.png" alt="FoxGibbon logo" style="height: auto;">

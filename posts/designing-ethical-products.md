@@ -4,18 +4,19 @@ name: designing-ethical-products
 tldr: Ethical design considerations to make as a UX designer to prevent addiction.
 time: 15 min
 image: /static/images/blog/designing-ethical-products/addiction.jpg
-tags: ['post', 'design', 'ethical']
+tags: ["post", "design", "ethical"]
 date: 2022-11-09
 layout: layouts/post.njk
+author: Tom Mott
 ---
 
 ## Design has become addictive
 
-As a digital designer, the things you work on can have a serious impact on those around you. 
+As a digital designer, the things you work on can have a serious impact on those around you.
 
 Since its beginnings there has always been individuals who have warned against the addictiveness of computer use. Jumping forward to today, dark patterns, used to manipulate how individuals act online is more rampant than ever.
 
-This is defined as Internet Addiction Disorder *(IAD)* and classed as a form of behavioural addiction.
+This is defined as Internet Addiction Disorder _(IAD)_ and classed as a form of behavioural addiction.
 
 ## Ethical design
 
@@ -33,23 +34,23 @@ Like usability, inclusive design has become a standard item in the requirement l
 
 ### Privacy
 
-The topic of privacy has become much more prevalent in recent years. More and more services are using privacy as their USP *(unique selling point)*. With analytics and trackers corporations have access to an abundance of personal information. As designers we have to consider what information is strictly necessary for services to work. If sensitive information is needed, think how to be as transparent about how this will be used; make people aware of the potential risks without overloading them. There re no frameworks that I am aware of for general privacy. However, when conducting deign research [The Little Book of Design Research Ethics](https://www.ideo.com/post/the-little-book-of-design-research-ethics) is a great place to start.
+The topic of privacy has become much more prevalent in recent years. More and more services are using privacy as their USP _(unique selling point)_. With analytics and trackers corporations have access to an abundance of personal information. As designers we have to consider what information is strictly necessary for services to work. If sensitive information is needed, think how to be as transparent about how this will be used; make people aware of the potential risks without overloading them. There re no frameworks that I am aware of for general privacy. However, when conducting deign research [The Little Book of Design Research Ethics](https://www.ideo.com/post/the-little-book-of-design-research-ethics) is a great place to start.
 
 ### Dark UX
 
 I often find myself on my laptop scrolling through recommended feeds on social media.
 
-Social media apps are designed to be addictive. Utilizing genuine Psychology, they are designed to keep our eyes on our screens because the more time and attention we give to these platforms, the more profit the companies generate through advertising. So, designers intentionally create features to be addictive. 
+Social media apps are designed to be addictive. Utilizing genuine Psychology, they are designed to keep our eyes on our screens because the more time and attention we give to these platforms, the more profit the companies generate through advertising. So, designers intentionally create features to be addictive.
 
 Dark UX patterns can also be used to manipulate user journeys, forcing you onto pages or into subscriptions you didn't originally want.
 
 There is a responsibly for designers to lower the addictiveness of these products. [The Center for Humane Technology](https://www.humanetech.com/) has some useful information on this topic.
 
-## It is tough to create a business case for ethics 
+## It is tough to create a business case for ethics
 
-Ideally, in design projects, we should always map out exactly how we can prevent creating addictive and inaccessible products. However, the reality is much less simple. 
+Ideally, in design projects, we should always map out exactly how we can prevent creating addictive and inaccessible products. However, the reality is much less simple.
 
-There are many constraints *(time, budget, resources)* to consider all the ethical implications of our work.
+There are many constraints _(time, budget, resources)_ to consider all the ethical implications of our work.
 
 In many cases, companies simply do not see the value of investing into it. As a designer you have to push against many existing internal paradigms which if not managed correctly are akin to the task faced by [Sisyphus](https://en.wikipedia.org/wiki/Sisyphus).
 

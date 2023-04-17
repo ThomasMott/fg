@@ -4,9 +4,10 @@ name: learning-new-skills-for-free
 tldr: You don't need to pay a fortune to learn a new skill. There are many platforms and subscription plans (Skillshare, Youtube, Sololearn) that allow you to learn the skills you want for nothing. As longs as you don't mind a few Ads that is!
 time: 10 min
 image: /static/images/blog/learning-new-skills-for-free/learn.jpg
-tags: ['post', 'design', 'other']
+tags: ["post", "design", "other"]
 date: 2022-08-14
 layout: layouts/post.njk
+author: Tom Mott
 ---
 
 ## What skills do you want to learn?
@@ -15,7 +16,7 @@ layout: layouts/post.njk
 
 For me, I wanted to get some experience with Unity 2D and C#. After a few weeks of experimenting here are my top picks:
 
-### Sololearn *(C#)*
+### Sololearn _(C#)_
 
 [Sololearn has the world's largest collection of FREE programming courses](https://www.sololearn.com). Options including: Python, C++, JavaScript, Java, jQuery, machine learning, data science. As a bonus you receive a certificate for each course you complete.
 
@@ -40,7 +41,7 @@ While a bit frustrating to progress in a language you already know, [SoloLearn c
 
 <br>
 
-### Youtube *(Unity)*
+### Youtube _(Unity)_
 
 [YouTube is a free video sharing website](#) where users can watch, like, share, comment and upload their own videos.
 
@@ -66,7 +67,7 @@ With **500 Hours of Video Uploaded to YouTube Every Minute**, if you do a little
 
 <br>
 
-### Skillshare *(Unity)*
+### Skillshare _(Unity)_
 
 [Skillshare is an online learning community with loads of classes](https://www.skillshare.com). There are courses for illustration, design, photography, video, freelancing, and more.
 

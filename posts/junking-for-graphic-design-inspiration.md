@@ -7,6 +7,7 @@ image: /static/images/blog/junking-for-graphic-design-inspiration/retro.jpg
 tags: ["post", "design", "graphics"]
 date: 2022-10-05
 layout: layouts/post.njk
+author: Tom Mott
 ---
 
 ## A lot of things nowadays seems to be made without any real care for craft

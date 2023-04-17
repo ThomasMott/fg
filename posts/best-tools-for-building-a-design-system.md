@@ -7,6 +7,7 @@ image: /static/images/blog/best-tools-for-building-a-design-system/design-system
 tags: ["post", "design", "Ux", "UI"]
 date: 2023-04-16
 layout: layouts/post.njk
+author: Tom Mott
 ---
 
 Design systems have become an integral part of the design process. They provide consistency, efficiency, and scalability to design teams. However, creating design systems from scratch can be a tedious and overwhelming process. This is where design system tools come in handy. In this article, we will explore the best design system tools currently available in the market.

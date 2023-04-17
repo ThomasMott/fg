@@ -4,9 +4,10 @@ name: first-post
 tldr: Fox Gibbon is place for tech, design and hobby enthusiasts. A place to find up to date tutorials, news and discussions for professionals. We are going to place a strong emphasis on good practice, accessibility. This is also a place to celebrate brands that are independent, challenging the big brands with amazing new innovations.
 time: 4 min
 image: /static/images/blog/first-post/one.jpg
-tags: ['post', 'other']
+tags: ["post", "other"]
 date: 2022-06-09
 layout: layouts/post.njk
+author: Tom Mott
 ---
 
 ## First Post
@@ -35,4 +36,3 @@ If you want to contribute a post, I will be adding a readme with more informatio
 	<img class="case-img" src="/static/images/blog/first-post/rock.jpg" alt="The rock face meme">
 	<figcaption>It's about drive, it's about power.</figcaption>
 </figure>
-

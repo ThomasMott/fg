@@ -4,9 +4,10 @@ name: choosing-a-modern-color-palette-for-your-brand
 tldr: Best tools and theory to create a modern color palette for your brand.
 time: 10 min
 image: /static/images/blog/choosing-a-modern-color-palette-for-your-brand/color.jpg
-tags: ['post', 'tutorial', 'design']
+tags: ["post", "tutorial", "design"]
 date: 2022-08-22
 layout: layouts/post.njk
+author: Tom Mott
 ---
 
 ## Why is your brand color palette so important?
@@ -97,6 +98,6 @@ Once you have your main colors chosen I would recommend using online tools to bu
 
 [Coolors](https://coolors.co/) is another top pick. It is a super fast palette generator. There are also many color schemes created by many of its 3 million users to browse and get inspired by. This site has been expanded to allow plugins to a lot of applications too making it easier to get started using your new palette.
 
-*It is very easy to get lost when looking at color palettes. When defining a palette a good rule of thumb is to stick with 1 or 2 primary colors and around 3 secondary colors.*
+_It is very easy to get lost when looking at color palettes. When defining a palette a good rule of thumb is to stick with 1 or 2 primary colors and around 3 secondary colors._
 
-So there you have it, a fairly concise guide to choosing the right colors for your brand *(I will be creating more content for game design palettes in the future)*. I hope it helped and I look forward to seeing your brands shining out there in the world!
+So there you have it, a fairly concise guide to choosing the right colors for your brand _(I will be creating more content for game design palettes in the future)_. I hope it helped and I look forward to seeing your brands shining out there in the world!
