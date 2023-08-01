@@ -1,28 +1,28 @@
 /*breakpoints*/
-$breakpoint-xs:480px;
-$breakpoint-sm:768px;
-$breakpoint-md:992px;
-$breakpoint-lg:1300px;
-$breakpoint-xl:1760px;
-$breakpoint-lx:2200px;
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1300px;
+$breakpoint-xl: 1760px;
+$breakpoint-lx: 2200px;
 
 /*colours*/
-$black_dusty: #3e3355;
-$black_jet: #363537;
-$grey_concrete: #808080;
-$grey_light_1: #F3F3F3;
-$grey_light_2: #E7E7E7;
+$black_dusty: #382e4d;
+$black_jet: #514766;
+$grey_concrete: #787088;
+$grey_light_1: #f3f3f3;
+$grey_light_2: #e7e7e7;
 $grey_med: #bebebe;
 $grey_slate: #444;
-$grey_stone: #A3A49E;
-$white: #FFF;
-$white_off: #F7F8F6;
+$grey_stone: #8b8599;
+$white: #fff;
+$white_off: #fbf8f4;
 $white_light: #fafbfa;
 $voilet_blue: #34aae0;
 $voilet_dark: #3581a3;
 $pink_dark: #f68ddc;
 $orange: #fe9d2b;
-$orange_light: #FBB040;
+$orange_light: #fbb040;
 $yellow: #fadd7f;
 
 /*borders*/
@@ -56,6 +56,8 @@ $spacing_nine: 96px;
 $spacing_ten: 128px;
 //defined further in spacing.scss
 
-$filter: contrast(0)brightness(10);
-$logo_filter: contrast(0) invert(18%) sepia(86%) saturate(775%) hue-rotate(258deg) brightness(25%) contrast(90%);
-$icon_filter: contrast(0) invert(18%) sepia(86%) saturate(775%) hue-rotate(258deg) brightness(25%) contrast(90%);
+$filter: contrast(0) brightness(10);
+$logo_filter: contrast(0) invert(18%) sepia(86%) saturate(775%)
+	hue-rotate(258deg) brightness(25%) contrast(90%);
+$icon_filter: contrast(0) invert(18%) sepia(86%) saturate(775%)
+	hue-rotate(258deg) brightness(25%) contrast(90%);

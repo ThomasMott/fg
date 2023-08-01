@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
-h1,h2,h3,h4,h5,h6 {
-	font-family: 'Zilla Slab', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Zilla Slab", serif;
 	color: $black_jet;
 	overflow-wrap: break-word;
 	font-weight: 700;
 
 	span {
-		font-family: 'Zilla Slab', serif;
+		font-family: "Zilla Slab", serif;
 		background-color: $yellow;
-		color: $black_dusty
+		color: $black_dusty;
 	}
 
 	a {
@@ -18,11 +23,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 64px;
 	line-height: 64px;
 	padding-bottom: 8px;
 	margin: 8px 0;
 	letter-spacing: 0.04em;
+	max-width: $breakpoint-sm;
 }
 
 h2 {
@@ -47,11 +53,11 @@ p {
 	letter-spacing: 0.2px;
 
 	&.top {
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Montserrat", sans-serif;
 		font-size: 18px;
 
 		em {
-			font-family: 'Montserrat', sans-serif;
+			font-family: "Montserrat", sans-serif;
 		}
 	}
 }

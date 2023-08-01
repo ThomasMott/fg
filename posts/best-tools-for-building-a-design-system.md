@@ -16,11 +16,6 @@ Design systems have become an integral part of the design process. They provide 
 
 Design system tools are software applications that help in the creation, management, and implementation of design systems. These tools enable designers to create UI components, style guides, documentation, and more. Let's dive into some of the best design system tools:
 
-<figure>
-	<img class="case-img" src="/static/images/blog/best-tools-for-building-a-design-system/design-system.jpg" alt="Creating a design system">
-	<figcaption>Design systems - Unsplash.</figcaption>
-</figure>
-
 ### Figma
 
 [Figma](https://www.figma.com/) is a cloud-based design tool that allows teams to collaborate on design projects in real-time. One of the standout features of Figma is its ability to create design systems as well as prototype. With no coding knowledge required, designers can create and maintain design systems efficiently. Figma's collaborative features also make it easier to share and iterate on design components.

@@ -1,11 +1,7 @@
 ---
-title: Reading List
+title: Reading List for aspiring designers
 layout: layouts/page.njk
 ---
-
-# <span>Reading list</span> for <span>aspiring designers</span>.
-
-## Books I have read to create posts for this blog:
 
 -   Just my Type : _Simon Garfield_
 -   Scratching the Surface : _Adrian Shaughnessy_

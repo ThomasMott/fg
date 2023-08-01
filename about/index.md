@@ -3,7 +3,7 @@ title: About - FoxGibbon
 layout: layouts/page.njk
 ---
 
-Hi, I'm not just and arrangement of pixels that form letters on your device, I am also a designer with and MA in User Experience design and about 4 years working in startups and small businesses. There have been some highs and lows.
+Hi, I am a Ux / UI designer with and MA in User Experience design and about 4 years working in startups and small businesses.
 
 I created this blog to try and help navigate some of the biggest challenges I faced and hopefully nudge you, the reader in the right direction. The hope is that this will also become a place where I can add some odd things that you might not see on the slightly more starched mainstream. I would also like to make this a place to celebrate brands that are independent, challenging the big brands with amazing new innovations. But for now I am just one man and a laptop.
 

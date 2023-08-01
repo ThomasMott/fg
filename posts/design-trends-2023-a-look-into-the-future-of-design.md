@@ -20,11 +20,6 @@ From minimalist aesthetics to exciting new color palettes, we have a lot to look
 
 It feels as though Minimalism has been a popular design trend for years, and it shows no signs of slowing down. However, as we continue to push the boundaries of style in 2023 we can expect to see bold new takes on this classic style. Rather than just stripping designs down to their bare essentials, designers will start to explore more innovative minimalist aesthetics. This had already begun to include the use of negative space in creative ways, or the incorporation of subtle geometric patterns. An extention of this is the rise of Neomorphism, a visual effect that utilises background colours, shadows, shapes, gradients, and highlights to achieve defined, yet minimal, graphic effects for user interface components.
 
-<figure>
-	<img class="case-img " src="/static/images/blog/design-trends-2023-a-look-into-the-future-of-design/neo.jpg" alt="Neomorphic design" style="height: auto;">
-	<figcaption>Neomorphism: Image by <a href="https://www.freepik.com/free-vector/collection-elements-neumorphic-style_8507495.htm#query=neomorphism&position=5&from_view=keyword&track=sph">Vectonauta</a> on Freepik</figcaption>
-</figure>
-
 ### Bold Color Palettes
 
 In recent years, muted tones and pastels have dominated the world of design. However, in 2023 we can expect to see a shift towards bolder, more vibrant color palettes. This trend is driven in part by the rise of mobile design, where striking colors are needed to grab user attention. Expect to see bright, eye-catching hues paired with unexpected combinations of complementary colors.

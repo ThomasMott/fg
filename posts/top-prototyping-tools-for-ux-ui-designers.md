@@ -14,11 +14,6 @@ With the rise of Ux / UI design industry, designers are looking for tools that w
 
 ## In this article, we will explore the top 5 prototyping tools for Ux / UI designers.
 
-<figure>
-	<img class="case-img" src="/static/images/blog/top-protoyping-tools-for-ux-ui-designers/prototyping.jpg" alt="Prototyping a user journey">
-	<figcaption>Prototyping a user journey - Unsplash.</figcaption>
-</figure>
-
 ### Adobe XD
 
 [Adobe XD]() is a popular choice among designers because of its seamless integration with other Adobe products. It is a vector-based prototyping tool that is available for both Mac and Windows users. Adobe XD makes it easy for designers to create wireframes, prototypes, and even animations. It also has a rich plugin ecosystem with plugins for icon management, pattern creation, and more.

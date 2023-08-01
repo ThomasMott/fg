@@ -14,13 +14,6 @@ Certain events have drastically changed how we work over the last few years, wit
 
 In this article, we will have a look at the dizzying highs and terrifying lows of remote working as a designer.
 
-<figure>
-	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/home.jpg" alt="home office">
-	<figcaption>Home office: Photo by <a href="https://unsplash.com/@arnelhasanovic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Arnel Hasanovic</a> on <a href="https://unsplash.com/photos/MNd-Rka1o0Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-  </figcaption>
-</figure>
-
 ## Pros of Remote Working as a Designer
 
 <br/>

@@ -5,31 +5,36 @@ js: read
 
 <section>
 	<div class="grid">
-		<p class="time">{{ time }} <span>&middot</span> {{ date | postDate }}</p>
-		<h1 class="title"><span>{{ title }}</span></h1>
-		{% if tldr %}
-			<div class="tldr">
-				<p>{{ tldr }}</p>
-			</div>
-		{% endif %}
-		<ul class="ul-s">
-			{% for tag in tags %}
-				{% if tag !== 'post' %}
-					<li>{{ tag }}</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
-		<div class="float-container right">
-			{% if related %}
-			<div class="float">
-				<h4>Related Links</h4>
-				<ul>
-				{% for link in related %}
-				<li>{{ link }}</li>
+		<div class="top-info">
+			<p class="time">{{ time }} <span>&middot</span> {{ date | postDate }}</p>
+			<ul class="ul-s">
+				{% for tag in tags %}
+					{% if tag !== 'post' %}
+						<li>{{ tag }}</li>
+					{% endif %}
 				{% endfor %}
-				</ul>
-			</div>
+			</ul>
+			<h1 class="title"><span>{{ title }}</span></h1>
+			{% if tldr %}
+				<div class="tldr">
+					<p>{{ tldr }}</p>
+				</div>
 			{% endif %}
+			<div class="float-container right">
+				{% if related %}
+				<div class="float">
+					<h4>Related Links</h4>
+					<ul>
+					{% for link in related %}
+					<li>{{ link }}</li>
+					{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
+			</div>
+			<div>
+				<img src="{{ image }}">
+			</div>
 		</div>
 		<div class="float-container left">
 			<div class="soc-float">
@@ -61,5 +66,5 @@ js: read
 	</div>
 </section>
 <div id="reading-progress"><div class="reading-progress-container"><div id="reading-progress-fill"></div></div></div>
-{% set posts = collections[tags[1]] | related(page.url, 6667) %}
+{% set posts = collections[tags[1]] | related(page.url, 6671) %}
 {% include "posts-related.njk" %}

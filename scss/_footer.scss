@@ -1,141 +1,140 @@
 /* footer */
 .footers-top {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
 
-  .footers-inner {
-    // box-shadow: 0 -4px $orange, 0 -8px $yellow, 0 -12px $pink_dark,
-    //   0 -16px $voilet_blue;
-    border-top: $black_dusty solid 1px;
-    padding: 40px 20px;
-    display: flex;
-    justify-content: center;
-    max-width: 1092px;
-    width: 100%;
-    box-sizing: border-box;
-    justify-content: space-between;
-    flex-wrap: wrap;
+	.footers-inner {
+		// box-shadow: 0 -4px $orange, 0 -8px $yellow, 0 -12px $pink_dark,
+		//   0 -16px $voilet_blue;
+		padding: 40px 20px;
+		display: flex;
+		justify-content: center;
+		max-width: 1092px;
+		width: 100%;
+		box-sizing: border-box;
+		justify-content: space-between;
+		flex-wrap: wrap;
 
-    .logo {
-      width: 100%;
+		.logo {
+			width: 100%;
 
-      a {
-        float: left;
-        padding: 0 4px;
-        filter: $icon_filter;
+			a {
+				float: left;
+				padding: 0 4px;
+				filter: $icon_filter;
 
-        &:hover {
-          filter: none;
-        }
-      }
-    }
+				&:hover {
+					filter: none;
+				}
+			}
+		}
 
-    .links {
-      min-width: 50%;
-      padding: 24px 0;
+		.links {
+			min-width: 50%;
+			padding: 24px 0;
 
-      @media (min-width: 768px) {
-        min-width: unset;
-        padding: 0;
-      }
-    }
+			@media (min-width: 768px) {
+				min-width: unset;
+				padding: 0;
+			}
+		}
 
-    ul {
-      list-style: none;
-      margin: 0;
+		ul {
+			list-style: none;
+			margin: 0;
 
-      .a-h {
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 16px;
-        color: $black_dusty;
-        font-family: "Zilla Slab", serif;
-      }
+			.a-h {
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: 16px;
+				color: $black_dusty;
+				font-family: "Zilla Slab", serif;
+			}
 
-      li {
-        margin: 8px;
-        font-size: 14px;
-        display: block;
+			li {
+				margin: 8px;
+				font-size: 14px;
+				display: block;
 
-        a {
-          font-size: 14px;
-          text-transform: capitalize;
-          padding: 0;
-          text-decoration: none;
-          display: block;
+				a {
+					font-size: 14px;
+					text-transform: capitalize;
+					padding: 0;
+					text-decoration: none;
+					display: block;
 
-          &:hover {
-            cursor: pointer;
-          }
-        }
+					&:hover {
+						cursor: pointer;
+					}
+				}
 
-        &:last-child {
-          margin-right: 0;
-        }
-      }
-    }
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
 
-    @media (min-width: 768px) {
-      padding: 24px;
-      justify-content: space-between;
-      flex-wrap: nowrap;
+		@media (min-width: 768px) {
+			padding: 24px;
+			justify-content: space-between;
+			flex-wrap: nowrap;
 
-      .logo {
-        width: auto;
+			.logo {
+				width: auto;
 
-        a {
-          float: right;
-        }
-      }
-    }
+				a {
+					float: right;
+				}
+			}
+		}
 
-    @media (min-width: 1280px) {
-      padding: 32px;
-      margin: 0 auto;
-      max-width: 1280px;
-    }
-  }
+		@media (min-width: 1280px) {
+			padding: 32px;
+			margin: 0 auto;
+			max-width: 1280px;
+		}
+	}
 
-  a {
-    margin-bottom: 0;
-  }
+	a {
+		margin-bottom: 0;
+	}
 
-  img {
-    filter: $icon_filter;
+	img {
+		filter: $icon_filter;
 
-    &:hover {
-      filter: none;
-    }
-  }
+		&:hover {
+			filter: none;
+		}
+	}
 }
 
 .footers-bottom {
-  align-items: center;
+	align-items: center;
 
-  .footers-inner {
-    border-top: $black_dusty solid 1px;
-    padding: 8px 20px;
-    max-width: 1092px;
-    margin: auto;
-    width: 100%;
-    box-sizing: border-box;
-    justify-content: space-between;
-    flex-wrap: wrap;
+	.footers-inner {
+		border-top: $black_dusty solid 1px;
+		padding: 8px 20px;
+		max-width: 1092px;
+		margin: auto;
+		width: 100%;
+		box-sizing: border-box;
+		justify-content: space-between;
+		flex-wrap: wrap;
 
-    p {
-      color: $grey_slate;
-      font-size: 13px;
+		p {
+			color: $grey_slate;
+			font-size: 13px;
 
-      a {
-        font-size: 13px;
-      }
-    }
+			a {
+				font-size: 13px;
+			}
+		}
 
-    @media (min-width: 1280px) {
-      margin: 0 auto;
-      max-width: 1280px;
-    }
-  }
+		@media (min-width: 1280px) {
+			margin: 0 auto;
+			max-width: 1280px;
+		}
+	}
 }

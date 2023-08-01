@@ -1,228 +1,278 @@
 .grid {
-  .blog-card {
-    display: grid;
+	.related-title {
+		margin-top: -88px;
+		margin-bottom: 40px;
+		margin-left: 40px;
+	}
 
-    @media (min-width: $breakpoint-sm) {
-      grid-template-columns: repeat(2, 1fr);
-    }
+	.blog-card {
+		display: grid;
 
-    @media (min-width: $breakpoint-md) {
-      grid-template-columns: repeat(3, 1fr);
+		@media (min-width: $breakpoint-sm) {
+			grid-template-columns: repeat(2, 1fr);
+		}
 
-      &.related {
-        @media (min-width: $breakpoint-md) {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
+		@media (min-width: $breakpoint-md) {
+			grid-template-columns: repeat(3, 1fr);
 
-      .main {
-        &.cards {
-          transition-duration: 200ms;
-          grid-column-start: 1;
-          grid-column-end: 4;
-          grid-row-start: 1;
-          grid-row-end: 3;
+			&.related {
+				@media (min-width: $breakpoint-md) {
+					grid-template-columns: repeat(2, 1fr);
+				}
 
-          .card-img {
-            height: 320px;
-            width: 60%;
-            float: left;
+				margin-bottom: 64px;
 
-            img {
-              height: 100%;
-            }
-          }
+				.cards {
+					margin: 16px !important;
 
-          .card-txt {
-            width: 40%;
-            border-bottom: none;
-            float: right;
+					a {
+						display: flex;
+					}
 
-            .main-txt {
-              text-align: left;
-              max-height: 320px;
-              height: 320px;
-            }
-          }
-        }
+					.card-img {
+						max-width: 160px;
+						min-width: 160px;
+						overflow: hidden;
 
-        ul {
-          left: 8px;
-          transform: unset;
+						img {
+							border-style: none;
+							width: 100%;
+							object-fit: cover;
+							height: 120px;
+						}
+					}
 
-          li {
-            color: $black_dusty;
-            background: $yellow;
-          }
-        }
-      }
-    }
+					.card-txt {
+						margin-left: 48px;
+						box-sizing: border-box;
 
-    h2 {
-      font-size: 24px;
-      line-height: 40px;
-      text-align: center;
-    }
+						.main-txt {
+							overflow: hidden;
+							position: relative;
+							box-sizing: border-box;
 
-    ul {
-      padding: 0;
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      position: absolute;
-      bottom: 0;
-      transform: translate(-50%);
-      left: 50%;
-      margin-top: auto;
+							.d {
+								overflow: hidden;
+								display: -webkit-box;
+								-webkit-line-clamp: 2;
+								-webkit-box-orient: vertical;
+								text-overflow: ellipsis;
+								font-size: 13px;
+								color: $black_dusty;
+							}
+						}
 
-      li {
-        padding: 6px 8px;
-        line-height: 13px;
-        font-size: 13px;
-        margin-inline: 8px;
-        border-radius: 4px;
-        color: $black_dusty;
-        background: $yellow;
-        z-index: 1;
-        text-transform: capitalize;
-      }
-    }
+						.s {
+							margin-top: 16px;
+							font-size: 13px;
+							line-height: 20px;
+							overflow: hidden;
+							height: unset;
 
-    .cards {
-      margin: 16px;
-      transition: all 0.4s ease;
-      overflow: hidden;
+							span {
+								color: $pink_dark;
+								font-weight: bold;
+							}
+						}
+					}
 
-      a {
-        text-decoration: none;
-      }
+					h3 {
+						font-size: 20px;
 
-      .card-img {
-        width: 100%;
-        height: 120px;
-        overflow: hidden;
-        border-radius: $radius_md;
+						span {
+							background-color: unset;
+						}
+					}
+				}
+			}
 
-        img {
-          border-style: none;
-          width: 100%;
-          object-fit: cover;
-          height: 120px;
-        }
-      }
+			.main {
+				&.cards {
+					transition-duration: 200ms;
+					grid-column-start: 1;
+					grid-column-end: 4;
+					grid-row-start: 1;
+					grid-row-end: 3;
 
-      .card-txt {
-        background-color: $white_off;
-        box-sizing: border-box;
+					.card-img {
+						height: 320px;
+						width: 60%;
+						float: left;
 
-        .main-txt {
-          overflow: hidden;
-          padding-bottom: 16px;
-          text-align: center;
-          position: relative;
-          max-height: 240px;
-          height: 240px;
-          box-sizing: border-box;
+						img {
+							height: 100%;
+						}
+					}
 
-          .d {
-            overflow: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            text-overflow: ellipsis;
-          }
-        }
+					.card-txt {
+						width: 40%;
+						border-bottom: none;
+						float: right;
 
-        .s {
-          margin: 16px 16px 0 16px;
-          padding: 0 0 4px 0;
-          font-size: 13px;
-          line-height: 20px;
-          overflow: hidden;
-          height: unset;
+						.main-txt {
+							text-align: left;
+						}
+					}
+				}
 
-          span {
-            color: $pink_dark;
-            font-weight: bold;
-          }
-        }
-      }
+				ul {
+					left: 8px;
+					transform: unset;
 
-      .btm {
-        display: flex;
-        justify-content: space-between;
-        margin: 16px 16px 0 16px;
-        padding-bottom: 16px;
+					li {
+						color: $black_dusty;
+						background: $yellow;
+					}
+				}
+			}
+		}
 
-        .ath {
-          display: flex;
-          align-items: center;
+		h2 {
+			font-size: 24px;
+			line-height: 40px;
+			text-align: center;
+		}
 
-          img {
-            border-style: none;
-            width: 24px;
-            object-fit: cover;
-            height: 24px;
-            border-radius: 12px;
-            margin: 0;
-          }
-        }
+		ul {
+			padding: 0;
+			list-style: none;
+			display: flex;
 
-        .s {
-          margin: 0 16px;
-        }
-      }
+			li {
+				padding: 4px 0px;
+				line-height: 13px;
+				font-size: 13px;
+				margin-right: 8px;
+				color: $black_dusty;
+				background: $yellow;
+				text-transform: capitalize;
+			}
+		}
 
-      h3 {
-        margin: 0 16px 8px 16px;
-        font-size: 24px;
-        line-height: 32px;
-        font-weight: 600;
-        max-height: 64px;
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        text-overflow: ellipsis;
+		.cards {
+			margin: 16px;
+			transition: all 0.4s ease;
+			overflow: hidden;
 
-        span {
-          background-color: unset;
-        }
-      }
+			a {
+				text-decoration: none;
+			}
 
-      p {
-        margin: 0 16px;
-        padding: 0;
-        color: $grey_concrete;
-        font-size: 15px;
-        line-height: 25px;
-      }
+			.card-img {
+				width: 100%;
+				height: 120px;
+				overflow: hidden;
 
-      a {
-        padding: 0;
+				img {
+					border-style: none;
+					width: 100%;
+					object-fit: cover;
+					height: 120px;
+				}
+			}
 
-        &:hover {
-          text-decoration: none;
-        }
-      }
+			.card-txt {
+				box-sizing: border-box;
 
-      @media (min-width: $breakpoint-md) {
-        margin: 32px;
-      }
+				.main-txt {
+					overflow: hidden;
+					position: relative;
+					box-sizing: border-box;
 
-      &:hover,
-      :focus {
-        // transform: translate3D(-12px,12px,0) scale(1.02);
-        // box-shadow: 4px -4px $yellow, 8px -8px $pink_dark, 12px -12px $voilet_blue;
-        transform: scale(1.02);
+					.d {
+						overflow: hidden;
+						display: -webkit-box;
+						-webkit-line-clamp: 2;
+						-webkit-box-orient: vertical;
+						text-overflow: ellipsis;
+						font-size: 13px;
+						color: $black_dusty;
+					}
+				}
 
-        h3 {
-          span {
-            background-color: $yellow;
-          }
-        }
-      }
-    }
-  }
+				.s {
+					margin-top: 16px;
+					font-size: 13px;
+					line-height: 20px;
+					overflow: hidden;
+					height: unset;
+
+					span {
+						color: $pink_dark;
+						font-weight: bold;
+					}
+				}
+			}
+
+			.btm {
+				display: flex;
+				justify-content: space-between;
+				margin: 16px 16px 0 16px;
+				padding-bottom: 16px;
+
+				.ath {
+					display: flex;
+					align-items: center;
+
+					img {
+						border-style: none;
+						width: 24px;
+						object-fit: cover;
+						height: 24px;
+						border-radius: 12px;
+						margin: 0;
+					}
+				}
+			}
+
+			h3 {
+				margin: 0 0 8px 0;
+				font-size: 24px;
+				line-height: 32px;
+				font-weight: 600;
+				max-height: 64px;
+				overflow: hidden;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				text-overflow: ellipsis;
+
+				span {
+					background-color: unset;
+				}
+			}
+
+			p {
+				padding: 0;
+				color: $grey_concrete;
+				font-size: 15px;
+				line-height: 25px;
+			}
+
+			a {
+				padding: 0;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+
+			@media (min-width: $breakpoint-md) {
+				margin: 32px;
+			}
+
+			&:hover,
+			:focus {
+				// transform: translate3D(-12px,12px,0) scale(1.02);
+				// box-shadow: 4px -4px $yellow, 8px -8px $pink_dark, 12px -12px $voilet_blue;
+				transform: scale(1.02);
+
+				h3 {
+					span {
+						background-color: $yellow;
+					}
+				}
+			}
+		}
+	}
 }

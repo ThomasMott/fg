@@ -34,11 +34,6 @@ Eco-friendly design aims to minimize this impact by adopting greener practices.
 
 ## Sustainable Product Design: Form and Function with the Environment in Mind
 
-<figure>
-	<img class="case-img" src="/static/images/blog/the-rise-of-eco-friendly-design/product.jpg" alt="eco-friendly packaging">
-	<figcaption>Photo by <a href="https://unsplash.com/@nataliarkush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Natalia Arkusha</a> on <a href="https://unsplash.com/photos/FT66WdCR27E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
-</figure>
-
 Beyond packaging, eco-friendly design is influencing the creation of sustainable products across various industries. From furniture made with reclaimed wood to energy-efficient electronics, the focus is on both form and function, without compromising on environmental responsibility.
 
 If you are near Bristol, visit [SPARKS](https://sparksbristol.co.uk/). Sparks Bristol is a department store designed to support people in Bristol to take easy (and often money-saving!) actions on climate, equality and wellbeing. It is really innovative and interesting!

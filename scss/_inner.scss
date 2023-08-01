@@ -1,5 +1,4 @@
 body {
-
 	&.inner {
 		background-color: $white_off;
 
@@ -7,7 +6,7 @@ body {
 			display: block;
 
 			&.bg {
-				background-color: $white_off;
+				background-color: $white;
 
 				.grid {
 					margin-bottom: 0;
@@ -15,7 +14,6 @@ body {
 			}
 
 			.time {
-				text-align: center;
 				font-size: 14px;
 				color: $grey_concrete;
 
@@ -28,11 +26,8 @@ body {
 			.title {
 				color: $black_jet;
 				font-weight: bold;
-				padding-bottom: 8px;
+				margin-top: 24px;
 				word-wrap: break-word;
-				max-width: 720px;
-				text-align: center;
-				margin: auto;
 			}
 
 			.sec-title {
@@ -43,11 +38,8 @@ body {
 			}
 
 			.sec-txt {
-
 				p {
-
 					@media (min-width: 992px) {
-
 						padding-right: 24px;
 					}
 				}
@@ -65,7 +57,8 @@ body {
 				margin: 8px 0;
 			}
 
-			p, li {
+			p,
+			li {
 				color: $grey_concrete;
 			}
 
@@ -79,7 +72,6 @@ body {
 				padding: 16px;
 
 				.ul-f {
-
 					img {
 						padding-bottom: 16px;
 					}
@@ -112,13 +104,11 @@ body {
 				.ul-s {
 					display: flex;
 					flex-wrap: wrap;
-					justify-content: center;
 
-					li{
+					li {
 						border: none;
-						border-radius: 4px;
-						margin: 0 8px;
-						padding: 6px 8px;
+						margin: 0 8px 0 0;
+						padding: 4px 0;
 						list-style: none;
 						color: $black_dusty;
 						background: $yellow;
