@@ -8,83 +8,99 @@
 	.blog-card {
 		display: grid;
 
-		@media (min-width: $breakpoint-sm) {
-			grid-template-columns: repeat(2, 1fr);
-		}
-
-		@media (min-width: $breakpoint-md) {
-			grid-template-columns: repeat(3, 1fr);
-
-			&.related {
-				@media (min-width: $breakpoint-md) {
-					grid-template-columns: repeat(2, 1fr);
+		&.related {
+			@media (min-width: $breakpoint-xs) {
+				a {
+					display: flex;
 				}
+
+				.card-img {
+					max-width: 120px;
+					min-width: 120px;
+					height: 120px;
+					overflow: hidden;
+
+					img {
+						border-style: none;
+						height: 120px;
+						width: 100%;
+						object-fit: cover;
+					}
+				}
+
+				.card-txt {
+					margin-left: 16px;
+				}
+			}
+
+			@media (min-width: $breakpoint-sm) {
+				grid-template-columns: repeat(2, 1fr);
 
 				margin-bottom: 64px;
 
 				.cards {
-					margin: 16px !important;
+					margin: 32px !important;
 
 					a {
 						display: flex;
 					}
 
 					.card-img {
-						max-width: 160px;
-						min-width: 160px;
+						max-width: 200px;
+						min-width: 200px;
+						height: 140px;
 						overflow: hidden;
 
 						img {
 							border-style: none;
+							height: 160px;
 							width: 100%;
 							object-fit: cover;
-							height: 120px;
 						}
 					}
 
 					.card-txt {
 						margin-left: 48px;
-						box-sizing: border-box;
-
-						.main-txt {
-							overflow: hidden;
-							position: relative;
-							box-sizing: border-box;
-
-							.d {
-								overflow: hidden;
-								display: -webkit-box;
-								-webkit-line-clamp: 2;
-								-webkit-box-orient: vertical;
-								text-overflow: ellipsis;
-								font-size: 13px;
-								color: $black_dusty;
-							}
-						}
-
-						.s {
-							margin-top: 16px;
-							font-size: 13px;
-							line-height: 20px;
-							overflow: hidden;
-							height: unset;
-
-							span {
-								color: $pink_dark;
-								font-weight: bold;
-							}
-						}
 					}
 
 					h3 {
 						font-size: 20px;
+					}
 
-						span {
-							background-color: unset;
+					&.first {
+						a {
+							display: block;
+						}
+
+						.card-img {
+							max-width: 320px;
+							min-width: 320px;
+							height: 320px;
+							overflow: hidden;
+
+							img {
+								border-style: none;
+								height: 320px;
+								width: 100%;
+								object-fit: cover;
+							}
+						}
+
+						.card-txt {
+							margin: 0;
+							max-width: 400px;
+						}
+
+						h3 {
+							font-size: 24px;
 						}
 					}
 				}
 			}
+		}
+
+		@media (min-width: $breakpoint-md) {
+			grid-template-columns: repeat(3, 1fr);
 
 			.main {
 				&.cards {
@@ -105,6 +121,7 @@
 					}
 
 					.card-txt {
+						padding-left: 48px;
 						width: 40%;
 						border-bottom: none;
 						float: right;

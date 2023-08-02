@@ -4,6 +4,7 @@
 	justify-content: center;
 	width: 100%;
 	align-items: center;
+	// background-color: $black_dusty;
 
 	.footers-inner {
 		// box-shadow: 0 -4px $orange, 0 -8px $yellow, 0 -12px $pink_dark,
@@ -23,7 +24,6 @@
 			a {
 				float: left;
 				padding: 0 4px;
-				filter: $icon_filter;
 
 				&:hover {
 					filter: none;
@@ -102,10 +102,10 @@
 	}
 
 	img {
-		filter: $icon_filter;
+		opacity: 0.8;
 
 		&:hover {
-			filter: none;
+			opacity: 1;
 		}
 	}
 }
@@ -114,7 +114,6 @@
 	align-items: center;
 
 	.footers-inner {
-		border-top: $black_dusty solid 1px;
 		padding: 8px 20px;
 		max-width: 1092px;
 		margin: auto;

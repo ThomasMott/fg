@@ -1,52 +1,52 @@
-<section>
+<section class="bg">
 	<div class="grid">
 		<div class="row blog-card">
 		{% for post in posts %}
-		{% if posts[0].data.title == post.data.title %}
-			<article class="cards main">
-				<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
-					<div class="card-img">
-						<img src="{{ post.data.image }}">
-					</div>
-					<div class="card-txt">
-						<div class="main-txt">
-							<p class="s">{{ post.data.date | postDate }} <span>&middot;</span> {{ post.data.time }}</p>
-							<ul class="cat">
-								{% for tag in post.data.tags %}
-									{% if tag !== 'post' %}
-										<li>{{ tag }}</li>
-									{% endif %}
-								{% endfor %}
-							</ul>
-							<h3><span>{{ post.data.title }}</span></h3>
-							<p class="d">{{ post.data.tldr }}</p>
+			{% if posts[0].data.title == post.data.title %}
+				<article class="cards main">
+					<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
+						<div class="card-img">
+							<img src="{{ post.data.image }}">
 						</div>
-					</div>
-				</a>
-			</article>
-		{% endif %}
-		{% if posts[0].data.title !== post.data.title %}
-			<article class="cards">
-				<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
-					<div class="card-img">
-						<img src="{{ post.data.image }}">
-					</div>
-					<div class="card-txt">
-						<div class="main-txt">
-							<ul class="cat">
-								{% for tag in post.data.tags %}
-									{% if tag !== 'post' %}
-										<li>{{ tag }}</li>
-									{% endif %}
-								{% endfor %}
-							</ul>
-							<h3><span>{{ post.data.title }}</span></h3>
-							<p class="d">{{ post.data.tldr }}</p>
+						<div class="card-txt">
+							<div class="main-txt">
+								<p class="s">{{ post.data.date | postDate }} <span>&middot;</span> {{ post.data.time }}</p>
+								<ul class="cat">
+									{% for tag in post.data.tags %}
+										{% if tag !== 'post' %}
+											<li>{{ tag }}</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
+								<h3><span>{{ post.data.title }}</span></h3>
+								<p class="d">{{ post.data.tldr }}</p>
+							</div>
 						</div>
-					</div>
-				</a>
-			</article>
-		{% endif %}
+					</a>
+				</article>
+			{% endif %}
+			{% if posts[0].data.title !== post.data.title %}
+				<article class="cards">
+					<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
+						<div class="card-img">
+							<img src="{{ post.data.image }}">
+						</div>
+						<div class="card-txt">
+							<div class="main-txt">
+								<ul class="cat">
+									{% for tag in post.data.tags %}
+										{% if tag !== 'post' %}
+											<li>{{ tag }}</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
+								<h3><span>{{ post.data.title }}</span></h3>
+								<p class="d">{{ post.data.tldr }}</p>
+							</div>
+						</div>
+					</a>
+				</article>
+			{% endif %}
 		{% endfor %}
    		</div>
   	</div>

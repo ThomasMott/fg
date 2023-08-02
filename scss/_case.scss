@@ -20,6 +20,13 @@ body {
 			margin-top: 48px;
 		}
 
+		@media (min-width: $breakpoint-sm) {
+			img {
+				min-height: 600px;
+				object-fit: cover;
+			}
+		}
+
 		.tldr {
 			max-width: $breakpoint-md;
 			margin-top: 24px;
@@ -74,7 +81,7 @@ body {
 			position: fixed;
 			bottom: 4px;
 			display: flex;
-			background-color: $white_off;
+			background: $white_off;
 			transition: all 0.4s ease;
 			padding: 8px;
 			z-index: 1;
@@ -96,11 +103,10 @@ body {
 					font-size: 12px;
 					box-sizing: border-box;
 					display: block;
-					filter: contrast(0) invert(18%) sepia(86%) saturate(775%)
-						hue-rotate(258deg) brightness(25%) contrast(90%);
+					opacity: 0.8;
 
 					&:hover {
-						filter: none;
+						opacity: 1;
 					}
 				}
 			}
@@ -127,7 +133,6 @@ body {
 		}
 
 		.case {
-			padding: 4px 16px;
 			max-width: 600px;
 			margin-bottom: 64px;
 			position: relative;
@@ -198,6 +203,8 @@ body {
 			}
 
 			@media (min-width: $breakpoint-sm) {
+				background-color: $white;
+				padding: 4px 24px;
 				margin: -320px auto 64px auto;
 
 				li {
