@@ -10,11 +10,13 @@
 		<span>&middot;</span>
 		{% for tag in collections.tagsList %}
 			{% if tag !== 'post' %}
-				<a href="/tags/{{tag}}/"
-				{% if tag in page.url %}
-					aria-current="page"
+				{% if tag !== 'ep' %}
+					<a href="/tags/{{tag}}/"
+					{% if tag in page.url %}
+						aria-current="page"
+					{% endif %}
+					>{{tag}}</a> <span>&middot;</span>
 				{% endif %}
-				>{{tag}}</a> <span>&middot;</span>
 			{% endif %}
 		{% endfor %}
 		</div>

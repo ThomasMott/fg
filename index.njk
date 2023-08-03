@@ -1,14 +1,14 @@
 ---
 title: Latest Posts.
-description: Latest Fox Gibbon posts about design and tech.
+description: FoxGibbon is your source for design news & tutorials. A source of information and ideas that help make sense of an industry constantly transforming.
 layout: layouts/base.njk
 pagination:
   data: collections.post
   size: 16
   alias: posts
+  reverse: true
 ---
 
 {% include "postsTitle.njk" %}
-{% set posts = posts | reverse %}
 {% include "posts.njk" %}
 {% include "pagination.njk" %}

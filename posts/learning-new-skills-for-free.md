@@ -4,7 +4,7 @@ name: learning-new-skills-for-free
 tldr: You don't need to pay a fortune to learn a new skill. There are many platforms and subscription plans (Skillshare, Youtube, Sololearn) that allow you to learn the skills you want for nothing. As longs as you don't mind a few Ads that is!
 time: 10 min
 image: /static/images/blog/learning-new-skills-for-free/learn.jpg
-tags: ["post", "design", "other"]
+tags: ["post", "design"]
 date: 2022-08-14
 layout: layouts/post.njk
 author: Tom Mott
@@ -26,18 +26,18 @@ While a bit frustrating to progress in a language you already know, [SoloLearn c
 
 #### Positives
 
-- Good community
-- Integrated IDE
-- A lot of content covered
-- FREE
-- Certification
+-   Good community
+-   Integrated IDE
+-   A lot of content covered
+-   FREE
+-   Certification
 
 <br>
 
 #### Negatives
 
-- Hard if you've never coded before
-- Ads! Ads! Ads!
+-   Hard if you've never coded before
+-   Ads! Ads! Ads!
 
 <br>
 
@@ -51,19 +51,19 @@ With **500 Hours of Video Uploaded to YouTube Every Minute**, if you do a little
 
 #### Positives
 
-- Good community
-- Integrated IDE
-- A lot of content covered
-- FREE
+-   Good community
+-   Integrated IDE
+-   A lot of content covered
+-   FREE
 
 <br>
 
 #### Negatives
 
-- Limited amount of content
-- Not always a lot of helpful comments
-- Ads! Ads! Ads!
-- No certification
+-   Limited amount of content
+-   Not always a lot of helpful comments
+-   Ads! Ads! Ads!
+-   No certification
 
 <br>
 
@@ -80,18 +80,18 @@ However, if you are looking to learn some very specific content in a short time 
 
 #### Positives
 
-- Large selection of courses
-- Free one month trial
-- Refer a friend = 1 month additional free
-- Live sessions
+-   Large selection of courses
+-   Free one month trial
+-   Refer a friend = 1 month additional free
+-   Live sessions
 
 <br>
 
 #### Negatives
 
-- Not free forever
-- Quality of courses vary
-- No certification
+-   Not free forever
+-   Quality of courses vary
+-   No certification
 
 <br>
 
@@ -103,18 +103,18 @@ The final option in the list is a lot more low-tec, but no less effective! Signi
 
 #### Positives
 
-- Large selection of resources
-- Free
-- Great place to study
-- Meet and support community
+-   Large selection of resources
+-   Free
+-   Great place to study
+-   Meet and support community
 
 <br>
 
 #### Negatives
 
-- Make sure to return nooks on time
-- Quality of material varies
-- No certification
+-   Make sure to return nooks on time
+-   Quality of material varies
+-   No certification
 
 ### Conclusion
 

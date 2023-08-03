@@ -4,7 +4,7 @@ name: designing-ethical-products
 tldr: Ethical design considerations to make as a UX designer to prevent addiction.
 time: 15 min
 image: /static/images/blog/designing-ethical-products/addiction.jpg
-tags: ["post", "design", "ethical"]
+tags: ["post", "design", "ethical", "ep"]
 date: 2022-11-09
 layout: layouts/post.njk
 author: Tom Mott

@@ -4,7 +4,7 @@ name: first-post
 tldr: Fox Gibbon is place for tech, design and hobby enthusiasts. A place to find up to date tutorials, news and discussions for professionals. We are going to place a strong emphasis on good practice, accessibility. This is also a place to celebrate brands that are independent, challenging the big brands with amazing new innovations.
 time: 4 min
 image: /static/images/blog/first-post/one.jpg
-tags: ["post", "other"]
+tags: ["post", "design"]
 date: 2022-06-09
 layout: layouts/post.njk
 author: Tom Mott

@@ -55,7 +55,7 @@
 		}
 
 		.logo {
-			opacity: 0.8;
+			opacity: 1;
 			display: none;
 
 			img {
@@ -63,7 +63,7 @@
 			}
 
 			&:hover {
-				opacity: 1;
+				opacity: 0.8;
 			}
 
 			@media (min-width: $breakpoint-sm) {
@@ -72,7 +72,7 @@
 		}
 
 		.icon {
-			opacity: 0.8;
+			opacity: 1;
 			display: block;
 
 			img {
@@ -80,7 +80,7 @@
 			}
 
 			&:hover {
-				opacity: 1;
+				opacity: 0.8;
 			}
 
 			@media (min-width: $breakpoint-sm) {
@@ -102,13 +102,13 @@
 		}
 
 		.soc-svg {
-			opacity: 0.8;
+			opacity: 1;
 			cursor: pointer;
 			width: 20px;
 			margin: 6px;
 
 			&:hover {
-				opacity: 1;
+				opacity: 0.8;
 				width: 32px;
 				margin: 0;
 			}

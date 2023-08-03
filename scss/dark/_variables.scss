@@ -1,19 +1,21 @@
+//<a class="a-button" id="a-button-theme"><img class="soc-svg" src="/static/images/brightness.svg"></a>
+
 /*breakpoints*/
-$breakpoint-xs:480px;
-$breakpoint-sm:768px;
-$breakpoint-md:992px;
-$breakpoint-lg:1300px;
-$breakpoint-xl:1760px;
-$breakpoint-lx:2200px;
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1300px;
+$breakpoint-xl: 1760px;
+$breakpoint-lx: 2200px;
 
 /*colours*/
 $black_dusty: #fff;
 $black_jet: #f7f8f6;
-$grey_concrete: #E7E7E7;
+$grey_concrete: #e7e7e7;
 $grey_light_1: #444;
 $grey_light_2: #808080;
-$grey_med: #A3A49E;
-$grey_slate: #F3F3F3;
+$grey_med: #a3a49e;
+$grey_slate: #f3f3f3;
 $grey_stone: #bebebe;
 $white: #1c1c1c;
 $white_off: #363537;
@@ -21,9 +23,9 @@ $white_light: #464547;
 $voilet_blue: #81cdf0;
 $voilet_dark: #4bb8e9;
 $pink_dark: #f68ddc;
-$orange: #ED6A5A;
-$orange_light: #FBB040;
-$yellow: #ED6A5A;
+$orange: #ed6a5a;
+$orange_light: #fbb040;
+$yellow: #ed6a5a;
 
 /*borders*/
 $border-light: 1px $grey_light_2 solid;
@@ -57,5 +59,5 @@ $spacing_ten: 128px;
 //defined further in spacing.scss
 
 $filter: none;
-$logo_filter: contrast(0)brightness(10) !important;
-$icon_filter: contrast(0)brightness(10);
+$logo_filter: contrast(0) brightness(10) !important;
+$icon_filter: contrast(0) brightness(10);

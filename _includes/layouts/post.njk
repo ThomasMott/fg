@@ -10,7 +10,9 @@ js: read
 			<ul class="ul-s">
 				{% for tag in tags %}
 					{% if tag !== 'post' %}
-						<li>{{ tag }}</li>
+						{% if tag !== 'ep' %}
+							<li>{{ tag }}</li>
+						{% endif %}
 					{% endif %}
 				{% endfor %}
 			</ul>
@@ -66,5 +68,5 @@ js: read
 	</div>
 </section>
 <div id="reading-progress"><div class="reading-progress-container"><div id="reading-progress-fill"></div></div></div>
-{% set posts = collections[tags[1]] | related(page.url, 6671) %}
+{% set rposts = collections[tags[1]] | related(page.url, 6671) %}
 {% include "posts-related.njk" %}

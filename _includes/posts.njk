@@ -14,7 +14,9 @@
 								<ul class="cat">
 									{% for tag in post.data.tags %}
 										{% if tag !== 'post' %}
-											<li>{{ tag }}</li>
+											{% if tag !== 'ep' %}
+												<li>{{ tag }}</li>
+											{% endif %}
 										{% endif %}
 									{% endfor %}
 								</ul>
@@ -36,7 +38,9 @@
 								<ul class="cat">
 									{% for tag in post.data.tags %}
 										{% if tag !== 'post' %}
-											<li>{{ tag }}</li>
+											{% if tag !== 'ep' %}
+												<li>{{ tag }}</li>
+											{% endif %}
 										{% endif %}
 									{% endfor %}
 								</ul>

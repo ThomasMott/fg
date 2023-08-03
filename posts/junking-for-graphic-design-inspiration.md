@@ -4,7 +4,7 @@ name: junking-for-graphic-design-inspiration
 tldr: By spending time shopping at charity and antique shops you can find some really incredible, unique and cheap sources of graphic design inspiration.
 time: 3 min
 image: /static/images/blog/junking-for-graphic-design-inspiration/retro.jpg
-tags: ["post", "design", "graphics"]
+tags: ["post", "design", "graphics", "ep"]
 date: 2022-10-05
 layout: layouts/post.njk
 author: Tom Mott

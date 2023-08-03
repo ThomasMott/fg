@@ -4,7 +4,7 @@ name: the-rise-of-eco-friendly-design
 tldr: More and more people are becoming aware of the environmental impact of their choices. As a result, the demand for eco-friendly and sustainable products has soared.
 time: 12 min
 image: /static/images/blog/the-rise-of-eco-friendly-design/product.jpg
-tags: ["post", "design", "ethical"]
+tags: ["post", "design", "ethical", "ep"]
 date: 2023-07-24
 layout: layouts/post.njk
 author: Tom Mott

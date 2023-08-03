@@ -103,10 +103,10 @@ body {
 					font-size: 12px;
 					box-sizing: border-box;
 					display: block;
-					opacity: 0.8;
+					opacity: 1;
 
 					&:hover {
-						opacity: 1;
+						opacity: 0.8;
 					}
 				}
 			}
@@ -154,7 +154,7 @@ body {
 			figure {
 				figcaption {
 					font-style: italic;
-					color: $grey_stone;
+					color: $black_jet;
 					margin: 0 0 32px 0;
 					font-size: 13px;
 					line-height: 23px;
@@ -185,19 +185,17 @@ body {
 			}
 
 			blockquote {
-				margin: 24px;
-				border-left: 4px solid $orange;
-
 				p {
+					font-size: 32px;
 					color: $orange;
 					font-weight: bold;
-					line-height: 32px;
+					line-height: 48px;
 
 					span {
-						color: $grey_concrete;
+						color: $black_jet;
 						font-weight: 400;
 						font-style: italic;
-						font-size: 14px;
+						font-size: 13px;
 					}
 				}
 			}

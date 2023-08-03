@@ -10,24 +10,31 @@
 		// box-shadow: 0 -4px $orange, 0 -8px $yellow, 0 -12px $pink_dark,
 		//   0 -16px $voilet_blue;
 		padding: 40px 20px;
-		display: flex;
+		display: grid;
 		justify-content: center;
 		max-width: 1092px;
 		width: 100%;
 		box-sizing: border-box;
 		justify-content: space-between;
-		flex-wrap: wrap;
 
 		.logo {
 			width: 100%;
 
 			a {
-				float: left;
-				padding: 0 4px;
+				margin: auto;
 
 				&:hover {
 					filter: none;
 				}
+
+				img {
+					width: 100%;
+				}
+			}
+
+			p {
+				font-size: 13px;
+				text-align: center;
 			}
 		}
 
@@ -80,12 +87,21 @@
 			padding: 24px;
 			justify-content: space-between;
 			flex-wrap: nowrap;
+			grid-template-columns: repeat(3, 1fr);
 
 			.logo {
 				width: auto;
 
+				p {
+					font-size: 13px;
+					padding-right: 64px;
+					text-align: left;
+				}
+
 				a {
-					float: right;
+					img {
+						width: unset;
+					}
 				}
 			}
 		}
@@ -102,10 +118,10 @@
 	}
 
 	img {
-		opacity: 0.8;
+		opacity: 1;
 
 		&:hover {
-			opacity: 1;
+			opacity: 0.8;
 		}
 	}
 }
@@ -114,6 +130,7 @@
 	align-items: center;
 
 	.footers-inner {
+		border-top: 1px solid $black_jet;
 		padding: 8px 20px;
 		max-width: 1092px;
 		margin: auto;
@@ -123,7 +140,7 @@
 		flex-wrap: wrap;
 
 		p {
-			color: $grey_slate;
+			color: $black_dusty;
 			font-size: 13px;
 
 			a {
