@@ -18,6 +18,12 @@ Design system tools are software applications that help in the creation, managem
 
 ### Figma
 
+<figure>
+	<img class="case-img" src="/static/images/blog/best-tools-for-building-a-design-system/figma.jpg" alt="figma website on laptop">
+	<figcaption>Photo by <a href="https://unsplash.com/@tracycodes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tracy Adams</a> on <a href="https://unsplash.com/photos/rA5MU4pXnWE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </figcaption>
+</figure>
+
 [Figma](https://www.figma.com/) is a cloud-based design tool that allows teams to collaborate on design projects in real-time. One of the standout features of Figma is its ability to create design systems as well as prototype. With no coding knowledge required, designers can create and maintain design systems efficiently. Figma's collaborative features also make it easier to share and iterate on design components.
 
 ### Sketch
