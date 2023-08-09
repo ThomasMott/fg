@@ -15,7 +15,7 @@ body {
 
 			.time {
 				font-size: 14px;
-				color: $grey_concrete;
+				color: $grey_med;
 
 				span {
 					color: $pink_dark;
@@ -59,7 +59,7 @@ body {
 
 			p,
 			li {
-				color: $grey_concrete;
+				color: $grey_med;
 			}
 
 			ul {
@@ -76,7 +76,7 @@ body {
 						padding-bottom: 16px;
 					}
 
-					border: 1px solid $grey_med;
+					border: 1px solid $grey_light;
 					padding: 16px;
 					margin: 8px;
 					border-radius: 8px;
@@ -86,7 +86,7 @@ body {
 					}
 
 					.hlght {
-						color: $grey_concrete;
+						color: $grey_med;
 						margin-bottom: 16px;
 						line-height: 40px;
 					}

@@ -117,8 +117,9 @@
 		margin-bottom: 0;
 	}
 
-	img {
+	.soc-svg {
 		opacity: 1;
+		filter: $filter;
 
 		&:hover {
 			opacity: 0.8;

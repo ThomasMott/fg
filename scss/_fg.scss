@@ -10,7 +10,6 @@
 .gibbon {
 	right: calc(20% - 88px);
 
-
 	img {
 		height: 120px;
 	}
@@ -20,14 +19,15 @@
 	max-width: 100%;
 }
 
-.fox, .gibbon {
-	filter: $icon_filter;
+.fox,
+.gibbon {
 	display: none;
 	top: 16px;
 	position: absolute;
 	transition: top 1.6s;
 
-	&:hover, &:focus-within {
+	&:hover,
+	&:focus-within {
 		filter: none;
 		cursor: pointer;
 		top: 56px;

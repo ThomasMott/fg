@@ -1,5 +1,5 @@
-$tooltip_margin:2px;
-$tooltip_triangle:4px;
+$tooltip_margin: 2px;
+$tooltip_triangle: 4px;
 
 [data-tooltip][aria-label] {
 	position: relative;
@@ -9,14 +9,13 @@ $tooltip_triangle:4px;
 		pointer-events: none;
 		white-space: pre;
 		position: absolute;
-		color: $grey_slate;
+		color: $black_jet;
 		background: $white;
 		padding: 4px 16px;
 		border-radius: 24px;
 		visibility: hidden;
-		font-size: 15px;
+		font-size: 13px;
 		z-index: 999;
-		border: 2px solid $grey_slate;
 	}
 
 	&:hover {
@@ -28,9 +27,8 @@ $tooltip_triangle:4px;
 }
 
 [data-tooltip^="down"][aria-label] {
-
 	&::before {
-		top: calc(100% - 8px);
+		top: 100%;
 		right: 50%;
 		transform: translateX(50%);
 	}

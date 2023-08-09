@@ -9,35 +9,28 @@ $breakpoint-xl: 1760px;
 $breakpoint-lx: 2200px;
 
 /*colours*/
-$black_dusty: #fff;
-$black_jet: #f7f8f6;
-$grey_concrete: #e7e7e7;
-$grey_light_1: #444;
-$grey_light_2: #808080;
-$grey_med: #a3a49e;
-$grey_slate: #f3f3f3;
-$grey_stone: #bebebe;
-$white: #1c1c1c;
-$white_off: #363537;
-$white_light: #464547;
-$voilet_blue: #81cdf0;
-$voilet_dark: #4bb8e9;
+$black_dusty: #e2dfdc;
+$black_jet: #c9c6c3;
+$grey_med: #bcb8c4;
+$grey_light: #808080;
+$white_off: #1e253d;
+$white: #141829;
+$orange: #4bb8e9;
 $pink_dark: #f68ddc;
 $orange: #ed6a5a;
-$orange_light: #fbb040;
-$yellow: #ed6a5a;
+$yellow: #fcebb224;
 
 /*borders*/
-$border-light: 1px $grey_light_2 solid;
-$border-medium: 1px $grey_concrete solid;
-$border-bold: 1px $grey_slate solid;
-$border-heavy: 2px $grey_slate solid;
+$border-light: 1px $grey_light solid;
+$border-medium: 1px $grey_med solid;
+$border-bold: 1px $black_jet solid;
+$border-heavy: 2px $black_jet solid;
 
 /*shadow*/
-$box-shadow-one: 0 2px 4px $grey_med;
-$box-shadow-two: 0 3px 6px $grey_med;
-$box-shadow-three: 0 6px 12px $grey_med;
-$box-shadow-four: 0 9px 18px $grey_med;
+$box-shadow-one: 0 2px 4px $grey_light;
+$box-shadow-two: 0 3px 6px $grey_light;
+$box-shadow-three: 0 6px 12px $grey_light;
+$box-shadow-four: 0 9px 18px $grey_light;
 
 /*radius*/
 $radius_sm: 4px;
@@ -58,6 +51,4 @@ $spacing_nine: 96px;
 $spacing_ten: 128px;
 //defined further in spacing.scss
 
-$filter: none;
-$logo_filter: contrast(0) brightness(10) !important;
-$icon_filter: contrast(0) brightness(10);
+$filter: brightness(5);

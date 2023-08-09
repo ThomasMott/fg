@@ -9,33 +9,26 @@ $breakpoint-lx: 2200px;
 /*colours*/
 $black_dusty: #323d66;
 $black_jet: #5b6485;
-$grey_concrete: #787088;
-$grey_light_1: #f3f3f3;
-$grey_light_2: #e7e7e7;
-$grey_med: #bebebe;
-$grey_slate: #444;
-$grey_stone: #8b8599;
-$white: #fff;
+$grey_med: #787088;
+$grey_light: #e7e7e7;
 $white_off: #fbf8f4;
-$white_light: #fafbfa;
-$voilet_blue: #34aae0;
-$voilet_dark: #3581a3;
+$white: #fff;
+$orange: #3581a3;
 $pink_dark: #f68ddc;
 $orange: #eb7262;
-$orange_light: #fbb040;
 $yellow: #fcebb2;
 
 /*borders*/
-$border-light: 1px $grey_light_2 solid;
-$border-medium: 1px $grey_concrete solid;
-$border-bold: 1px $grey_slate solid;
-$border-heavy: 2px $grey_slate solid;
+$border-light: 1px $grey_light solid;
+$border-medium: 1px $grey_med solid;
+$border-bold: 1px $black_jet solid;
+$border-heavy: 2px $black_jet solid;
 
 /*shadow*/
-$box-shadow-one: 0 2px 4px $grey_med;
-$box-shadow-two: 0 3px 6px $grey_med;
-$box-shadow-three: 0 6px 12px $grey_med;
-$box-shadow-four: 0 9px 18px $grey_med;
+$box-shadow-one: 0 2px 4px $grey_light;
+$box-shadow-two: 0 3px 6px $grey_light;
+$box-shadow-three: 0 6px 12px $grey_light;
+$box-shadow-four: 0 9px 18px $grey_light;
 
 /*radius*/
 $radius_sm: 4px;
@@ -56,8 +49,4 @@ $spacing_nine: 96px;
 $spacing_ten: 128px;
 //defined further in spacing.scss
 
-$filter: contrast(0) brightness(10);
-$logo_filter: contrast(0) invert(18%) sepia(86%) saturate(775%)
-	hue-rotate(258deg) brightness(25%) contrast(90%);
-$icon_filter: contrast(0) invert(18%) sepia(86%) saturate(775%)
-	hue-rotate(258deg) brightness(25%) contrast(90%);
+$filter: none;

@@ -27,7 +27,7 @@
 				width: 100%;
 				height: 4px;
 				border-radius: 4px;
-				background-color: $voilet_dark;
+				background-color: $orange;
 				bottom: -2px;
 				height: 1.6px;
 				left: 0;
@@ -94,6 +94,23 @@
 
 			a {
 				float: right;
+				padding: 0;
+			}
+
+			button {
+				background-color: unset;
+				border: none;
+				float: right;
+
+				&:hover {
+					.soc-svg {
+						opacity: 0.8;
+					}
+				}
+
+				.soc-svg {
+					margin-left: 0;
+				}
 			}
 
 			@media (min-width: $breakpoint-sm) {
@@ -103,14 +120,13 @@
 
 		.soc-svg {
 			opacity: 1;
+			filter: $filter;
 			cursor: pointer;
 			width: 20px;
-			margin: 6px;
+			margin-left: 16px;
 
 			&:hover {
 				opacity: 0.8;
-				width: 32px;
-				margin: 0;
 			}
 		}
 
