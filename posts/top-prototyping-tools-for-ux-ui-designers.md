@@ -18,6 +18,11 @@ With the rise of Ux / UI design industry, designers are looking for tools that w
 
 ## 5. UXPin
 
+<figure>
+	<img class="case-img" src="/static/images/blog/top-prototyping-tools-for-ux-ui-designers/uxpin.jpg" alt="uxpin user interface screenshot">
+	<figcaption>UXPin user interface screenshot</figcaption>
+</figure>
+
 [UXPin](https://www.uxpin.com/) is a comprehensive design and prototyping platform. It offers a lot of the things you would expect out of the box, allowing you to create clean prototypes, with the added bonus of advanced prototyping features, to create lifelike interactions, animations, and responsive designs, ensuring a realistic user testing environment.
 
 UXPin's design system capabilities enhance consistency and efficiency by enabling the creation and management of reusable design components and libraries. This ensures a cohesive user interface across various screens and projects, saving valuable time and effort.
@@ -25,6 +30,11 @@ UXPin's design system capabilities enhance consistency and efficiency by enablin
 While UXPin's feature-rich environment caters to experienced designers, it has a much steeper learning curve for beginners. I also find that this product is a bit better at the design system side of things than perhaps for prototyping. However, its extensive documentation, tutorials, and customer support help mitigate this challenge. If you are trying to optimize design flow across a company UXPin can import Figma designs and export them into Storybook. [Try it free here](https://www.uxpin.com/sign-up).
 
 ## 4. Sketch
+
+<figure>
+	<img class="case-img" src="/static/images/blog/top-prototyping-tools-for-ux-ui-designers/sketch.jpg" alt="sketch user interface screenshot">
+	<figcaption>Sketch user interface screenshot</figcaption>
+</figure>
 
 [Sketch](https://www.sketch.com/) is a popular vector-based design tool tailored for modern interface and user experience design. Offering an intuitive and efficient environment, Sketch enables designers to create visually appealing and responsive layouts.
 
@@ -34,17 +44,22 @@ Sketch's powerful features, simplicity, and community support make it a go-to ch
 
 ## 3. Adobe XD
 
-Adobe XD is a powerful and versatile design tool that offers an impressive array of features for creating interactive prototypes, user interfaces, and user experiences. It has gained popularity among designers and UX professionals for its intuitive interface and seamless integration with other Adobe Creative Cloud applications.
-
-While Adobe XD offers a host of advantages, it's worth noting that it may have a steeper learning curve for those who are new to design tools or have not used other Adobe products before. Some users might miss certain advanced features present in other design tools, but Adobe XD's regular updates and feature additions are addressing these gaps over time. Adobe XD used to be free in beta, butr has since been absorbed into the [Adobe Creative Cloud](https://www.adobe.com/uk/creativecloud.html) suite, making using this a bit more of an investment.
-
 <figure>
 	<img class="case-img" src="/static/images/blog/top-prototyping-tools-for-ux-ui-designers/xd.jpg" alt="adobe xd software on laptop">
 	<figcaption>Photo by <a href="https://unsplash.com/@elisebouet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Elise Bouet</a> on <a href="https://unsplash.com/photos/HeuT_HhBdB8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </figcaption>
 </figure>
 
+Adobe XD is a powerful and versatile design tool that offers an impressive array of features for creating interactive prototypes, user interfaces, and user experiences. It has gained popularity among designers and UX professionals for its intuitive interface and seamless integration with other Adobe Creative Cloud applications.
+
+While Adobe XD offers a host of advantages, it's worth noting that it may have a steeper learning curve for those who are new to design tools or have not used other Adobe products before. Some users might miss certain advanced features present in other design tools, but Adobe XD's regular updates and feature additions are addressing these gaps over time. Adobe XD used to be free in beta, butr has since been absorbed into the [Adobe Creative Cloud](https://www.adobe.com/uk/creativecloud.html) suite, making using this a bit more of an investment.
+
 ## 2. Axure RP
+
+<figure>
+	<img class="case-img" src="/static/images/blog/top-prototyping-tools-for-ux-ui-designers/rp.jpg" alt="axure rp user interface screenshot">
+	<figcaption>Axure RP user interface screenshot</figcaption>
+</figure>
 
 [Axure RP](https://www.axure.com/) is a versatile and robust prototyping tool aimed at creating interactive, dynamic, and detailed wireframes and prototypes. With a user-centric approach, Axure RP allows designers to simulate complex interactions, animations, and user flows, providing an authentic testing environment.
 
