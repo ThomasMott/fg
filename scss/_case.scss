@@ -174,9 +174,23 @@ body {
 				line-height: 28px;
 
 				a {
-					display: inline;
-					margin: 0;
-					padding: 0;
+					padding: 4px 0;
+					font-weight: bold;
+					background: linear-gradient(
+						to bottom,
+						$yellow 0%,
+						$yellow 100%
+					);
+					background-position: 0 100%;
+					background-repeat: repeat-x;
+					background-size: 3px 3px;
+					text-decoration: none;
+				}
+
+				a:hover {
+					color: $black_dusty;
+					background-size: auto 40px;
+					text-decoration: none;
 				}
 
 				li {
@@ -187,7 +201,7 @@ body {
 			blockquote {
 				p {
 					font-size: 32px;
-					color: $orange;
+					color: $black_jet;
 					font-weight: bold;
 					line-height: 48px;
 
@@ -196,6 +210,7 @@ body {
 						font-weight: 400;
 						font-style: italic;
 						font-size: 13px;
+						background-color: rgb(252, 235, 178);
 					}
 				}
 			}

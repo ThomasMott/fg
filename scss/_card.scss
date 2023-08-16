@@ -219,7 +219,7 @@
 					height: unset;
 
 					span {
-						color: $pink_dark;
+						color: $orange;
 						font-weight: bold;
 					}
 				}
@@ -285,7 +285,7 @@
 			&:hover,
 			:focus {
 				// transform: translate3D(-12px,12px,0) scale(1.02);
-				// box-shadow: 4px -4px $yellow, 8px -8px $pink_dark, 12px -12px $voilet_blue;
+				// box-shadow: 4px -4px $yellow, 8px -8px $orange, 12px -12px $voilet_blue;
 				transform: scale(1.02);
 
 				h3 {

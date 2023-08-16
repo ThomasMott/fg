@@ -9,4 +9,6 @@ I created this blog to try and help navigate some of the biggest challenges I fa
 
 This blog is an emphasis on experimentation. My definition of a life well lived is to try my hand at as many things as I can, even if sometimes the result is a bit hard to look at.If you yourself have any images, posts, ideas or stories then [reach out](mailto:ThomasNMott1997@gmail.com)! This project is also [open source](https://github.com/ThomasMott/fg), so feel free to add anything you think would be interesting as a pr, I would love to see it.
 
-If you like the sound of this then why not bookmark this website to keep up with the action. New posts on the 12th and 24th of each month.
+If you like the sound of this then why not bookmark this website to keep up with the action.
+
+## New posts added on the first and last Friday of each month.

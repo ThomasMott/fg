@@ -10,21 +10,22 @@
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	color: $white_off;
+	padding-bottom: 32px;
 
 	a {
 		color: $white_off;
 		padding: 0;
-		font-size: 14px;
+		text-decoration: none;
 
 		&[aria-current="page"] {
 			color: #1c1c1c;
 
 			.pagination\:number {
 				background: $orange;
+				opacity: 1;
 
 				&:hover {
-					background: $orange;
+					opacity: 0.8;
 					transform: none;
 				}
 			}
