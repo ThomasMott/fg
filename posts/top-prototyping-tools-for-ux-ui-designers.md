@@ -5,6 +5,7 @@ tldr: Learn about the features and limitations of the top 5 prototyping tools fo
 time: 10 min
 image: /static/images/blog/top-prototyping-tools-for-ux-ui-designers/prototyping.jpg
 tags: ["post", "design", "Ux", "UI"]
+categories: ["design", "Ux", "UI"]
 date: 2023-08-09
 layout: layouts/post.njk
 author: Tom Mott

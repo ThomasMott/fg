@@ -1,9 +1,10 @@
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const dynamicCategories = require("eleventy-plugin-dynamic-categories");
 
-const getSimilarCategories = function (categoriesA, categoriesB) {
-	return categoriesA.filter(Set.prototype.has, new Set(categoriesB)).length;
-};
+// const getSimilarCategories = function (categoriesA, categoriesB) {
+// 	return categoriesA.filter(Set.prototype.has, new Set(categoriesB)).length;
+// };
 
 function shuffle(array) {
 	let currentIndex = array.length,
@@ -35,6 +36,15 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("css");
 	eleventyConfig.addWatchTarget("static");
 	eleventyConfig.addWatchTarget("js");
+
+	// double pagination for categories
+	eleventyConfig.addPlugin(dynamicCategories, {
+		categoryVar: "categories", // "tags" Name of your category variable from your frontmatter (default: categories)
+		itemsCollection: "post", // Name of your collection to use for the items (default: posts)
+		categoryCollection: "categories", // "tags" Name of the new collection to use for the categories (default: value in categoryVar)
+		// categoryCollection MUST be unique currently
+		perPageCount: 16, // Number of items to display per page of categoriesByPage (default: 5)
+	});
 
 	// rss
 	eleventyConfig.addPlugin(pluginRss);

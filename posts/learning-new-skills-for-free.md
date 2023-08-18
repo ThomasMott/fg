@@ -5,6 +5,7 @@ tldr: You don't need to pay a fortune to learn a new skill. There are many platf
 time: 10 min
 image: /static/images/blog/learning-new-skills-for-free/learn.jpg
 tags: ["post", "design"]
+categories: ["design"]
 date: 2022-08-14
 layout: layouts/post.njk
 author: Tom Mott

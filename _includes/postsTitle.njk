@@ -8,16 +8,12 @@
 		{% endif %}
 		>all</a>
 		<span>&middot;</span>
-		{% for tag in collections.tagsList %}
-			{% if tag !== 'post' %}
-				{% if tag !== 'ep' %}
-					<a href="/tags/{{tag}}/"
-					{% if tag in page.url %}
-						aria-current="page"
-					{% endif %}
-					>{{tag}}</a> <span>&middot;</span>
-				{% endif %}
+		{% for category in collections.categories %}
+			<a href="/categories/{{ category.slug }}/"
+			{% if category.title in page.url %}
+				aria-current="page"
 			{% endif %}
+			>{{ category.title }}</a> <span>&middot;</span>
 		{% endfor %}
 		</div>
 	</div>

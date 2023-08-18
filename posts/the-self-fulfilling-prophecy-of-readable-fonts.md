@@ -5,6 +5,7 @@ tldr: Whichever typeface the big dogs of industry deem to be most readable will 
 time: 7 min
 image: /static/images/blog/the-self-fulfilling-prophecy-of-readable-fonts/fonts.jpg
 tags: ["post", "design", "graphics"]
+categories: ["design", "graphics"]
 date: 2022-10-28
 layout: layouts/post.njk
 author: Tom Mott

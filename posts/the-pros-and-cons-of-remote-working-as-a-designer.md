@@ -5,6 +5,7 @@ tldr: The pros and cons of remote working as a designer can be balanced to find 
 time: 6 min
 image: /static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/home.jpg
 tags: ["post", "design"]
+categories: ["design"]
 date: 2023-04-20
 layout: layouts/post.njk
 author: Tom Mott

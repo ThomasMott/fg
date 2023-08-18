@@ -5,6 +5,7 @@ tldr: Fox Gibbon is place for tech, design and hobby enthusiasts. A place to fin
 time: 4 min
 image: /static/images/blog/first-post/one.jpg
 tags: ["post", "design"]
+categories: ["design"]
 date: 2022-06-09
 layout: layouts/post.njk
 author: Tom Mott

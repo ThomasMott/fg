@@ -5,6 +5,7 @@ tldr: Looking for a preview of the hottest design trends for 2023? Look no furth
 time: 10 min
 image: /static/images/blog/design-trends-2023-a-look-into-the-future-of-design/neo.jpg
 tags: ["post", "design"]
+categories: ["design"]
 date: 2023-04-17
 layout: layouts/post.njk
 author: Tom Mott

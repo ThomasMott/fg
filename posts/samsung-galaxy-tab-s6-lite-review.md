@@ -5,6 +5,7 @@ tldr: The Samsung Galaxy Tab S6 Lite is a remarkable device that stands out as t
 time: 8 min
 image: /static/images/blog/samsung-galaxy-tab-s6-lite-review/samsung-galaxy-tab-s6-lite-review.webp
 tags: ["post", "review"]
+categories: ["review"]
 date: 2023-08-16
 layout: layouts/post.njk
 author: Tom Mott

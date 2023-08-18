@@ -5,6 +5,7 @@ tldr: Discover the best design system tools for streamlining your design process
 time: 10 min
 image: /static/images/blog/best-tools-for-building-a-design-system/design-system.jpg
 tags: ["post", "design", "Ux", "UI"]
+categories: ["design", "Ux", "UI"]
 date: 2023-04-16
 layout: layouts/post.njk
 author: Tom Mott

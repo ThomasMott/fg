@@ -5,6 +5,7 @@ tldr: More and more people are becoming aware of the environmental impact of the
 time: 12 min
 image: /static/images/blog/the-rise-of-eco-friendly-design/product.jpg
 tags: ["post", "design", "ep"]
+categories: ["design"]
 date: 2023-07-24
 layout: layouts/post.njk
 author: Tom Mott

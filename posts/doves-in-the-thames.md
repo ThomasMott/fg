@@ -5,6 +5,7 @@ tldr: Doves Roman, which was lost for nearly 100 years in the Thames, has an int
 time: 12 min
 image: /static/images/blog/doves-in-the-thames/doves.png
 tags: ["post", "design", "typography"]
+categories: ["design", "typography"]
 date: 2023-08-14
 layout: layouts/post.njk
 author: Tom Mott
