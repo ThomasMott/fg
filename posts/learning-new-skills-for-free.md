@@ -4,8 +4,8 @@ name: learning-new-skills-for-free
 tldr: You don't need to pay a fortune to learn a new skill. There are many platforms and subscription plans (Skillshare, Youtube, Sololearn) that allow you to learn the skills you want for nothing. As longs as you don't mind a few Ads that is!
 time: 10 min
 image: /static/images/blog/learning-new-skills-for-free/learn.jpg
-tags: ["post", "design"]
-categories: ["design"]
+tags: ["post", "design", "tutorial"]
+categories: ["design", "tutorial"]
 date: 2022-08-14
 layout: layouts/post.njk
 author: Tom Mott

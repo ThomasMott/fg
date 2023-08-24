@@ -4,12 +4,111 @@
   <subtitle>FoxGibbon is your source for design news &amp; tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration &amp; seek help.</subtitle>
   <link href="https://foxgibbon.com/feed/feed.xml" rel="self"/>
   <link href=""/>
-  <updated>2023-08-16T00:00:00Z</updated>
+  <updated>2023-08-24T00:00:00Z</updated>
   <id></id>
   <author>
     <name></name>
     <email></email>
   </author>
+  
+  <entry>
+    <title>Understanding Image Extensions in Graphic and Web Design</title>
+    <link href="/posts/understanding-image-extensions-in-graphic-and-web-design/"/>
+    <updated>2023-08-24T00:00:00Z</updated>
+    <id>/posts/understanding-image-extensions-in-graphic-and-web-design/</id>
+    <content type="html">&lt;p&gt;In the realm of graphic and web design, choosing the right image format can significantly impact the quality, loading speed, and overall user experience. In fact, per recent statistics, &lt;strong&gt;1&lt;/strong&gt; in &lt;strong&gt;4&lt;/strong&gt; visitors would leave a site that takes more than &lt;strong&gt;4 seconds&lt;/strong&gt; to load.&lt;/p&gt;
+&lt;h2&gt;Every 1 second delay reduces user satisfaction by 16%.&lt;/h2&gt;
+&lt;p&gt;Different image extensions &lt;em&gt;(.svg, .png, .jpg, etc.)&lt;/em&gt; cater to varying needs, making it essential to understand their characteristics and best use cases. In this blog post, we&#39;ll explore the most common image formats and how they are utilized in graphic and web design and development.&lt;/p&gt;
+&lt;h2&gt;.SVG (Scalable Vector Graphics)&lt;/h2&gt;
+&lt;p&gt;SVG is a vector-based image format that uses XML-based markup language to define two-dimensional graphics. One of its key advantages is scalability; SVG images can be resized without loss of quality, making them ideal for responsive web design, logos, and icons. Moreover, they have small file sizes, resulting in faster loading times. Since SVG is supported by most modern browsers, it&#39;s an excellent choice for graphics that need to look sharp on any device.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img&quot; src=&quot;/static/images/blog/understanding-image-extensions-in-graphic-and-web-design/bond-street-logo.webp&quot; alt=&quot;bond street logo&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@richwilliamsmith?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Rich Smith&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/lVVs5skyWoo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;When to use&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Logo for a Tech Startup&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Suppose you&#39;re designing a logo for a tech startup that will be used on their website, mobile app, and promotional materials. Using SVG format ensures that the logo remains sharp and legible, regardless of the screen size or resolution.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsive Icons for a Mobile App&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;When designing icons for a mobile app, you want them to adapt seamlessly to different screen sizes. SVG icons provide this flexibility, maintaining clarity and consistency across various devices.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Designing for print&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;When designing for print, such as t-shirt graphics, van decals or billboards, it helps to use an SVG as it can scale to fit all product sizes.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;.PNG (Portable Network Graphics)&lt;/h2&gt;
+&lt;p&gt;PNG is a lossless raster image format known for its ability to preserve image quality without compression artifacts. It supports transparent backgrounds, making it ideal for logos, icons, and images with irregular shapes. PNG&#39;s lossless nature comes at the cost of a larger file sizes, making it less suitable for large photographs. In graphic and web design, PNGs are widely used for graphics that require transparency or sharp details.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img&quot; src=&quot;/static/images/blog/understanding-image-extensions-in-graphic-and-web-design/instagram-png.png&quot; alt=&quot;instagram logo png&quot; /&gt;
+	&lt;figcaption&gt;PNG example - it usually doesnt have the checkered background but I wanted it to be more visual.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;When to use&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Logo with Transparency:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Imagine designing a logo with a unique shape that needs to be displayed on various colored backgrounds. Using a PNG format with a transparent background ensures that the logo blends seamlessly with different page designs.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Icon Set for a Website:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;If you&#39;re creating a set of icons to be used on a website, PNG format is perfect for retaining the icons&#39; sharpness and details, especially when they have small intricate elements.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;.JPG (Joint Photographic Experts Group)&lt;/h2&gt;
+&lt;p&gt;JPG, also known as JPEG, is a popular lossy image format that significantly compresses image data to reduce file sizes. As a result, it may compromise some image quality, especially in high-compression settings. Despite this, JPG is widely used for photographs and images on the web, where the trade-off between quality and file size is necessary for faster loading times. It is not recommended for images with text or graphics requiring transparency, as artifacts may occur.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img&quot; src=&quot;/static/images/blog/understanding-image-extensions-in-graphic-and-web-design/web-gallery-images.webp&quot; alt=&quot;web gallery on desktop&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Annie Spratt&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/jFtBa6aEJqk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;When to use&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website Banner Image:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;When selecting an image for a website banner that contains a photograph or intricate artwork, JPG format strikes a balance between image quality and file size, ensuring a visually appealing and fast-loading webpage.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Product Gallery Images for an Online Store:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;In an e-commerce website displaying various products, JPG format is preferred for product images, allowing customers to see product details without causing long load times.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;.GIF (Graphics Interchange Format)&lt;/h2&gt;
+&lt;p&gt;GIF is a legacy format primarily used for animated images. It supports simple animations, but its color palette is limited to 256 colors, leading to lower image quality. GIFs are commonly used for small animations, memes, and icons that require minimal colors and transparency. However, for larger animations and higher-quality graphics, other formats like .webp or .mp4 are more suitable.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img&quot; src=&quot;/static/images/blog/understanding-image-extensions-in-graphic-and-web-design/goose-gif.gif&quot; alt=&quot;cartoon walking goose gif&quot; style=&quot;height: auto;&quot; /&gt;
+	&lt;figcaption&gt;A fun goose gif
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;When to use&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Loading Spinner Animation:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Incorporating a loading spinner animation on a website is a great use of GIF format, as it can be small in size and doesn&#39;t require a wide range of colors.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Animated Social Media Icon:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;When creating an animated social media icon that subtly moves or changes colors, GIF format is perfect for adding that touch of interactivity.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;.WEBP&lt;/h2&gt;
+&lt;p&gt;Developed by Google, WEBP is a relatively new image format that combines both lossy and lossless compression. It offers better image quality and smaller file sizes than JPG and PNG. While WEBP is becoming increasingly supported in modern browsers, it&#39;s essential to provide fallback options for browsers that do not support it, usually through the use of the &#39;picture&#39; HTML element.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img&quot; src=&quot;/static/images/blog/understanding-image-extensions-in-graphic-and-web-design/image-gallery-on-phone.webp&quot; alt=&quot;image gallery on mobile phone&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@brookelark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Brooke Lark&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/W1B2LpQOBxA?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;When to use&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Featured Image for a Blog Post:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;When optimizing a blog post&#39;s featured image for faster loading and improved SEO, using WEBP format ensures a smaller file size without compromising image quality.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photo Gallery on a Mobile App:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;If you&#39;re designing a photo gallery for a mobile app, using WEBP format for images enhances the app&#39;s performance, allowing users to browse through pictures smoothly.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;In graphic and web design and development, choosing the appropriate image format is crucial to optimize loading times, enhance user experience, and maintain image quality. SVGs work best for scalable graphics like logos and icons, while PNGs are preferred for images with transparent backgrounds. JPGs are ideal for photographic content when balancing quality and file size, while GIFs are useful for small animations.&lt;/p&gt;
+&lt;h2&gt;As the web evolves, formats like WEBP are gaining popularity, offering a compromise between lossy and lossless compression.&lt;/h2&gt;
+&lt;p&gt;Understanding these image extensions empowers designers and developers to make informed choices, ensuring their visuals look their best across all platforms and devices. Happy designing!&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Samsung Galaxy Tab S6 Lite review | The Best Budget Drawing Tablet</title>
