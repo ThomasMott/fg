@@ -4,7 +4,7 @@
   <subtitle>FoxGibbon is your source for design news &amp; tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration &amp; seek help.</subtitle>
   <link href="https://foxgibbon.com/feed/feed.xml" rel="self"/>
   <link href=""/>
-  <updated>2023-08-24T00:00:00Z</updated>
+  <updated>2023-08-25T00:00:00Z</updated>
   <id></id>
   <author>
     <name></name>
@@ -12,12 +12,100 @@
   </author>
   
   <entry>
+    <title>Mastering Layout | A Comprehensive Tutorial</title>
+    <link href="/posts/mastering-ui-design-basics/"/>
+    <updated>2023-08-25T00:00:00Z</updated>
+    <id>/posts/mastering-ui-design-basics/</id>
+    <content type="html">&lt;p&gt;User Interface &lt;em&gt;(UI)&lt;/em&gt; design plays a crucial role in crafting user-friendly digital experiences. Don&#39;t believe me? Here are some incredible UI statistics&lt;/p&gt;
+&lt;h2&gt;&lt;span&gt;94%&lt;/span&gt; of first impressions of a website is &lt;span&gt;directly related to its design&lt;/span&gt;.&lt;/h2&gt;
+&lt;p&gt;A website is vey often one of the first real interactions that your potential customers will have.&lt;/p&gt;
+&lt;h2&gt;&lt;span&gt;Initial judgment&lt;/span&gt; on a website&#39;s credibility is &lt;span&gt;75% based on its overall aesthetics&lt;/span&gt;.&lt;/h2&gt;
+&lt;p&gt;In this tutorial, we&#39;ll delve into the fundamental principles of layouts, covering grids, line length, margins, rule of thirds, type sizes, alignment and spacing. By understanding the reasons behind these practices, you&#39;ll be better equipped to create engaging user interfaces.&lt;/p&gt;
+&lt;h2&gt;Grids: Laying the foundations&lt;/h2&gt;
+&lt;p&gt;Grids are the hidden architecture of almost all forms of graphic, print and web design. It is used to get an idea of the composition and structure, or &#39;feel&#39;, of a page. Implementing thoughtful layouts offers several advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feel for design early:&lt;/strong&gt; using simple grid guidelines you can start to see an outline of what you are going to make. This helps to set the building blocks of the design while the lines are still loose and easy ot change. An effective layout provides a clear structure and helps users navigate content with ease.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User-Focused Flow:&lt;/strong&gt; A well-designed layout guides users through the content in a natural and intuitive sequence.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved Scannability:&lt;/strong&gt; A structured layout enables users to quickly scan and locate information, improving usability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Rule of thirds&lt;/h3&gt;
+&lt;p&gt;The Rule of Thirds is a basic principle in photography, art, and design that helps create visually appealing and balanced compositions. It involves dividing an image into nine equal parts by overlaying two equally spaced horizontal lines and two equally spaced vertical lines, resulting in a grid with four intersections points.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img &quot; src=&quot;/static/images/blog/mastering-ui-design-basics/rule-of-thirds-car-parking-garage.webp&quot; alt=&quot;rule of thirds car parking garage&quot; style=&quot;height: auto;&quot; /&gt;
+	&lt;figcaption&gt;Example rule of thirds&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;Line length: Keeping people interested&lt;/h2&gt;
+&lt;p&gt;Ever noticed that Google results &lt;em&gt;(desktop)&lt;/em&gt; have a really thin width despite it being a massive white page. It&#39;s to make the results scannable. &lt;strong&gt;Columns of text should have a minimum of 6 words&lt;/strong&gt;. This will make the text you are reading feel less jittery and more structured.&lt;/p&gt;
+&lt;p&gt;Shorter lines are more comfortable to read than longer lines. As line length increases, your eye has to travel farther from the end of one line to the beginning of the next, making it harder to track your progress vertically. &lt;strong&gt;Aim for an average line length of 45–90 characters, including spaces&lt;/strong&gt;.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img &quot; src=&quot;/static/images/blog/mastering-ui-design-basics/columns-in-paper.webp&quot; alt=&quot;man reading newspaper&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@iamromankraft?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Roman Kraft&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/_Zua2hyvTBk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;Alignment: Achieving Visual Harmony&lt;/h2&gt;
+&lt;p&gt;Alignment is a cornerstone of good design, bringing a sense of order and visual harmony to your interface. When elements are aligned, users can easily process and navigate your content.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img &quot; src=&quot;/static/images/blog/mastering-ui-design-basics/alignment-scrabble.webp&quot; alt=&quot;alignment scrabble&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@edznorton?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Edz Norton&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/ofja_9Ud9i0?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Enhances Readability:&lt;/strong&gt; Aligned text and images are easier to read and comprehend.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creates Balance:&lt;/strong&gt; Symmetrically aligned elements create a sense of balance and professionalism.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aids Scannability:&lt;/strong&gt; Aligned elements guide users&#39; eyes along a logical path, improving content consumption.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Spacing: Consistency and Proportion&lt;/h2&gt;
+&lt;p&gt;Maintaining consistent spacing is more than just a design rule, it serves practical purposes that contribute to a polished design. &lt;strong&gt;At school we were taught to use increments of 8px across web designs&lt;/strong&gt;. This allows everything on the page to look related and as it had a lot of multiples you can get away with using lots of values that are still related. You can often see this principle mimicked in css frameworks, such as &lt;a href=&quot;https://tailwindcss.com/&quot;&gt;Tailwind&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Enhances Readability:&lt;/strong&gt; Proper spacing prevents elements from crowding, ensuring text and images are easily distinguishable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provides Structure:&lt;/strong&gt; Multiples of 8 create a structured layout that aligns with users&#39; expectations, making it easier to navigate.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Achieves Proportion:&lt;/strong&gt; Consistent spacing fosters a sense of proportion, guiding users&#39; attention to the right elements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Margins: Creating Breathing Space&lt;/h2&gt;
+&lt;p&gt;Margins are not just empty gaps; they contribute to the overall design&#39;s cohesiveness and user experience.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img &quot; src=&quot;/static/images/blog/mastering-ui-design-basics/spacing-layout.webp&quot; alt=&quot;spacing on a brochure&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@plhnk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Paul Hanaoka&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/zxn5g_aZYTQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Visual Separation:&lt;/strong&gt; Margins create a clear separation between elements, the more related an item, the closer the margins. Reducing visual clutter massively improves legibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aesthetic Appeal:&lt;/strong&gt; Ample margins give your design a clean and sophisticated look, making it visually appealing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Focus and Attention:&lt;/strong&gt; Well-placed margins draw attention to essential elements, directing users&#39; focus effectively.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Whitespace: Embracing Simplicity&lt;/h2&gt;
+&lt;p&gt;Whitespace is a powerful tool that offers several benefits for both aesthetics and usability.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img &quot; src=&quot;/static/images/blog/mastering-ui-design-basics/white-space.webp&quot; alt=&quot;blank booklets&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@mediamodifier?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Mediamodifier&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/yev5EPcUtyc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clarity and Focus:&lt;/strong&gt; Whitespace allows users to focus on the content by reducing distractions and visual noise.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved Readability:&lt;/strong&gt; Ample whitespace around text enhances readability and comprehension.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elegance and Sophistication:&lt;/strong&gt; Thoughtful use of whitespace conveys a sense of elegance and professionalism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Type sizes: Showing Heirarchy&lt;/h1&gt;
+&lt;h2&gt;Then you can show something less important with h2&lt;/h2&gt;
+&lt;h3&gt;Now a h3&lt;/h3&gt;
+&lt;h4&gt;Getting small at h4&lt;/h4&gt;
+&lt;br /&gt;
+&lt;h5&gt;Tiny at h5: much less important&lt;/h5&gt;
+&lt;br /&gt;
+&lt;h6&gt;Basically ignore this h6&lt;/h6&gt;
+&lt;p&gt;By organizing elements hierarchically, you emphasize key content and facilitate user engagement.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Understanding the reasons behind UI design principles empowers you to create awesome interfaces. By embracing these practices, you ensure that your designs are user-centric, intuitive, and visually pleasing. Remember, while these principles provide a solid set of foundations, always adapt them to suit your project&#39;s specific needs, and let your creativity shine as you craft remarkable digital interfaces.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Understanding Image Extensions in Graphic and Web Design</title>
     <link href="/posts/understanding-image-extensions-in-graphic-and-web-design/"/>
     <updated>2023-08-24T00:00:00Z</updated>
     <id>/posts/understanding-image-extensions-in-graphic-and-web-design/</id>
     <content type="html">&lt;p&gt;In the realm of graphic and web design, choosing the right image format can significantly impact the quality, loading speed, and overall user experience. In fact, per recent statistics, &lt;strong&gt;1&lt;/strong&gt; in &lt;strong&gt;4&lt;/strong&gt; visitors would leave a site that takes more than &lt;strong&gt;4 seconds&lt;/strong&gt; to load.&lt;/p&gt;
-&lt;h2&gt;Every 1 second delay reduces user satisfaction by 16%.&lt;/h2&gt;
+&lt;h2&gt;Every &lt;span&gt;1 second&lt;/span&gt; delay reduces user satisfaction by &lt;span&gt;16%&lt;/span&gt;.&lt;/h2&gt;
 &lt;p&gt;Different image extensions &lt;em&gt;(.svg, .png, .jpg, etc.)&lt;/em&gt; cater to varying needs, making it essential to understand their characteristics and best use cases. In this blog post, we&#39;ll explore the most common image formats and how they are utilized in graphic and web design and development.&lt;/p&gt;
 &lt;h2&gt;.SVG (Scalable Vector Graphics)&lt;/h2&gt;
 &lt;p&gt;SVG is a vector-based image format that uses XML-based markup language to define two-dimensional graphics. One of its key advantages is scalability; SVG images can be resized without loss of quality, making them ideal for responsive web design, logos, and icons. Moreover, they have small file sizes, resulting in faster loading times. Since SVG is supported by most modern browsers, it&#39;s an excellent choice for graphics that need to look sharp on any device.&lt;/p&gt;
@@ -105,7 +193,7 @@
 &lt;p&gt;&lt;em&gt;If you&#39;re designing a photo gallery for a mobile app, using WEBP format for images enhances the app&#39;s performance, allowing users to browse through pictures smoothly.&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;In graphic and web design and development, choosing the appropriate image format is crucial to optimize loading times, enhance user experience, and maintain image quality. SVGs work best for scalable graphics like logos and icons, while PNGs are preferred for images with transparent backgrounds. JPGs are ideal for photographic content when balancing quality and file size, while GIFs are useful for small animations.&lt;/p&gt;
-&lt;h2&gt;As the web evolves, formats like WEBP are gaining popularity, offering a compromise between lossy and lossless compression.&lt;/h2&gt;
+&lt;h2&gt;As the web evolves, formats like WEBP are gaining popularity, offering a &lt;span&gt;compromise between lossy and lossless compression&lt;/span&gt;.&lt;/h2&gt;
 &lt;p&gt;Understanding these image extensions empowers designers and developers to make informed choices, ensuring their visuals look their best across all platforms and devices. Happy designing!&lt;/p&gt;
 </content>
   </entry>

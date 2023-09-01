@@ -13,7 +13,7 @@ author: Tom Mott
 
 In the realm of graphic and web design, choosing the right image format can significantly impact the quality, loading speed, and overall user experience. In fact, per recent statistics, **1** in **4** visitors would leave a site that takes more than **4 seconds** to load.
 
-## Every 1 second delay reduces user satisfaction by 16%.
+## Every <span>1 second</span> delay reduces user satisfaction by <span>16%</span>.
 
 Different image extensions _(.svg, .png, .jpg, etc.)_ cater to varying needs, making it essential to understand their characteristics and best use cases. In this blog post, we'll explore the most common image formats and how they are utilized in graphic and web design and development.
 
@@ -125,6 +125,6 @@ _If you're designing a photo gallery for a mobile app, using WEBP format for ima
 
 In graphic and web design and development, choosing the appropriate image format is crucial to optimize loading times, enhance user experience, and maintain image quality. SVGs work best for scalable graphics like logos and icons, while PNGs are preferred for images with transparent backgrounds. JPGs are ideal for photographic content when balancing quality and file size, while GIFs are useful for small animations.
 
-## As the web evolves, formats like WEBP are gaining popularity, offering a compromise between lossy and lossless compression.
+## As the web evolves, formats like WEBP are gaining popularity, offering a <span>compromise between lossy and lossless compression</span>.
 
 Understanding these image extensions empowers designers and developers to make informed choices, ensuring their visuals look their best across all platforms and devices. Happy designing!
