@@ -5,6 +5,7 @@ tldr: Welcome to an exploration of minimalism, a lifestyle philosophy that advoc
 time: 10 min
 image: /static/images/blog/understanding-minimalism/minimal.webp
 tags: ["post", "design"]
+categories: ["design"]
 date: 2023-09-11
 layout: layouts/post.njk
 author: Tom Mott
