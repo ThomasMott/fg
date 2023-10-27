@@ -4,12 +4,119 @@
   <subtitle>FoxGibbon is your source for design news &amp; tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration &amp; seek help.</subtitle>
   <link href="https://foxgibbon.com/feed/feed.xml" rel="self"/>
   <link href=""/>
-  <updated>2023-09-11T00:00:00Z</updated>
+  <updated>2023-10-27T00:00:00Z</updated>
   <id></id>
   <author>
     <name></name>
     <email></email>
   </author>
+  
+  <entry>
+    <title>Embrace the Amazing Gift of Limited Life</title>
+    <link href="/posts/embrace-the-amazing-gift-of-limited-life/"/>
+    <updated>2023-10-27T00:00:00Z</updated>
+    <id>/posts/embrace-the-amazing-gift-of-limited-life/</id>
+    <content type="html">&lt;h2&gt;How many hours&lt;/h2&gt;
+&lt;p&gt;Imagine for a moment that you can see how many hours you have left in your life.&lt;/p&gt;
+&lt;h3&gt;If you are 30 years old, thats around 300,000 hours left&lt;/h3&gt;
+&lt;p&gt;That might sound like a lot, but in the grand scheme of things, it&#39;s a precious and finite resource. Knowing that our time is limited can be a powerful motivator to make the most of every moment. It reminds us to cherish our relationships, explore the world, learn, grow, and follow our passions.&lt;/p&gt;
+&lt;p&gt;Every sunrise is a new opportunity, and every day is a chance to create something amazing. By recognizing the value of our limited time, we can make the most of every hour, living life to the fullest. Embrace your journey, treasure your moments, and savor the extraordinary gift of your limited life.&lt;/p&gt;
+&lt;p&gt;At the age I am now, if i&#39;m lucky, I have:&lt;/p&gt;
+&lt;h1 id=&quot;life&quot;&gt;&lt;/h1&gt;
+&lt;p&gt;I hope I can use them well.&lt;/p&gt;
+&lt;script&gt;
+	// Date future
+    var date_future = new Date(&quot;01/15/2058&quot;);
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+		// Get today&#39;s date and time
+		var date_now = new Date();
+
+		// get total seconds between the times
+		var delta = Math.abs(date_future - date_now) / 1000;
+
+		// calculate (and subtract) whole hours
+		var hours = Math.floor(delta / 3600);
+		delta -= hours * 3600;
+
+		// calculate (and subtract) whole minutes
+		var minutes = Math.floor(delta / 60) % 60;
+		delta -= minutes * 60;
+
+		// what&#39;s left is seconds
+		var seconds = Math.round(delta % 60);
+
+		//To display the final no. of days (result)
+		console.log(`${hours}h ${minutes}m ${seconds}s`);
+
+		// Display the result in the element with id=&quot;demo&quot;
+		document.getElementById(&quot;life&quot;).innerHTML = hours + &quot;h &quot;
+		+ minutes + &quot;m &quot; + seconds + &quot;s &quot;;
+
+		// If the count down is finished, write some text
+		if (distance &lt; 0) {
+			clearInterval(x);
+			document.getElementById(&quot;life&quot;).innerHTML = &quot;EXPIRED&quot;;
+		}
+	}, 1000);
+&lt;/script&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Dangers of Scope Creep</title>
+    <link href="/posts/dangers-of-scope-creep/"/>
+    <updated>2023-10-27T00:00:00Z</updated>
+    <id>/posts/dangers-of-scope-creep/</id>
+    <content type="html">&lt;h2&gt;Navigating the Tightrope of Design and Development: The Perils of Scope Creep&lt;/h2&gt;
+&lt;p&gt;In the meticulously organized world of tech and design, the sprint methodology has emerged as a beacon of structure and adaptability. But in this precise choreography, there&#39;s a silent menace known as scope creep that can throw even the most finely tuned projects into disarray. In this article, we&#39;ll explore the hidden dangers of scope creep in design and development sprints, with a particular focus on the burnout it can induce among team members.&lt;/p&gt;
+&lt;h2&gt;Understanding Scope Creep&lt;/h2&gt;
+&lt;h3&gt;&lt;span&gt;Scope creep refers to the gradual, unauthorized expansion of a project&#39;s goals or features beyond its initially defined boundaries or objectives.&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;It starts innocently enough, with minor adjustments and additions to the project&#39;s original blueprint. These changes may seem insignificant at first, mirroring the ever-evolving nature of tech and design. However, if left unchecked, they can evolve into substantial modifications that threaten to derail the project&#39;s original objectives.&lt;/p&gt;
+&lt;h2&gt;The Dangers of Scope Creep&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Erosion of Focus:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Scope creep has a knack for diverting the team&#39;s attention away from the core objectives established at the sprint&#39;s outset. As it introduces new elements, team members find their energies scattered, hindering productivity and potentially compromising the quality of the final product.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Missed Milestones:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Expanding the project&#39;s scope without extending the timeline often results in missed milestones, creating a jarring disconnect between what&#39;s planned and what&#39;s achievable. This can lead to missed deadlines and quality compromises, disrupting the delicate harmony of the sprint.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Burnout Beckons:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Beyond the evident issues of delayed timelines and quality, there&#39;s a more insidious danger: burnout. Team members, forced to navigate the complex maze of scope changes, can face excessive workloads, mental exhaustion, and stress. This burnout threatens creativity and enthusiasm, turning the sprint into an exhausting marathon.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stakeholder Discontent:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the dynamic realm of tech and design, project requirements are in a perpetual state of flux. This can make it challenging to meet stakeholder expectations, leading to discord and strained relationships that can jeopardize the project&#39;s success.&lt;/p&gt;
+&lt;h2&gt;Mitigating Scope Creep&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Transparent Communication:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Establishing crystal-clear communication channels with stakeholders and clients is paramount. Define the project&#39;s scope, objectives, and constraints to ensure everyone understands the potential consequences of scope creep on timelines and deliverables.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rigorous Documentation:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Documenting the project requirements meticulously and obtaining stakeholder sign-off is akin to creating a detailed tech blueprint. This documentation serves as a reference point to track any additional requests, guaranteeing that everyone comprehends the agreed-upon scope. Any proposed changes should undergo a formal change control process.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prioritization and Collaboration:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In tech and design, prioritizing tasks and features based on their significance and alignment with the project&#39;s objectives is crucial. Collaboratively assess new requests and evaluate their compatibility with the project&#39;s goals. Engage stakeholders to maintain transparency and shared comprehension of the trade-offs related to scope alterations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Agile Adaptation:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Embrace agile principles, emphasizing flexibility and adaptability, much like adapting to new tech trends. Regularly review and refine project requirements to accommodate necessary changes while respecting the sprint&#39;s constraints.&lt;/p&gt;
+&lt;h2&gt;Striking a Delicate Balance&lt;/h2&gt;
+&lt;p&gt;In the ever-evolving world of tech and design, scope creep is a subtle saboteur that can disrupt even the most meticulously planned projects. While it&#39;s essential to embrace adaptability and cater to evolving needs, maintaining a delicate equilibrium is equally crucial. By vigilantly monitoring scope changes, nurturing transparent communication, and prioritizing the well-being of your team members, you can navigate the treacherous waters of scope creep while warding off the looming specter of burnout. So, as you embark on your tech and design journey, remember to keep the harmony in your sprint – it&#39;s the secret to a successful and fulfilling endeavor.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img &quot; src=&quot;/static/images/blog/dangers-of-scope-creep/team-meeting.webp&quot; alt=&quot;team meeting everyone is happy&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jasongoodman_youxventures?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Jason Goodman&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/man-standing-behind-flat-screen-computer-monitor-bzqU01v-G54?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Understanding Minimalism</title>
