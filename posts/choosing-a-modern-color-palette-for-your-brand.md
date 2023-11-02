@@ -4,7 +4,7 @@ name: choosing-a-modern-color-palette-for-your-brand
 tldr: Best tools and theory to create a modern color palette for your brand.
 time: 10 min
 image: /static/images/blog/choosing-a-modern-color-palette-for-your-brand/color.jpg
-tags: ["post", "tutorial", "design", "graphics", "UI", "ep"]
+tags: ["post", "tutorial", "design", "graphics", "UI"]
 categories: ["tutorial", "design", "graphics", "UI"]
 date: 2022-08-22
 layout: layouts/post.njk

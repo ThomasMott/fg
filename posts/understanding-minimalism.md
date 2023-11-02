@@ -4,8 +4,8 @@ name: understanding-minimalism
 tldr: Welcome to an exploration of minimalism, a lifestyle philosophy that advocates for simplicity, intentionality, and the pursuit of what truly matters. In a world often characterized by excess, consumerism, and constant stimulation, minimalism offers a path toward a more deliberate and uncomplicated way of living.
 time: 10 min
 image: /static/images/blog/understanding-minimalism/minimal.webp
-tags: ["post", "design"]
-categories: ["design"]
+tags: ["post", "design", "psychology"]
+categories: ["design", "psychology"]
 date: 2023-09-11
 layout: layouts/post.njk
 author: Tom Mott

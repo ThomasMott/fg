@@ -4,8 +4,8 @@ name: embrace-the-amazing-gift-of-limited-life
 tldr: Life is an extraordinary gift, but it's also finite. Each of us has a limited number of hours to experience the world, create memories, and pursue our dreams. It's easy to lose sight of this fact in the hustle and bustle of daily life, but it's a truth that we should embrace and celebrate.
 time: 2 min
 image: /static/images/blog/embrace-the-amazing-gift-of-limited-life/life.webp
-tags: ["post", "mindfulness"]
-categories: ["design"]
+tags: ["post", "psychology"]
+categories: ["psychology"]
 date: 2023-10-27
 layout: layouts/post.njk
 author: Tom Mott

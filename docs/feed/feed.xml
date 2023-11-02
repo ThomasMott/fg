@@ -4,12 +4,53 @@
   <subtitle>FoxGibbon is your source for design news &amp; tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration &amp; seek help.</subtitle>
   <link href="https://foxgibbon.com/feed/feed.xml" rel="self"/>
   <link href=""/>
-  <updated>2023-10-27T00:00:00Z</updated>
+  <updated>2023-11-02T00:00:00Z</updated>
   <id></id>
   <author>
     <name></name>
     <email></email>
   </author>
+  
+  <entry>
+    <title>Maximizing User Experience | Understanding Short-Term Memory in Website Interaction</title>
+    <link href="/posts/maximizing-user-experience-understanding-short-term-memory-in-website-interaction/"/>
+    <updated>2023-11-02T00:00:00Z</updated>
+    <id>/posts/maximizing-user-experience-understanding-short-term-memory-in-website-interaction/</id>
+    <content type="html">&lt;h2&gt;Despite the incredible advances of the past 100 years, &lt;span&gt;the human brain today is the same as the human brain 10,000 years ago&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;When it comes to designing websites and ensuring an exceptional user experience, understanding the limitations of human cognition is crucial. One fundamental aspect of human memory, often overlooked in web design, is short-term memory.&lt;/p&gt;
+&lt;h2&gt;The Capacity of Short-Term Memory&lt;/h2&gt;
+&lt;p&gt;Psychologist George A. Miller proposed the &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two&quot;&gt;&amp;quot;7±2 rule&amp;quot;&lt;/a&gt; in 1956, suggesting that people can effectively remember and process approximately 7 (plus or minus 2) chunks of information in their short-term memory.&lt;/p&gt;
+&lt;p&gt;These chunks can be individual items or groups of related items. For example, a chunk of information might be a phone number, a word, or a color.&lt;/p&gt;
+&lt;h3&gt;If information isn&#39;t &lt;span&gt;rehearsed or moved into long-term memory&lt;/span&gt;, it can disappear from short-term memory in as little as &lt;span&gt;20 seconds&lt;/span&gt;.&lt;/h3&gt;
+&lt;p&gt;When users interact with a website, they rely on their short-term memory to process and remember key information presented to them.&lt;/p&gt;
+&lt;h2&gt;Implications for Web Design&lt;/h2&gt;
+&lt;p&gt;Here are some considerations to enhance the user experience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chunk Information:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Present information in manageable chunks. Avoid overwhelming users with too much content on a single page. Break it down into smaller sections to aid retention.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prioritize Key Information:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ensure that the most critical information is presented prominently. Users are more likely to remember and act upon information placed in the spotlight.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Minimize Distractions:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Avoid clutter and distractions on your website. A clean, organized layout helps users focus on the information they need to retain.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Use Visual Aids:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Visuals, such as images, infographics, and icons, can help users process and remember information more effectively.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Implement Progressive Disclosure:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Present information progressively, revealing details in a logical order. This approach allows users to absorb and remember information step by step.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Provide Cues and Reminders:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Include clear calls to action, buttons, or navigation aids to help users find their way back to important information.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Embrace the Amazing Gift of Limited Life</title>
