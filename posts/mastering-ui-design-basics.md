@@ -8,7 +8,7 @@ tags: ["post", "design", "tutorial"]
 categories: ["design", "tutorial"]
 date: 2023-08-25
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 User Interface _(UI)_ design plays a crucial role in crafting user-friendly digital experiences. Don't believe me? Here are some incredible UI statistics

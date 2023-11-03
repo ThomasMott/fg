@@ -8,7 +8,7 @@ tags: ["post", "design", "tutorial"]
 categories: ["design", "tutorial"]
 date: 2022-11-09
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Design has become addictive

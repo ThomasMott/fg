@@ -8,7 +8,7 @@ tags: ["post", "design", "Ux", "UI"]
 categories: ["design", "Ux", "UI"]
 date: 2023-08-09
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Top 5 prototyping tools

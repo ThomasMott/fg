@@ -8,7 +8,7 @@ tags: ["post", "tutorial", "design", "graphics", "UI"]
 categories: ["tutorial", "design", "graphics", "UI"]
 date: 2022-08-22
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Why is your brand color palette so important?

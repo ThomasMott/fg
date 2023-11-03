@@ -8,7 +8,7 @@ tags: ["post", "design", "tutorial"]
 categories: ["design", "tutorial"]
 date: 2022-08-14
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## What skills do you want to learn?

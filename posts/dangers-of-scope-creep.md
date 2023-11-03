@@ -8,7 +8,7 @@ tags: ["post", "design"]
 categories: ["design"]
 date: 2023-10-27
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Navigating the Tightrope of Design and Development: The Perils of Scope Creep

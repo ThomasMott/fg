@@ -8,7 +8,7 @@ tags: ["post", "psychology", "design"]
 categories: ["psychology", "design"]
 date: 2023-11-02
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Despite the incredible advances of the past 100 years, <span>the human brain today is the same as the human brain 10,000 years ago</span>

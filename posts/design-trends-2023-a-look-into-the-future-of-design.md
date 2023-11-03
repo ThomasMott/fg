@@ -8,7 +8,7 @@ tags: ["post", "design"]
 categories: ["design"]
 date: 2023-04-17
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 Design, like many other professions, is a constantly evolving field, and staying current with the latest trends and techniques is essential for any designer. As we are already nearing the first quarter of 2023, there have been many exciting changes.

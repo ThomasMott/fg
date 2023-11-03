@@ -8,7 +8,7 @@ tags: ["post", "design", "graphics"]
 categories: ["design", "graphics"]
 date: 2022-10-28
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Typography should be readable

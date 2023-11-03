@@ -8,7 +8,7 @@ tags: ["post", "design"]
 categories: ["design"]
 date: 2023-07-24
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 Perhaps it's been the numerous forest fires or record breaking temperatures, but, in recent years, there has been a significant shift in consumer consciousness. More and more people are becoming aware of the environmental impact of their choices. As a result, the demand for eco-friendly and sustainable products has soared. This has prompted industries to finally reevaluate their practices now that money is to be grubbed from consumers under the guise of noble business practice. The design industry, in particular, has been shaken up by this challenge, forcing designers to embrace sustainability as a driving force in the creative processes.

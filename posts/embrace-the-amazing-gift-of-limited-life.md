@@ -8,7 +8,7 @@ tags: ["post", "psychology"]
 categories: ["psychology"]
 date: 2023-10-27
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## How many hours

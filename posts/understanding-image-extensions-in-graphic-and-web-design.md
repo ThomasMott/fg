@@ -8,7 +8,7 @@ tags: ["post", "design", "graphics", "tutorial"]
 categories: ["design", "graphics", "tutorial"]
 date: 2023-08-24
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 In the realm of graphic and web design, choosing the right image format can significantly impact the quality, loading speed, and overall user experience. In fact, per recent statistics, **1** in **4** visitors would leave a site that takes more than **4 seconds** to load.

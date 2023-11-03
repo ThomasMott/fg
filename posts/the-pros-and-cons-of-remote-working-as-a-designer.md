@@ -8,7 +8,7 @@ tags: ["post", "design"]
 categories: ["design"]
 date: 2023-04-20
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 Certain events have drastically changed how we work over the last few years, with remote working becoming more and more common. As a digital designer, you often have the option to work remotely, but is it the right choice?

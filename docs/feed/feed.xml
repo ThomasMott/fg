@@ -4,12 +4,44 @@
   <subtitle>FoxGibbon is your source for design news &amp; tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration &amp; seek help.</subtitle>
   <link href="https://foxgibbon.com/feed/feed.xml" rel="self"/>
   <link href=""/>
-  <updated>2023-11-02T00:00:00Z</updated>
+  <updated>2023-11-03T00:00:00Z</updated>
   <id></id>
   <author>
     <name></name>
     <email></email>
   </author>
+  
+  <entry>
+    <title>Cognitive Biases and User Experience</title>
+    <link href="/posts/cognitive-biases-and-user-experience/"/>
+    <updated>2023-11-03T00:00:00Z</updated>
+    <id>/posts/cognitive-biases-and-user-experience/</id>
+    <content type="html">&lt;h2&gt;Ever wondered why certain websites or products captivate us? The answer often lies in &lt;span&gt;cognitive biases&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Cognitive bias are those mental shortcuts influencing our choices. For designers, comprehending these biases can be a game-changer.&lt;/p&gt;
+&lt;h2&gt;1. Confirmation Bias&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;People tend to favor information confirming their existing beliefs.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+&lt;/strong&gt; Designers can tap into this by aligning design and content with users&#39; expectations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-&lt;/strong&gt; To avoid manipulation, designers should maintain transparency, ensuring content and design don&#39;t selectively present information confirming existing biases.&lt;/p&gt;
+&lt;h2&gt;2. Anchoring Bias&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;We often rely heavily on the first information we encounter.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+&lt;/strong&gt; For pricing, start with a higher option to make others seem more affordable. In different contexts, provide a clear starting point or instruction to guide choices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-&lt;/strong&gt; Ensure anchors are informative, not coercive, to prevent users from feeling forced into undesirable choices.&lt;/p&gt;
+&lt;h2&gt;3. Choice Supportive Bias&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;People retroactively ascribe positive attributes to their past choices.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+&lt;/strong&gt; After users make a choice, highlight the benefits of their chosen option, fostering a happier user.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-&lt;/strong&gt; Don&#39;t neglect alternative options; provide clear information about different choices to enhance trust.&lt;/p&gt;
+&lt;h2&gt;4. Availability Heuristic&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;People rely on readily available information when making decisions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+&lt;/strong&gt; Make crucial information easily available with clear and prominent design elements.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-&lt;/strong&gt; To avoid overwhelming users, focus on providing digestible essential data.&lt;/p&gt;
+&lt;h2&gt;5. Social Proof Bias&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;People conform to the actions or opinions of others.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+&lt;/strong&gt; Incorporate social proof elements, like user reviews or endorsements, to positively influence users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-&lt;/strong&gt; Beware of inauthentic social proof elements that can damage trust and credibility.&lt;/p&gt;
+&lt;h3&gt;Further Reading:&lt;/h3&gt;
+&lt;p&gt;For a deeper dive into design psychology and cognitive biases, consider reading &lt;a href=&quot;https://www.goodreads.com/en/book/show/28815&quot;&gt;&amp;quot;Influence: The Psychology of Persuasion&amp;quot; by Robert Cialdini&lt;/a&gt; and &lt;a href=&quot;https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow&quot;&gt;&amp;quot;Thinking, Fast and Slow&amp;quot; by Daniel Kahneman&lt;/a&gt;. These books offer valuable insights into the subject.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Maximizing User Experience | Understanding Short-Term Memory in Website Interaction</title>

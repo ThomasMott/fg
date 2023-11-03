@@ -8,7 +8,7 @@ tags: ["post", "design", "tutorial"]
 categories: ["design", "tutorial"]
 date: 2022-07-25
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Why Make A Logo?

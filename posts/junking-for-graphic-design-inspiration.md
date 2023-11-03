@@ -8,7 +8,7 @@ tags: ["post", "typography", "graphics"]
 categories: ["typography", "graphics"]
 date: 2022-10-05
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## A lot of things nowadays seems to be made without any real care for craft

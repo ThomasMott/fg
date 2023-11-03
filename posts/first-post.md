@@ -8,7 +8,7 @@ tags: ["post", "design"]
 categories: ["design"]
 date: 2022-06-09
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## First Post

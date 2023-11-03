@@ -8,7 +8,7 @@ tags: ["post", "review"]
 categories: ["review"]
 date: 2023-08-16
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 As someone interested in design _(I assume that is why you are reading)_ and access to the infinite stream of social meida I'm sure you must have seen peopel on YouTube, Instagram and TikTok doing amazing digital drawings and animations with their brand new iPads or graphics tablets that cost more than most people make in a month. If you have, I'm sure you have wished you could give it a go.

@@ -8,7 +8,7 @@ tags: ["post", "design", "typography"]
 categories: ["design", "typography"]
 date: 2023-08-14
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Of all the reasons to stop using a font, having it drown is probably the most remarkable.

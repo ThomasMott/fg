@@ -8,7 +8,7 @@ tags: ["post", "design", "psychology"]
 categories: ["design", "psychology"]
 date: 2023-09-11
 layout: layouts/post.njk
-author: Tom Mott
+author: Thomas Mott
 ---
 
 ## Welcome
