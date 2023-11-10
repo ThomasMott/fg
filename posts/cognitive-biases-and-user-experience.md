@@ -57,4 +57,5 @@ Cognitive bias are those mental shortcuts influencing our choices. For designers
 
 ### Further Reading:
 
-For a deeper dive into design psychology and cognitive biases, consider reading ["Influence: The Psychology of Persuasion" by Robert Cialdini](https://www.goodreads.com/en/book/show/28815) and ["Thinking, Fast and Slow" by Daniel Kahneman](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow). These books offer valuable insights into the subject.
+-   ["Influence: The Psychology of Persuasion" by Robert Cialdini](https://www.goodreads.com/en/book/show/28815)
+-   ["Thinking, Fast and Slow" by Daniel Kahneman](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow)

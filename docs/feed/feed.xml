@@ -4,12 +4,88 @@
   <subtitle>FoxGibbon is your source for design news &amp; tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration &amp; seek help.</subtitle>
   <link href="https://foxgibbon.com/feed/feed.xml" rel="self"/>
   <link href=""/>
-  <updated>2023-11-03T00:00:00Z</updated>
+  <updated>2023-11-07T00:00:00Z</updated>
   <id></id>
   <author>
     <name></name>
     <email></email>
   </author>
+  
+  <entry>
+    <title>A Journey Through Delightful Design | Visceral, Behavioral, Reflective</title>
+    <link href="/posts/a-journey-through-delightful-design-visceral-behavioral-reflective/"/>
+    <updated>2023-11-07T00:00:00Z</updated>
+    <id>/posts/a-journey-through-delightful-design-visceral-behavioral-reflective/</id>
+    <content type="html">&lt;p&gt;Great design doesn&#39;t just meet functional needs but also creates an emotional connection with users.&lt;/p&gt;
+&lt;h2&gt;This connection is often categorized into three pillars: &lt;span&gt;visceral&lt;/span&gt;, &lt;span&gt;behavioral&lt;/span&gt;, and &lt;span&gt;reflective&lt;/span&gt; experiences.&lt;/h2&gt;
+&lt;p&gt;Today, we will explore and discuss how they contribute to great design, along with the best research methods to evaluate them.&lt;/p&gt;
+&lt;h2&gt;Visceral Experience&lt;/h2&gt;
+&lt;h3&gt;The initial, immediate response to a design. It&#39;s the gut feeling that users get when they first encounter a product or interface.&lt;/h3&gt;
+&lt;p&gt;This emotional response is typically based on sensory elements like &lt;strong&gt;color&lt;/strong&gt;, &lt;strong&gt;images&lt;/strong&gt;, &lt;strong&gt;texture&lt;/strong&gt;, and &lt;strong&gt;aesthetics&lt;/strong&gt;. When a design captures the user&#39;s attention and creates a positive first impression, it has succeeded in the visceral domain.&lt;/p&gt;
+&lt;h3&gt;Research Methods:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Eye-tracking studies:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Analyzing where users&#39; eyes go first and their gaze patterns.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A/B testing:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comparing two different design versions to see which one elicits a stronger visceral response.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Surveys and questionnaires:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gathering user opinions on the aesthetics and emotional impact of a design.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img &quot; src=&quot;/static/images/blog/a-journey-through-delightful-design-visceral-behavioral-reflective/user-interviews.webp&quot; alt=&quot;people conducting user interviews at desk&quot; style=&quot;height: auto;&quot; /&gt;
+	&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@dylandgillis?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Dylan Gillis&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/people-sitting-on-chair-in-front-of-table-while-holding-pens-during-daytime-KdeqA3aTnBY?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;Behavioral Experience&lt;/h2&gt;
+&lt;h3&gt;How users interact with a design, the ease of use, and the overall functionality. It&#39;s all about functionality and efficiency.&lt;/h3&gt;
+&lt;p&gt;If a design makes it easy for users to complete tasks and seamlessly navigate through a website or app, it is succeeding in the behavioral domain.&lt;/p&gt;
+&lt;h3&gt;Research Methods:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Usability testing:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Observing users in real-time as they interact with the design to identify pain points and areas for improvement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Heatmaps and click-tracking:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Monitoring where users click, how long they stay on pages, and which elements they interact with most.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Conversion rate analysis:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Assessing the design&#39;s ability to convert visitors into customers or achieve other desired actions.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img class=&quot;case-img &quot; src=&quot;/static/images/blog/a-journey-through-delightful-design-visceral-behavioral-reflective/heatmap.webp&quot; alt=&quot;samsung galaxy s-pen&quot; style=&quot;height: auto;&quot; /&gt;
+	&lt;figcaption&gt;heatmap example on website UI&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;Reflective Experience&lt;/h2&gt;
+&lt;h3&gt;The long-term impact a design has on users. It&#39;s about how a product or service shapes the user&#39;s perception and memory.&lt;/h3&gt;
+&lt;p&gt;A design that creates a positive, memorable, and meaningful experience will leave a lasting impression and potentially lead to brand loyalty.&lt;/p&gt;
+&lt;h3&gt;Research Methods:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Long-term user feedback:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Collecting feedback from users after they&#39;ve had time to reflect on their experience with the design.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Brand perception surveys:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Assessing how a design affects the perception of the brand or product over time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User retention and churn analysis:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Monitoring the rate at which users continue to engage with the design or abandon it.&lt;/p&gt;
+&lt;h2&gt;&lt;span&gt;Great design&lt;/span&gt; is not solely about excelling in one of these three pillars; it&#39;s about &lt;span&gt;harmoniously integrating all of them&lt;/span&gt;.&lt;/h2&gt;
+&lt;p&gt;Designs that excel in the visceral, behavioral, and reflective aspects can create a delightful and enduring experience for users. The ultimate goal is to forge an emotional connection between the user and the design.&lt;/p&gt;
+&lt;h3&gt;References:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Norman, D. A. (2004). &lt;a href=&quot;https://www.nngroup.com/books/emotional-design/&quot;&gt;Emotional Design: Why We Love (or Hate) Everyday Things&lt;/a&gt;. Basic Books.&lt;/li&gt;
+&lt;li&gt;Nielsen, J., &amp;amp; Norman, D. (2000). The Definition of Usability. Retrieved from &lt;a href=&quot;https://www.nngroup.com/articles/definition-usability/&quot;&gt;https://www.nngroup.com/articles/definition-usability/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hassenzahl, M. (2010). &lt;a href=&quot;https://www.goodreads.com/book/show/8310047-experience-design&quot;&gt;Experience Design: Technology for All the Right Reasons&lt;/a&gt;. Synthesis Lectures on Human-Centered Informatics, 3(1), 1-95.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Cognitive Biases and User Experience</title>
@@ -39,7 +115,10 @@
 &lt;p&gt;&lt;strong&gt;+&lt;/strong&gt; Incorporate social proof elements, like user reviews or endorsements, to positively influence users.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;-&lt;/strong&gt; Beware of inauthentic social proof elements that can damage trust and credibility.&lt;/p&gt;
 &lt;h3&gt;Further Reading:&lt;/h3&gt;
-&lt;p&gt;For a deeper dive into design psychology and cognitive biases, consider reading &lt;a href=&quot;https://www.goodreads.com/en/book/show/28815&quot;&gt;&amp;quot;Influence: The Psychology of Persuasion&amp;quot; by Robert Cialdini&lt;/a&gt; and &lt;a href=&quot;https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow&quot;&gt;&amp;quot;Thinking, Fast and Slow&amp;quot; by Daniel Kahneman&lt;/a&gt;. These books offer valuable insights into the subject.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/en/book/show/28815&quot;&gt;&amp;quot;Influence: The Psychology of Persuasion&amp;quot; by Robert Cialdini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow&quot;&gt;&amp;quot;Thinking, Fast and Slow&amp;quot; by Daniel Kahneman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   
