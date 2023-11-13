@@ -8,8 +8,12 @@
 	.blog-card {
 		display: grid;
 
+		.card-img {
+			margin-bottom: $spacing_five;
+		}
+
 		&.related {
-			@media (min-width: $breakpoint-xs) {
+			@media (min-width: $breakpoint-sm) {
 				a {
 					display: flex;
 				}
@@ -33,7 +37,7 @@
 				}
 			}
 
-			@media (min-width: $breakpoint-sm) {
+			@media (min-width: $breakpoint-md) {
 				grid-template-columns: repeat(2, 1fr);
 
 				margin-bottom: 64px;
@@ -52,7 +56,6 @@
 						overflow: hidden;
 
 						img {
-							border-style: none;
 							height: 160px;
 							width: 100%;
 							object-fit: cover;
@@ -87,7 +90,7 @@
 						}
 
 						.card-txt {
-							margin: 0;
+							margin: $spacing_four 0 0 0;
 							max-width: 400px;
 						}
 
@@ -99,7 +102,7 @@
 			}
 		}
 
-		@media (min-width: $breakpoint-xs) {
+		@media (min-width: $breakpoint-sm) {
 			grid-template-columns: repeat(2, 1fr);
 		}
 

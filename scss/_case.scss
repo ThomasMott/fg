@@ -30,10 +30,6 @@ body {
 			max-width: $breakpoint-md;
 			margin-top: 24px;
 			margin-bottom: 24px;
-
-			p {
-				font-size: 18px;
-			}
 		}
 	}
 
@@ -169,9 +165,7 @@ body {
 			p,
 			a,
 			ul {
-				font-size: 16px;
 				margin: 16px 0;
-				line-height: 28px;
 
 				a {
 					padding: 4px 0;
