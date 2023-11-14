@@ -7,14 +7,14 @@ h4,
 h5,
 h6 {
 	font-family: "Zilla Slab", serif;
-	color: $black_jet;
+	color: var(--black_jet);
 	overflow-wrap: break-word;
 	font-weight: 800;
 
 	span {
 		font-family: "Zilla Slab", serif;
-		background-color: $yellow;
-		color: $black_dusty;
+		background-color: var(--yellow);
+		color: var(--black_dusty);
 	}
 
 	a {
@@ -30,7 +30,7 @@ h1 {
 	max-width: $breakpoint-sm;
 
 	&.shadow {
-		text-shadow: 3px 3px rgb(251, 207, 232);
+		text-shadow: 3px 3px var(--yellow);
 	}
 }
 
@@ -48,11 +48,18 @@ h3 {
 	letter-spacing: 0.02em;
 }
 
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	margin: $spacing_three 0 $spacing_one 0;
+	letter-spacing: 0.02em;
+}
+
 p,
 li {
 	font-size: 20px;
 	line-height: 32px;
-	color: $black_jet;
+	color: var(--black_jet);
 	margin: $spacing_two 0;
 	letter-spacing: 0.2px;
 
@@ -70,11 +77,11 @@ a {
 	position: relative;
 	font-size: 20px;
 	line-height: 32px;
-	color: $black_dusty;
+	color: var(--black_dusty);
 	padding: 16px 0;
 
 	&:hover {
-		color: $orange;
+		color: var(--orange);
 		text-decoration: underline;
 	}
 }

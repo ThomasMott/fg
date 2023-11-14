@@ -1,35 +1,30 @@
 window.onload = myFunction;
 
-//runs on load
+// runs on load
 function myFunction() {
 	setThemeOnLoad();
-	document.getElementById("a-button-theme").addEventListener("click", toggleTheme);
-};
+	document
+		.getElementById("footer-theme")
+		.addEventListener("click", changeTheme);
+}
 
-//toggle theme
-function toggleTheme() {
-	if (window.localStorage.getItem('theme') === "dark") {
-		themeLight();
-	} else {
-		themeDark();
-	};
-};
+// set theme on click
+function changeTheme(e) {
+	const themeValue = e.target.closest(`div`).querySelector("h4").innerHTML;
+	console.log(themeValue);
+	setThemeLS(themeValue);
+}
 
-//set theme on load
+// set theme on load
 function setThemeOnLoad() {
-	if (window.localStorage.getItem('theme') === "dark") {
-		themeDark();
+	if (window.localStorage.getItem("theme")) {
+		const themeValue = window.localStorage.getItem("theme");
+		setThemeLS(themeValue);
 	}
-};
+}
 
-//light theme
-function themeLight() {
-	document.querySelector('link[href="/css/dark.css"]').href = "/css/all.css";
-	localStorage.setItem('theme','light');
-};
-
-//light theme
-function themeDark() {
-	document.querySelector('link[href="/css/all.css"]').href = "/css/dark.css";
-	localStorage.setItem('theme','dark');
-};
+// set theme in local storage
+function setThemeLS(themeValue) {
+	document.body.id = themeValue;
+	localStorage.setItem("theme", themeValue);
+}

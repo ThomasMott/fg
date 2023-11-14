@@ -10,10 +10,10 @@
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	padding-bottom: 32px;
+	padding-bottom: 120px;
 
 	a {
-		color: $white_off;
+		color: var(--white_off);
 		padding: 0;
 		text-decoration: none;
 
@@ -21,7 +21,7 @@
 			color: #1c1c1c;
 
 			.pagination\:number {
-				background: $orange;
+				background: var(--orange);
 				opacity: 1;
 
 				&:hover {
@@ -37,7 +37,7 @@
 		}
 
 		&:hover {
-			color: $white;
+			color: var(--white);
 		}
 	}
 }
@@ -47,7 +47,7 @@
 	--margin: 8px;
 	margin: 0 var(--margin);
 	border-radius: 4px;
-	background: $black_dusty;
+	background: var(--black_dusty);
 	min-width: var(--size);
 	height: var(--size);
 	display: flex;
@@ -58,13 +58,13 @@
 	font-size: 14px;
 
 	&.disabled {
-		background-color: $grey_light;
-		color: $grey_med;
+		background-color: var(--grey_light);
+		color: var(--grey_med);
 		box-shadow: unset;
 
 		&:hover {
-			background-color: $grey_light;
-			color: $grey_med;
+			background-color: var(--grey_light);
+			color: var(--grey_med);
 			transform: none;
 			box-shadow: unset;
 			cursor: auto;
@@ -72,12 +72,12 @@
 	}
 
 	&:hover {
-		background: $black_jet;
+		background: var(--black_jet);
 		transform: translate3D(0, -1px, 0) scale(1.02);
 	}
 
 	&:active {
-		background: $black_jet;
+		background: var(--black_jet);
 		transform: translate3D(0, -1px, 0) scale(1.02);
 	}
 }

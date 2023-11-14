@@ -10,6 +10,7 @@
 
 		.card-img {
 			margin-bottom: $spacing_five;
+			border: 2px solid var(--black_dusty);
 		}
 
 		&.related {
@@ -144,8 +145,8 @@
 					transform: unset;
 
 					li {
-						color: $black_dusty;
-						background: $yellow;
+						color: var(--black_dusty);
+						background: var(--yellow);
 					}
 				}
 			}
@@ -164,11 +165,11 @@
 
 			li {
 				padding: 4px 0px;
-				line-height: 13px;
-				font-size: 13px;
+				line-height: 14px;
+				font-size: 14px;
 				margin-right: 8px;
-				color: $black_dusty;
-				background: $yellow;
+				color: var(--black_dusty);
+				background: var(--yellow);
 				text-transform: capitalize;
 			}
 		}
@@ -209,8 +210,8 @@
 						-webkit-line-clamp: 2;
 						-webkit-box-orient: vertical;
 						text-overflow: ellipsis;
-						font-size: 13px;
-						color: $black_dusty;
+						font-size: 16px;
+						color: var(--black_dusty);
 					}
 				}
 
@@ -222,7 +223,7 @@
 					height: unset;
 
 					span {
-						color: $orange;
+						color: var(--orange);
 						font-weight: bold;
 					}
 				}
@@ -268,7 +269,7 @@
 
 			p {
 				padding: 0;
-				color: $grey_med;
+				color: var(--grey_med);
 				font-size: 15px;
 				line-height: 25px;
 			}
@@ -288,12 +289,12 @@
 			&:hover,
 			:focus {
 				// transform: translate3D(-12px,12px,0) scale(1.02);
-				// box-shadow: 4px -4px $yellow, 8px -8px $orange, 12px -12px $voilet_blue;
+				// box-shadow: 4px -4px var(--yellow), 8px -8px var(--orange), 12px -12px $voilet_blue;
 				transform: scale(1.02);
 
 				h3 {
 					span {
-						background-color: $yellow;
+						background-color: var(--yellow);
 					}
 				}
 			}
