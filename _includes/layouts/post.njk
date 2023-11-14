@@ -11,7 +11,7 @@ js: read
 				{% for tag in tags %}
 					{% if tag !== 'post' %}
 						{% if tag !== 'ep' %}
-							<li>{{ tag }}</li>
+							<li><a href="/categories/{{tag}}/">{{tag}}</a></li>
 						{% endif %}
 					{% endif %}
 				{% endfor %}
