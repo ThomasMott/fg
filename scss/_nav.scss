@@ -62,9 +62,10 @@
 		.logo {
 			opacity: 1;
 			display: none;
+			color: var(--orange);
 
-			img {
-				height: 24px;
+			svg {
+				transform: scale(2);
 			}
 
 			&:hover {
@@ -79,10 +80,8 @@
 		.icon {
 			opacity: 1;
 			display: block;
-
-			img {
-				height: 40px;
-			}
+			color: var(--orange);
+			transform: scale(0.5);
 
 			&:hover {
 				opacity: 0.8;
@@ -100,6 +99,11 @@
 			a {
 				float: right;
 				padding: 0;
+				line-height: 0;
+			}
+
+			svg {
+				margin-left: $spacing_three;
 			}
 
 			button {
@@ -111,10 +115,6 @@
 					.soc-svg {
 						opacity: 0.8;
 					}
-				}
-
-				.soc-svg {
-					margin-left: 0;
 				}
 			}
 

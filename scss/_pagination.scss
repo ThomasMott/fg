@@ -21,11 +21,10 @@
 			color: #1c1c1c;
 
 			.pagination\:number {
-				background: var(--orange);
+				background: none;
 				opacity: 1;
 
 				&:hover {
-					opacity: 0.8;
 					transform: none;
 				}
 			}
@@ -47,7 +46,8 @@
 	--margin: 8px;
 	margin: 0 var(--margin);
 	border-radius: 4px;
-	background: var(--black_dusty);
+	background: var(--yellow);
+	color: var(--black_jet);
 	min-width: var(--size);
 	height: var(--size);
 	display: flex;
@@ -56,6 +56,7 @@
 	cursor: pointer;
 	padding: 0 8px;
 	font-size: 14px;
+	transition: 400ms;
 
 	&.disabled {
 		background-color: var(--grey_light);
@@ -72,12 +73,12 @@
 	}
 
 	&:hover {
-		background: var(--black_jet);
-		transform: translate3D(0, -1px, 0) scale(1.02);
+		opacity: 0.8;
+		transform: scale(1.4);
 	}
 
 	&:active {
-		background: var(--black_jet);
+		opacity: 0.8;
 		transform: translate3D(0, -1px, 0) scale(1.02);
 	}
 }

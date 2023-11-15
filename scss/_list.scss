@@ -31,7 +31,7 @@
 	display: grid;
 	gap: $spacing_six;
 	padding-bottom: $spacing_five;
-	margin: $spacing_eight;
+	margin: $spacing_six $spacing_six $spacing_nine $spacing_six;
 
 	div {
 		box-shadow: var(--black_dusty) 10px 10px 0px 0px;
@@ -39,10 +39,23 @@
 		background: var(--white);
 		padding: $spacing_five;
 		transition: transform 400ms;
+
+		&:nth-of-type(odd) {
+			transform: rotate(1deg);
+		}
+
+		&:nth-of-type(even) {
+			transform: rotate(-1deg);
+		}
+
+		&:hover {
+			transform: rotate(0);
+		}
 	}
 
 	@media (min-width: $breakpoint-md) {
 		grid-template-columns: repeat(2, 1fr);
+		margin: $spacing_six $spacing_eight $spacing_nine $spacing_eight;
 
 		div {
 			&:nth-of-type(odd) {

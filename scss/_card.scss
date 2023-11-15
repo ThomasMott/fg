@@ -1,6 +1,6 @@
 .grid {
 	.related-title {
-		margin-top: -88px;
+		margin-top: -96px;
 		margin-bottom: 40px;
 		margin-left: 40px;
 	}
@@ -10,7 +10,7 @@
 
 		.card-img {
 			margin-bottom: $spacing_five;
-			border: 2px solid var(--black_dusty);
+			border: 2px solid var(--black_jet);
 		}
 
 		&.related {
@@ -128,6 +128,10 @@
 						}
 					}
 
+					.s {
+						display: block !important;
+					}
+
 					.card-txt {
 						padding-left: 48px;
 						width: 40%;
@@ -221,6 +225,7 @@
 					line-height: 20px;
 					overflow: hidden;
 					height: unset;
+					display: none;
 
 					span {
 						color: var(--orange);

@@ -91,15 +91,16 @@
 		.logo {
 			width: 100%;
 
+			svg {
+				color: var(--orange);
+				transform: scale(0.8);
+			}
+
 			a {
 				margin: auto;
 
 				&:hover {
 					filter: none;
-				}
-
-				img {
-					width: 100%;
 				}
 			}
 
@@ -185,7 +186,12 @@
 
 	.soc-svg {
 		opacity: 1;
-		filter: $filter;
+		text-decoration: none;
+
+		svg {
+			color: var(--black_dusty);
+			margin-right: $spacing_two;
+		}
 
 		&:hover {
 			opacity: 0.8;
