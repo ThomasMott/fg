@@ -15,6 +15,12 @@
 
 		&.related {
 			@media (min-width: $breakpoint-sm) {
+				grid-template-columns: repeat(1, 1fr);
+			}
+
+			@media (min-width: $breakpoint-md) {
+				grid-template-columns: repeat(2, 1fr);
+
 				a {
 					display: flex;
 				}
@@ -36,10 +42,6 @@
 				.card-txt {
 					margin-left: 16px;
 				}
-			}
-
-			@media (min-width: $breakpoint-md) {
-				grid-template-columns: repeat(2, 1fr);
 
 				margin-bottom: 64px;
 
@@ -143,16 +145,6 @@
 						}
 					}
 				}
-
-				ul {
-					left: 8px;
-					transform: unset;
-
-					li {
-						color: var(--black_dusty);
-						background: var(--yellow);
-					}
-				}
 			}
 		}
 
@@ -166,14 +158,16 @@
 			padding: 0;
 			list-style: none;
 			display: flex;
+			gap: $spacing_two;
 
 			li {
-				padding: 4px 0px;
+				padding: $spacing_one $spacing_two;
+				background: var(--white_off);
+				box-shadow: var(--black_jet) 1px 1px 0 0;
 				line-height: 14px;
 				font-size: 14px;
-				margin-right: 8px;
-				color: var(--black_dusty);
-				background: var(--yellow);
+				color: var(--black_jet);
+				border: 2px solid var(--black_jet);
 				text-transform: capitalize;
 			}
 		}
@@ -215,7 +209,7 @@
 						-webkit-box-orient: vertical;
 						text-overflow: ellipsis;
 						font-size: 16px;
-						color: var(--black_dusty);
+						color: var(--black_jet);
 					}
 				}
 

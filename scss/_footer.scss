@@ -65,6 +65,27 @@
 	}
 }
 
+.footers-contact {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	border-bottom: 2px solid var(--black_dusty);
+	background-color: var(--white);
+
+	.footers-inner {
+		padding: 16px 20px;
+		display: grid;
+		gap: $spacing_six;
+		justify-content: center;
+		max-width: 1092px;
+		width: 100%;
+		box-sizing: border-box;
+		justify-content: space-between;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
 .footers-top {
 	display: flex;
 	justify-content: center;
