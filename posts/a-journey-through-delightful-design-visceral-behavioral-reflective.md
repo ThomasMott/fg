@@ -95,5 +95,5 @@ Designs that excel in the visceral, behavioral, and reflective aspects can creat
 ### References:
 
 -   Norman, D. A. (2004). [Emotional Design: Why We Love (or Hate) Everyday Things](https://www.nngroup.com/books/emotional-design/). Basic Books.
--   Nielsen, J., & Norman, D. (2000). The Definition of Usability. Retrieved from [https://www.nngroup.com/articles/definition-usability/](https://www.nngroup.com/articles/definition-usability/)
+-   Nielsen, J., & Norman, D. (2000). [The Definition of Usability.](https://www.nngroup.com/articles/definition-usability/)
 -   Hassenzahl, M. (2010). [Experience Design: Technology for All the Right Reasons](https://www.goodreads.com/book/show/8310047-experience-design). Synthesis Lectures on Human-Centered Informatics, 3(1), 1-95.
