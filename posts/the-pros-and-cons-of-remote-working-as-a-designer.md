@@ -28,7 +28,6 @@ More than that, without having to commute, you can avoid those long days where y
 <figure>
 	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/anywhere.jpg" alt="working by the sea">
 	<figcaption>Working by the sea: Photo by Photo by <a href="https://unsplash.com/fr/@seefromthesky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ishan @seefromthesky</a> on <a href="https://unsplash.com/photos/c2CUKwbKQPg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
   </figcaption>
 </figure>
 
