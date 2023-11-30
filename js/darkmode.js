@@ -11,7 +11,6 @@ function myFunction() {
 // set theme on click
 function changeTheme(e) {
 	const themeValue = e.target.closest(`div`).querySelector("h4").innerHTML;
-	console.log(themeValue);
 	setThemeLS(themeValue);
 }
 
