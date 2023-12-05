@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@font-face {
+	font-family: Questrial;
+	src: url(../static/Questrial-Regular.ttf);
+}
 
 h1,
 h2,
@@ -6,13 +9,13 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Zilla Slab", serif;
+	font-family: "Questrial", serif;
 	color: var(--black_jet);
 	overflow-wrap: break-word;
 	font-weight: 800;
 
 	span {
-		font-family: "Zilla Slab", serif;
+		font-family: "Questrial", serif;
 		background-color: var(--yellow);
 		color: var(--black_dusty);
 	}

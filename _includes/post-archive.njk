@@ -1,7 +1,7 @@
 <section class="bg">
 	<div class="grid">
 		<div class="row blog-card archives">
-		{% for post in category.posts %}
+		{% for post in posts %}
 			<article class="cards archive">
 				<a href="/posts/{{ post.data.name }}" title="{{ post.data.title }}">
 					<div class="card-img">

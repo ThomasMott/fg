@@ -11,12 +11,13 @@
 	a {
 		padding: 0;
 		margin-inline: 8px;
-		line-height: 28px;
-		font-size: 22px;
+		line-height: 24px;
+		font-size: 18px;
 		text-transform: capitalize;
 		font-weight: 600;
 		text-decoration: none;
-		font-family: "Zilla Slab", serif;
+		font-family: "Questrial", serif;
+		letter-spacing: 0.08rem;
 
 		&[aria-current="page"] {
 			color: var(--black_dusty);

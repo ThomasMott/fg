@@ -4,8 +4,8 @@
 	justify-content: center;
 	width: 100%;
 	align-items: center;
-	border-top: 2px solid var(--black_dusty);
-	border-bottom: 2px solid var(--black_dusty);
+	border-top: 1px solid var(--grey_light);
+	border-bottom: 1px solid var(--grey_light);
 	background-color: var(--white);
 
 	.footers-inner {
@@ -13,7 +13,7 @@
 		display: grid;
 		gap: $spacing_six;
 		justify-content: center;
-		max-width: 1092px;
+		max-width: 1980px;
 		width: 100%;
 		box-sizing: border-box;
 		justify-content: space-between;
@@ -70,7 +70,7 @@
 	justify-content: center;
 	width: 100%;
 	align-items: center;
-	border-bottom: 2px solid var(--black_dusty);
+	border-bottom: 1px solid var(--grey_light);
 	background-color: var(--white);
 
 	.footers-inner {
@@ -78,7 +78,7 @@
 		display: grid;
 		gap: $spacing_six;
 		justify-content: center;
-		max-width: 1092px;
+		max-width: 1980px;
 		width: 100%;
 		box-sizing: border-box;
 		justify-content: space-between;
@@ -99,7 +99,7 @@
 		padding: 40px 20px;
 		display: grid;
 		justify-content: center;
-		max-width: 1092px;
+		max-width: 1980px;
 		width: 100%;
 		box-sizing: border-box;
 		justify-content: space-between;
@@ -197,7 +197,7 @@
 		@media (min-width: 1280px) {
 			padding: 32px;
 			margin: 0 auto;
-			max-width: 1280px;
+			max-width: 1980px;
 		}
 	}
 
@@ -229,9 +229,9 @@
 	}
 
 	.footers-inner {
-		border-top: 1px solid var(--black_jet);
+		border-top: 1px solid var(--grey_med);
 		padding: 8px 20px;
-		max-width: 1092px;
+		max-width: 1980px;
 		margin: auto;
 		width: 100%;
 		box-sizing: border-box;
@@ -240,7 +240,7 @@
 
 		@media (min-width: 1280px) {
 			margin: 0 auto;
-			max-width: 1280px;
+			max-width: 1980px;
 		}
 	}
 }
