@@ -11,12 +11,13 @@ body {
 	}
 
 	.top-info {
-		max-width: $breakpoint-md;
+		max-width: $breakpoint-xl;
 		margin: auto;
 
 		img {
 			width: 100%;
 			margin-top: 48px;
+			border-radius: 12px;
 		}
 
 		@media (min-width: $breakpoint-sm) {
@@ -129,7 +130,7 @@ body {
 		}
 
 		.case {
-			max-width: 600px;
+			max-width: $breakpoint-md;
 			margin-bottom: 64px;
 			position: relative;
 			background-color: var(--white_off);
@@ -211,7 +212,8 @@ body {
 
 			@media (min-width: $breakpoint-sm) {
 				background-color: var(--white);
-				padding: 4px 24px;
+				padding: $spacing_eight 24px;
+				border-radius: 8px;
 				margin: -320px auto 64px auto;
 
 				li {

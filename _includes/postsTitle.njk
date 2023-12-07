@@ -1,5 +1,9 @@
-<section id="main">
+<section class="bg" id="main">
 	<div class="grid">
+		{% if page.url == "/archive/" %}
+			<h1 class="category-title">All articles</h1>
+		{% endif %}
+		<h1 class="category-title">{{ category.title }}</h1>
 		<div class="categories">
 		<a href="/archive/"
 		{% if page.url == "/archive/" %}

@@ -14,12 +14,13 @@
 		align-items: center;
 		padding: 16px;
 		height: 64px;
-		max-width: 1980px;
+		max-width: $breakpoint-xl;
 		margin: 0 auto;
 
 		a,
 		p {
-			font-size: 16px;
+			font-size: 20px;
+			font-family: "Questrial", serif;
 		}
 
 		li a {

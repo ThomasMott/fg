@@ -10,13 +10,12 @@
 
 	.footers-inner {
 		padding: 40px 20px;
-		display: grid;
+		display: flex;
 		gap: $spacing_six;
-		justify-content: center;
-		max-width: 1980px;
+		align-items: center;
+		max-width: $breakpoint-xl;
 		width: 100%;
 		box-sizing: border-box;
-		justify-content: space-between;
 		grid-template-columns: repeat(1, 1fr);
 
 		span {
@@ -40,26 +39,18 @@
 				margin-bottom: 0;
 			}
 		}
-
-		@media (min-width: $breakpoint-xs) {
-			grid-template-columns: repeat(2, 1fr);
-		}
-
-		@media (min-width: $breakpoint-md) {
-			grid-template-columns: repeat(4, 1fr);
-		}
 	}
 
 	.footers-theme-item {
-		padding: $spacing_five;
+		padding: $spacing_three $spacing_six;
+		background: var(--white_off);
+		border-radius: 8px;
 		box-shadow: var(--black_dusty) 6px 6px 0px 0px;
 		border: 4px solid var(--black_dusty);
 		transition: box-shadow 400ms;
-		background: var(--white_off);
 
 		&:hover {
 			box-shadow: var(--black_dusty) 0px 0px 0px 0px;
-			border: 4px solid var(--black_dusty);
 			cursor: pointer;
 		}
 	}
@@ -70,7 +61,7 @@
 	justify-content: center;
 	width: 100%;
 	align-items: center;
-	border-bottom: 1px solid var(--grey_light);
+	border-top: 1px solid var(--grey_light);
 	background-color: var(--white);
 
 	.footers-inner {
@@ -78,7 +69,7 @@
 		display: grid;
 		gap: $spacing_six;
 		justify-content: center;
-		max-width: 1980px;
+		max-width: $breakpoint-xl;
 		width: 100%;
 		box-sizing: border-box;
 		justify-content: space-between;
@@ -91,7 +82,7 @@
 	justify-content: center;
 	width: 100%;
 	align-items: center;
-	// background-color: var(--black_dusty);
+	background-color: var(--white);
 
 	.footers-inner {
 		// box-shadow: 0 -4px var(--orange), 0 -8px var(--yellow), 0 -12px var(--orange),
@@ -99,14 +90,14 @@
 		padding: 40px 20px;
 		display: grid;
 		justify-content: center;
-		max-width: 1980px;
+		max-width: $breakpoint-xl;
 		width: 100%;
 		box-sizing: border-box;
 		justify-content: space-between;
 
 		a,
 		p {
-			font-size: 16px;
+			font-size: 17px;
 		}
 
 		.logo {
@@ -148,7 +139,7 @@
 				font-weight: 600;
 				margin-bottom: 16px;
 				color: var(--black_dusty);
-				font-family: "Zilla Slab", serif;
+				font-family: "Questrial", serif;
 			}
 
 			li {
@@ -197,7 +188,7 @@
 		@media (min-width: 1280px) {
 			padding: 32px;
 			margin: 0 auto;
-			max-width: 1980px;
+			max-width: $breakpoint-xl;
 		}
 	}
 
@@ -222,16 +213,17 @@
 
 .footers-bottom {
 	align-items: center;
+	background-color: var(--white);
 
 	a,
 	p {
-		font-size: 16px;
+		font-size: 17px;
 	}
 
 	.footers-inner {
-		border-top: 1px solid var(--grey_med);
+		border-top: 1px solid var(--grey_light);
 		padding: 8px 20px;
-		max-width: 1980px;
+		max-width: $breakpoint-xl;
 		margin: auto;
 		width: 100%;
 		box-sizing: border-box;
@@ -240,7 +232,7 @@
 
 		@media (min-width: 1280px) {
 			margin: 0 auto;
-			max-width: 1980px;
+			max-width: $breakpoint-xl;
 		}
 	}
 }

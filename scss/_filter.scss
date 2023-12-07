@@ -1,6 +1,12 @@
+.category-title {
+	margin: $spacing_six auto 0 auto;
+	width: fit-content;
+	text-transform: capitalize;
+}
+
 .categories {
 	width: fit-content;
-	margin: auto;
+	margin: $spacing_five auto 0 auto;
 	text-align: center;
 
 	span {
@@ -14,9 +20,7 @@
 		line-height: 24px;
 		font-size: 18px;
 		text-transform: capitalize;
-		font-weight: 600;
 		text-decoration: none;
-		font-family: "Questrial", serif;
 		letter-spacing: 0.08rem;
 
 		&[aria-current="page"] {

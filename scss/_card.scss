@@ -5,6 +5,16 @@
 		margin-left: 40px;
 	}
 
+	&.md {
+		.blog-card {
+			&.archives {
+				@media (min-width: $breakpoint-sm) {
+					grid-template-columns: repeat(2, 1fr) !important;
+				}
+			}
+		}
+	}
+
 	.blog-card {
 		display: grid;
 		gap: $spacing_eight;
@@ -25,96 +35,7 @@
 		.card-img {
 			margin-bottom: $spacing_five;
 			border: 1px solid var(--grey_light);
-		}
-
-		&.related {
-			@media (min-width: $breakpoint-sm) {
-				grid-template-columns: repeat(1, 1fr);
-			}
-
-			@media (min-width: $breakpoint-md) {
-				grid-template-columns: repeat(2, 1fr);
-
-				a {
-					display: flex;
-				}
-
-				.card-img {
-					max-width: 120px;
-					min-width: 120px;
-					height: 120px;
-					overflow: hidden;
-
-					img {
-						border-style: none;
-						height: 120px;
-						width: 100%;
-						object-fit: cover;
-					}
-				}
-
-				.card-txt {
-					margin-left: 16px;
-				}
-
-				margin-bottom: 64px;
-
-				.cards {
-					a {
-						display: flex;
-					}
-
-					.card-img {
-						max-width: 200px;
-						min-width: 200px;
-						height: 140px;
-						overflow: hidden;
-
-						img {
-							height: 160px;
-							width: 100%;
-							object-fit: cover;
-						}
-					}
-
-					.card-txt {
-						margin-left: 48px;
-					}
-
-					h3 {
-						font-size: 20px;
-					}
-
-					&.first {
-						a {
-							display: block;
-						}
-
-						.card-img {
-							max-width: 320px;
-							min-width: 320px;
-							height: 320px;
-							overflow: hidden;
-
-							img {
-								border-style: none;
-								height: 320px;
-								width: 100%;
-								object-fit: cover;
-							}
-						}
-
-						.card-txt {
-							margin: $spacing_four 0 0 0;
-							max-width: 400px;
-						}
-
-						h3 {
-							font-size: 24px;
-						}
-					}
-				}
-			}
+			opacity: 0.88;
 		}
 
 		@media (min-width: $breakpoint-sm) {
@@ -128,26 +49,39 @@
 				.card-img {
 					height: 280px;
 					border-radius: 6px;
+					margin-bottom: 16px;
 
 					img {
 						height: 100%;
 					}
 				}
 
-				.s {
-					display: block !important;
-				}
-
 				.card-txt {
 					.main-txt {
 						text-align: left;
+						display: flex;
+						justify-content: space-between;
+						gap: $spacing_four;
+						align-items: center;
+					}
+
+					.s {
+						margin: 0;
+						display: block !important;
+						flex-shrink: 0;
 					}
 
 					h3 {
-						font-size: 18px;
+						font-size: 16px;
 						line-height: 24px;
 						max-width: 100%;
+						margin: 0;
 					}
+				}
+
+				&:hover,
+				:focus {
+					transform: none;
 				}
 			}
 		}
@@ -207,6 +141,7 @@
 
 			.card-txt {
 				box-sizing: border-box;
+				padding: 0 $spacing_three;
 
 				.main-txt {
 					overflow: hidden;
@@ -302,6 +237,10 @@
 					span {
 						background-color: var(--yellow);
 					}
+				}
+
+				.card-img {
+					opacity: 1;
 				}
 			}
 		}

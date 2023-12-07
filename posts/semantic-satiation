@@ -2,11 +2,11 @@
 title: Deciphering Semantic Satiation
 name: semantic-satiation
 tldr: Great design encompasses visceral, behavioral, and reflective experiences. Visceral design elicits an immediate emotional response, behavioral design focuses on usability, and reflective design leaves a lasting impact. To create exceptional user experiences, designers must excel in all three areas, using specific research methods tailored to each dimension. Delightful designs forge an emotional connection with users, ensuring long-term success in the competitive design landscape.
-time: 4 min
-image: /static/images/blog/semantic-satiation/journey.webp
+time: 8 min
+image: /static/images/blog/semantic-satiation/semantic.webp
 tags: ["post", "design", "psychology"]
 categories: ["design", "psychology"]
-date: 2023-11-07
+date: 2023-12-07
 layout: layouts/post.njk
 author: Thomas Mott
 ---

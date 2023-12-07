@@ -31,10 +31,6 @@ h1 {
 	margin: $spacing_six 0 $spacing_four 0;
 	letter-spacing: 0.04em;
 	max-width: $breakpoint-sm;
-
-	&.shadow {
-		text-shadow: 3px 3px var(--yellow);
-	}
 }
 
 h2 {
@@ -63,7 +59,7 @@ li {
 	font-size: 20px;
 	line-height: 32px;
 	color: var(--black_jet);
-	margin: $spacing_two 0;
+	margin: $spacing_six 0;
 	letter-spacing: 0.2px;
 
 	&.top {

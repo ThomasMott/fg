@@ -39,7 +39,7 @@ body {
 
 			.sec-txt {
 				p {
-					@media (min-width: 992px) {
+					@media (min-width: $breakpoint-md) {
 						padding-right: 24px;
 					}
 				}
@@ -68,8 +68,18 @@ body {
 
 			.grid {
 				margin: 0 auto;
-				max-width: 1980px;
+				max-width: $breakpoint-xl;
 				padding: 16px;
+
+				&.md {
+					max-width: $breakpoint-md;
+					margin: auto;
+				}
+
+				&.lg {
+					max-width: $breakpoint-lg;
+					margin: auto;
+				}
 
 				.ul-f {
 					img {
@@ -114,6 +124,7 @@ body {
 						color: var(--black_jet);
 						text-transform: capitalize;
 						transition: box-shadow 400ms;
+						border-radius: 8px;
 
 						a {
 							font-size: 16px;
