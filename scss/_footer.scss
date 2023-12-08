@@ -17,6 +17,7 @@
 		width: 100%;
 		box-sizing: border-box;
 		grid-template-columns: repeat(1, 1fr);
+		flex-wrap: wrap;
 
 		span {
 			display: block;
