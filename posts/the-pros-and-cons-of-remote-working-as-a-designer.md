@@ -3,7 +3,7 @@ title: The Pros and Cons of Remote Working as a Designer
 name: the-pros-and-cons-of-remote-working-as-a-designer
 tldr: The pros and cons of remote working as a designer can be balanced to find the right option for you. This article outlines remote working's benefits, including flexibility, cost savings, and increased productivity, and its drawbacks like isolation, communication difficulty, and distractions at home, helping you make an informed decision.
 time: 6 min
-image: /static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/home.jpg
+image: /static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/home.webp
 tags: ["post", "design"]
 categories: ["design"]
 date: 2023-04-20
@@ -26,7 +26,7 @@ Remote working provides the flexibility that many crave in their work-life balan
 More than that, without having to commute, you can avoid those long days where you set of to work in the dark and return in the dark. The flexibilty and comfort of your own home can also be a great boost to mental wellbeing.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/anywhere.jpg" alt="working by the sea">
+	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/anywhere.webp" alt="working by the sea">
 	<figcaption>Working by the sea: Photo by Photo by <a href="https://unsplash.com/fr/@seefromthesky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ishan @seefromthesky</a> on <a href="https://unsplash.com/photos/c2CUKwbKQPg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </figcaption>
 </figure>
@@ -48,7 +48,7 @@ Remote working can provide a massive cost savings for both the employee and the 
 Remote working can definitely lead to feelings of isolation. While Team calls can achieve a little, they do not fill the void caused by a lack of face-to-face interaction with colleagues and collaborators. Teams isnt quite as good. This can be especially difficult for designers, who often rely on collaboration and feedback from others. Maybe the Metaverse will be our saviour, though I tend to doubt it.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/meta.png" alt="metaverse"  style="height: auto;">
+	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/meta.webp" alt="metaverse"  style="height: auto;">
 	<figcaption>Metaverse</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Communication can be more difficult in a remote working environment, and it can 
 There are tools to help. [Miro](https://miro.com) and [Figma](https://www.figma.com/) are especially helpful for collaborating with others in real time.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/figma.jpg" alt="Figma">
+	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/figma.webp" alt="Figma">
 	<figcaption>Figma: Photo by <a href="https://unsplash.com/ja/@ion66574?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ion (Ivan) Sipilov</a> on <a href="https://unsplash.com/photos/Z8Fm-Dc3G7A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
   </figcaption>
@@ -70,7 +70,7 @@ There are tools to help. [Miro](https://miro.com) and [Figma](https://www.figma.
 While it can be more productive, working from home can also be challenging if there are distractions present, like pets or family members. It can be difficult to balance work responsibilities with home responsibilities.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/cat.jpg" alt="Cat on laptop">
+	<img class="case-img " src="/static/images/blog/the-pros-and-cons-of-remote-working-as-a-designer/cat.webp" alt="Cat on laptop">
 	<figcaption>Cat on laptop: Photo by <a href="https://unsplash.com/@agforl24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tai Bui</a> on <a href="https://unsplash.com/photos/393l7SYoM7w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </figcaption>
 </figure>

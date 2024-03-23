@@ -3,7 +3,7 @@ title: Creating an Indie Brand Logo
 name: creating-an-indie-brand-logo
 tldr: Using Adobe Illustrator and also my hands to create a brand logo.
 time: 10 min
-image: /static/images/blog/creating-a-brand-logo/creative.jpg
+image: /static/images/blog/creating-a-brand-logo/creative.webp
 tags: ["post", "design", "tutorial"]
 categories: ["design", "tutorial"]
 date: 2022-07-25
@@ -78,7 +78,7 @@ Time to put pen to paper and sketch out some designs. Choose the medium you are 
 A method I sometimes use for sketching rapidly and coming up with ideas is [Crazy 8's](https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s).
 
 <figure>
-	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/ideation.jpg" alt="sketching some ideas for the FoxGibbon logo">
+	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/ideation.webp" alt="sketching some ideas for the FoxGibbon logo">
 	<figcaption>Some early logo sketches</figcaption>
 </figure>
 
@@ -95,6 +95,6 @@ Once I have a design I like I usually photograph or scan the sketch and use the 
 Give one glance, to make sure it's really happening. This is your moment. Soak it in, you've earned one glance. F\*\*\* it! Fully behold your creation. You've earned this. Months of planning. It's all happening. Feel the warmth. Tweet the picture, you've earned one tweet. Tweet a picture of you next to the logo. Defiant and proud. This is your moment.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/logo-bw.png" alt="FoxGibbon logo" style="height: auto;">
+	<img class="case-img " src="/static/images/blog/creating-a-brand-logo/logo-bw.webp" alt="FoxGibbon logo" style="height: auto;">
 	<figcaption>A final look at the FoxGibbon logo</figcaption>
 </figure>
