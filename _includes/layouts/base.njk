@@ -38,5 +38,7 @@
 		{% include "footer.njk" %}
 	</body>
 	<script src="/js/darkmode.js"></script>
-	<script src='/js/{{ js }}.js'></script>
+	{% if (js) %}
+		<script src='/js/{{ js }}.js'></script>
+	{% endif %}
 </html>
