@@ -3,7 +3,7 @@ title: Design Trends 2023 - A Look into the Future of Design
 name: design-trends-2023-a-look-into-the-future-of-design
 tldr: Looking for a preview of the hottest design trends for 2023? Look no further! This article explores emerging trends like minimalist aesthetics, bold color palettes, and intricate 3D graphics set to take the design world by storm. Ready to incorporate these trends into your own work? Read on to learn more!
 time: 10 min
-image: /static/images/blog/design-trends-2023-a-look-into-the-future-of-design/neo.jpg
+image: /static/images/blog/design-trends-2023-a-look-into-the-future-of-design/neo.webp
 tags: ["post", "design"]
 categories: ["design"]
 date: 2023-04-17
@@ -28,7 +28,7 @@ In recent years, muted tones and pastels have dominated the world of design. How
 These colors will help to inject playfulness and fun with their vibrant and highly-saturated hues.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/design-trends-2023-a-look-into-the-future-of-design/color.jpg" alt="Bold color">
+	<img class="case-img " src="/static/images/blog/design-trends-2023-a-look-into-the-future-of-design/color.webp" alt="Bold color">
 	<figcaption>Bold color is coming: Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/1zJkgcOS0is?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </figcaption>
 </figure>
@@ -38,7 +38,7 @@ These colors will help to inject playfulness and fun with their vibrant and high
 Technological advancements and AI-based content generators have made it easy to create and source much more sophisticated 3D graphics, and designers are eager to take advantage of this. In 2023, we can expect to see more intricate and detailed 3D models, in both web and product design. This will create a more immersive experience for users, and allow designers to push the envelope even further.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/design-trends-2023-a-look-into-the-future-of-design/hand.jpg" alt="3D hand graphic" style="height: auto;">
+	<img class="case-img " src="/static/images/blog/design-trends-2023-a-look-into-the-future-of-design/hand.webp" alt="3D hand graphic" style="height: auto;">
 	<figcaption>3D Graphics: Photo by <a href="https://unsplash.com/@rizki1123?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Muhammad Rizki</a> on <a href="https://unsplash.com/photos/5tZRN6LZ2Tw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </figcaption>
 </figure>
@@ -50,7 +50,7 @@ Amidst a world dominated by technology, there is a growing desire for designs th
 We are seeing some of this with the calm and cool color palettes that many major brands, like Burger King, are adopting as they continue to push on in the wave of retro nostalgia rebranding. In doing so they are hoping to draw us to the percieved safety of brands that remind us of a much less technologically dominated time.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/design-trends-2023-a-look-into-the-future-of-design/bk.jpg" alt="Retro Burger King logo">
+	<img class="case-img " src="/static/images/blog/design-trends-2023-a-look-into-the-future-of-design/bk.webp" alt="Retro Burger King logo">
 	<figcaption>Retro Burger King redesign: Photo by <a href="https://unsplash.com/@rizki1123?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Muhammad Rizki</a> on <a href="https://unsplash.com/photos/5tZRN6LZ2Tw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </figcaption>
 </figure>

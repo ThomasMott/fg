@@ -3,7 +3,7 @@ title: Doves in the Thames
 name: doves-in-the-thames
 tldr: Doves Roman, which was lost for nearly 100 years in the Thames, has an interesting history and is considered as one of the most beautiful fonts of all time.
 time: 12 min
-image: /static/images/blog/doves-in-the-thames/doves.png
+image: /static/images/blog/doves-in-the-thames/doves.webp
 tags: ["post", "design", "typography"]
 categories: ["design", "typography"]
 date: 2023-08-14
@@ -24,7 +24,7 @@ Our story begins in the early twentieth century, specifically in the year 1900, 
 The crown jewel of this was the Doves typeface. It owed its aesthetic roots to the pioneering work of Nicolas Jenson, a Venetian printer from the fifteenth century. Percy Tiffin's drawings, based on Jenson's innovative Venetian type, served as the foundation for the Doves typeface's graceful curves, clean lines, and classic proportions. This historical lineage added a layer of depth and connection to the Doves typeface, imbuing it with the spirit of centuries past.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/doves-in-the-thames/type.jpg" alt="Bold color">
+	<img class="case-img " src="/static/images/blog/doves-in-the-thames/type.webp" alt="Bold color">
 	<figcaption>Before digital media to create a font family each letter, in every thickness, in upper and lowercase, and all of the accompanying punctuiation had to be created using metal or wood. Photo by <a href="https://unsplash.com/@fabiosbruun?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fabio Santaniello Bruun</a> on <a href="https://unsplash.com/photos/Y6tGu-OH8lA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </figcaption>
 </figure>
@@ -46,7 +46,7 @@ From 1917 to 1918, Cobden-Sanderson executed his audacious plan with meticulous 
 Over the next 5 months, he had made the half mile trip more than a hundred seperate times (at this point he was seventy-six!), hauling over a ton of type, until it was gone.
 
 <figure>
-	<img class="case-img " src="/static/images/blog/doves-in-the-thames/bridge.jpg" alt="Bold color">
+	<img class="case-img " src="/static/images/blog/doves-in-the-thames/bridge.webp" alt="Bold color">
 	<figcaption>Hammersmith bridge, London <a href="https://unsplash.com/@hdong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hao Dong</a> on <a href="https://unsplash.com/photos/htL4eqkuDa4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
   </figcaption>
