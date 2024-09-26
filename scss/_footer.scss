@@ -11,7 +11,7 @@
 	.footers-inner {
 		padding: 40px 20px;
 		display: flex;
-		gap: $spacing_six;
+		gap: $spacing_five;
 		align-items: center;
 		max-width: $breakpoint-xl;
 		width: 100%;
@@ -43,7 +43,7 @@
 	}
 
 	.footers-theme-item {
-		padding: $spacing_three $spacing_six;
+		padding: $spacing_one $spacing_four;
 		background: var(--white_off);
 		border-radius: 8px;
 		box-shadow: var(--black_dusty) 6px 6px 0px 0px;
@@ -53,6 +53,11 @@
 		&:hover {
 			box-shadow: var(--black_dusty) 0px 0px 0px 0px;
 			cursor: pointer;
+		}
+
+		h4 {
+			padding: 0;
+			margin: 0;
 		}
 	}
 }
