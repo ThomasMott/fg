@@ -19,7 +19,7 @@
 
 		a,
 		p {
-			font-size: 20px;
+			font-size: 18px;
 			font-family: "Questrial", serif;
 		}
 
@@ -126,6 +126,16 @@
 
 				&:first-of-type {
 					padding-left: 0;
+				}
+			}
+
+			.hidden-small {
+				display: none;
+			}
+
+			@media (min-width: $breakpoint-md) {
+				.hidden-small {
+					display: unset;
 				}
 			}
 		}
